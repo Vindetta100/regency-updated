@@ -1,0 +1,29 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://theregencyviewestate.com/sitemap.xml
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 1
+
+# Allow all real estate related content
+Allow: /property
+Allow: /investment
+Allow: /location
+Allow: /contact
+
+# Allow search engines to access images and videos
+Allow: /assets/
+Allow: /*.jpg$
+Allow: /*.png$
+Allow: /*.webp$
+Allow: /*.mp4$
+Allow: /*.webm$
+
+# Block common bot traps
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+Disallow: /*.php$
+Disallow: /*.cgi$
+
