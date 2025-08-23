@@ -46,6 +46,13 @@ export default defineConfig({
     hmr: {
       overlay: false,
     },
+    // Allow external hosts
+    host: '0.0.0.0',
+    allowedHosts: [
+      'localhost',
+      '.manusvm.computer',
+      '3000-iit0emp4wv3u0gg805j4i-e4a95aca.manusvm.computer'
+    ],
   },
   // Asset optimization
   assetsInclude: ['**/*.mp4', '**/*.webm', '**/*.mov'],

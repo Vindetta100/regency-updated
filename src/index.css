@@ -1,0 +1,10 @@
+
+/* Navigation Styles */
+.nav-link {
+  @apply flex items-center text-gray-700 hover:text-amber-600 font-medium transition-colors;
+}
+
+.mobile-nav-link {
+  @apply block w-full text-left px-4 py-2 text-gray-700 hover:text-amber-600 hover:bg-gray-50 transition-colors;
+}
+
