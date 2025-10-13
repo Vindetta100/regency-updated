@@ -1,0 +1,22 @@
+# odm.yaml - Official Development Methodology Contract v9.1
+version: "9.1"
+projectMode: "enterprise"
+
+test:
+  testCmd: "python3 test_system_wide_e2e.py"
+  e2eSelector: ""
+  coverageCmd: "python3 test_system_wide_e2e.py"
+
+paths:
+  reportDir: ".odm/reports"
+  adrDir: "docs/adrs"
+  sourceDirs: ["omo-api-python/src/", "omo-bot-project/src/"]
+  handoffDoc: "SESSION_HANDOFF.md"
+
+deployment:
+  remoteName: "origin"
+  mainBranch: "main"
+
+integrity:
+  fileGlobs: ["*.py", "*.md", "*.json", "*.js", "*.ts", "*.rs", "*.sh", "*.yaml", "*.yml"]
+  critical: ["master-plan.md", "changelog.md", "odm.yaml", "test_system_wide_e2e.py"]
