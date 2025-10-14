@@ -4,7 +4,7 @@
 **Repository:** https://github.com/Vindetta100/regency-updated  
 **Live Site:** https://www.theregencyviewestate.com  
 **Last Updated:** October 14, 2025  
-**Document Version:** 1.0
+**Document Version:** 1.1
 
 ---
 
@@ -25,15 +25,16 @@
 
 ## Project Overview
 
-The Regency View Estate is a luxury real estate website featuring **6 distinct versions**:
+The Regency View Estate is a luxury real estate website featuring **7 distinct versions**:
 
 - **Original Site** (Base URL `/`) - Full-featured luxury estate website with property details, photo galleries, contact forms, and virtual tours
-- **5 Themed Variations** (`/1` through `/5`) - Moon-themed minimalist design variations:
-  - `/1` - Dark Side of the Moon
-  - `/2` - Lunar Dust
-  - `/3` - Cosmic
-  - `/4` - Eclipse
+- **6 Themed Variations** (`/1` through `/6`):
+  - `/1` - Dark Side of the Moon (minimalist)
+  - `/2` - Lunar Dust (minimalist)
+  - `/3` - Cosmic (minimalist)
+  - `/4` - Eclipse (minimalist)
   - `/5` - Minimalist Moon
+  - `/6` - **Contemporary Luxury** (black/white/gold aesthetic, full-screen hero, elegant typography)
 
 ### Key Features
 
@@ -84,7 +85,8 @@ https://www.theregencyviewestate.com/
 ├── /2             → Lunar Dust theme
 ├── /3             → Cosmic theme
 ├── /4             → Eclipse theme
-└── /5             → Minimalist Moon theme
+├── /5             → Minimalist Moon theme
+└── /6             → Contemporary Luxury theme
 ```
 
 ### Routing Configuration
@@ -98,6 +100,7 @@ import V2 from './src/versions/v2/Home'
 import V3 from './src/versions/v3/Home'
 import V4 from './src/versions/v4/Home'
 import V5 from './src/versions/v5/Home'
+import V6 from './src/versions/v6/Home'
 
 <Routes>
   <Route path="/" element={<Original />} />
@@ -106,6 +109,7 @@ import V5 from './src/versions/v5/Home'
   <Route path="/3" element={<V3 />} />
   <Route path="/4" element={<V4 />} />
   <Route path="/5" element={<V5 />} />
+  <Route path="/6" element={<V6 />} />
 </Routes>
 ```
 
@@ -124,8 +128,10 @@ src/
 │   │   └── Home.jsx          # Cosmic
 │   ├── v4/
 │   │   └── Home.jsx          # Eclipse
-│   └── v5/
-│       └── Home.jsx          # Minimalist Moon
+│   ├── v5/
+│   │   └── Home.jsx          # Minimalist Moon
+│   └── v6/
+│       └── Home.jsx          # Contemporary Luxury
 └── index.css                 # Global styles
 ```
 
@@ -244,7 +250,8 @@ git push origin main
 | Directory | Contains | Notes |
 |-----------|----------|-------|
 | `src/versions/original/` | Original luxury site | Full-featured site |
-| `src/versions/v1/` through `v5/` | Themed variations | Minimalist designs |
+| `src/versions/v1/` through `v5/` | Themed variations | Minimalist moon-themed designs |
+| `src/versions/v6/` | Contemporary Luxury | Black/white/gold, full-screen hero, elegant serif typography |
 
 ### Assets
 
@@ -270,15 +277,15 @@ git push origin main
 
 1. **Create new version directory:**
    ```bash
-   mkdir -p src/versions/v6
+   mkdir -p src/versions/v7
    ```
 
 2. **Create Home.jsx component:**
    ```javascript
-   // src/versions/v6/Home.jsx
+   // src/versions/v7/Home.jsx
    import React from 'react';
    
-   const V6 = () => {
+   const V7 = () => {
      return (
        <div>
          {/* Your new theme */}
@@ -286,14 +293,14 @@ git push origin main
      );
    };
    
-   export default V6;
+   export default V7;
    ```
 
 3. **Update App.jsx routing:**
    ```javascript
-   import V6 from './src/versions/v6/Home'
+   import V7 from './src/versions/v7/Home'
    
-   <Route path="/6" element={<V6 />} />
+   <Route path="/7" element={<V7 />} />
    ```
 
 4. **Build and test:**
@@ -305,7 +312,7 @@ git push origin main
 5. **Commit and deploy:**
    ```bash
    git add .
-   git commit -m "Add version 6 theme"
+   git commit -m "Add version 7 theme"
    git push origin main
    ```
 
@@ -475,7 +482,7 @@ import component from '../../../components/ContactForm'
 
 3. **Verify all routes work:**
    - `/` - Original site
-   - `/1` through `/5` - Theme variations
+   - `/1` through `/6` - Theme variations
 
 4. **Check build output:**
    - No errors in console
@@ -558,6 +565,7 @@ gh pr create            # Create pull request
 | Version | Date | Changes | Author |
 |---------|------|---------|--------|
 | 1.0 | Oct 14, 2025 | Initial knowledge transfer document | Manus AI |
+| 1.1 | Oct 14, 2025 | Added v6 Contemporary Luxury theme, ODM protocol setup note | Manus AI |
 
 ---
 
@@ -590,6 +598,24 @@ gh pr create            # Create pull request
 - Theme variations are minimalist and may need content expansion
 - Original site has large video files (~13MB each)
 - No backend for contact form (currently frontend only)
+
+---
+
+## TODO: ODM Protocol Setup
+
+**Status:** Pending setup in next session
+
+### Action Required
+
+In the next conversation, request the ODM protocol ZIP file from the user to set up the Object Data Model (ODM) integration.
+
+**Steps:**
+1. Ask user: "Please provide the ODM protocol ZIP file for setup"
+2. Extract and configure ODM protocol
+3. Integrate with existing project structure
+4. Update this document with ODM configuration details
+
+**Note:** This is a critical setup step for the project's data management layer.
 
 ---
 
