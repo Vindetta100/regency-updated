@@ -6,6 +6,7 @@ import V2 from './src/versions/v2/Home'
 import V3 from './src/versions/v3/Home'
 import V4 from './src/versions/v4/Home'
 import V5 from './src/versions/v5/Home'
+import V6 from './src/versions/v6/Home'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/3" element={<V3 />} />
         <Route path="/4" element={<V4 />} />
         <Route path="/5" element={<V5 />} />
+        <Route path="/6" element={<V6 />} />
       </Routes>
     </Router>
   )
