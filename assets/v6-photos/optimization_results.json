@@ -1,0 +1,905 @@
+{
+  "summary": {
+    "total_images": 47,
+    "total_original_size_mb": 58.10526943206787,
+    "total_optimized_size_mb": 14.032814979553223,
+    "total_saved_mb": 44.07245445251465,
+    "compression_ratio": 75.8493246538349,
+    "average_size_kb": 305.73622423537233
+  },
+  "images": [
+    {
+      "original_name": "13191 SE Regency View St 3 bracket photos-111.jpg",
+      "optimized_name": "photo-01.jpg",
+      "original_path": "/home/ubuntu/upload/photos/13191 SE Regency View St 3 bracket photos-111.jpg",
+      "optimized_path": "/home/ubuntu/regency-updated/assets/v6-photos/photo-01.jpg",
+      "success": true,
+      "original_size": 719987,
+      "optimized_size": 198753,
+      "original_dimensions": [
+        2048,
+        1365
+      ],
+      "optimized_dimensions": [
+        1920,
+        1279
+      ],
+      "compression_ratio": 72.39491824157936,
+      "size_kb": 194.0947265625
+    },
+    {
+      "original_name": "13191 SE Regency View St 3 bracket photos-113.jpg",
+      "optimized_name": "photo-02.jpg",
+      "original_path": "/home/ubuntu/upload/photos/13191 SE Regency View St 3 bracket photos-113.jpg",
+      "optimized_path": "/home/ubuntu/regency-updated/assets/v6-photos/photo-02.jpg",
+      "success": true,
+      "original_size": 983556,
+      "optimized_size": 239691,
+      "original_dimensions": [
+        2048,
+        1365
+      ],
+      "optimized_dimensions": [
+        1920,
+        1279
+      ],
+      "compression_ratio": 75.63016239034687,
+      "size_kb": 234.0732421875
+    },
+    {
+      "original_name": "13191 SE Regency View St 3 bracket photos-12.jpg",
+      "optimized_name": "photo-03.jpg",
+      "original_path": "/home/ubuntu/upload/photos/13191 SE Regency View St 3 bracket photos-12.jpg",
+      "optimized_path": "/home/ubuntu/regency-updated/assets/v6-photos/photo-03.jpg",
+      "success": true,
+      "original_size": 917941,
+      "optimized_size": 257336,
+      "original_dimensions": [
+        2048,
+        1365
+      ],
+      "optimized_dimensions": [
+        1920,
+        1279
+      ],
+      "compression_ratio": 71.96595423888898,
+      "size_kb": 251.3046875
+    },
+    {
+      "original_name": "13191 SE Regency View St 3 bracket photos-120.jpg",
+      "optimized_name": "photo-04.jpg",
+      "original_path": "/home/ubuntu/upload/photos/13191 SE Regency View St 3 bracket photos-120.jpg",
+      "optimized_path": "/home/ubuntu/regency-updated/assets/v6-photos/photo-04.jpg",
+      "success": true,
+      "original_size": 720447,
+      "optimized_size": 199169,
+      "original_dimensions": [
+        2048,
+        1365
+      ],
+      "optimized_dimensions": [
+        1920,
+        1279
+      ],
+      "compression_ratio": 72.35480194934534,
+      "size_kb": 194.5009765625
+    },
+    {
+      "original_name": "13191 SE Regency View St 3 bracket photos-15.jpg",
+      "optimized_name": "photo-05.jpg",
+      "original_path": "/home/ubuntu/upload/photos/13191 SE Regency View St 3 bracket photos-15.jpg",
+      "optimized_path": "/home/ubuntu/regency-updated/assets/v6-photos/photo-05.jpg",
+      "success": true,
+      "original_size": 1127396,
+      "optimized_size": 333201,
+      "original_dimensions": [
+        2048,
+        1365
+      ],
+      "optimized_dimensions": [
+        1920,
+        1279
+      ],
+      "compression_ratio": 70.44507874784016,
+      "size_kb": 325.3916015625
+    },
+    {
+      "original_name": "13191 SE Regency View St 3 bracket photos-156.jpg",
+      "optimized_name": "photo-06.jpg",
+      "original_path": "/home/ubuntu/upload/photos/13191 SE Regency View St 3 bracket photos-156.jpg",
+      "optimized_path": "/home/ubuntu/regency-updated/assets/v6-photos/photo-06.jpg",
+      "success": true,
+      "original_size": 417520,
+      "optimized_size": 130730,
+      "original_dimensions": [
+        2048,
+        1365
+      ],
+      "optimized_dimensions": [
+        1920,
+        1279
+      ],
+      "compression_ratio": 68.68892508143323,
+      "size_kb": 127.666015625
+    },
+    {
+      "original_name": "13191 SE Regency View St 3 bracket photos-171.jpg",
+      "optimized_name": "photo-07.jpg",
+      "original_path": "/home/ubuntu/upload/photos/13191 SE Regency View St 3 bracket photos-171.jpg",
+      "optimized_path": "/home/ubuntu/regency-updated/assets/v6-photos/photo-07.jpg",
+      "success": true,
+      "original_size": 895752,
+      "optimized_size": 237249,
+      "original_dimensions": [
+        2048,
+        1365
+      ],
+      "optimized_dimensions": [
+        1920,
+        1279
+      ],
+      "compression_ratio": 73.51398601398603,
+      "size_kb": 231.6884765625
+    },
+    {
+      "original_name": "13191 SE Regency View St 3 bracket photos-174.jpg",
+      "optimized_name": "photo-08.jpg",
+      "original_path": "/home/ubuntu/upload/photos/13191 SE Regency View St 3 bracket photos-174.jpg",
+      "optimized_path": "/home/ubuntu/regency-updated/assets/v6-photos/photo-08.jpg",
+      "success": true,
+      "original_size": 871342,
+      "optimized_size": 238719,
+      "original_dimensions": [
+        2048,
+        1365
+      ],
+      "optimized_dimensions": [
+        1920,
+        1279
+      ],
+      "compression_ratio": 72.60329468796408,
+      "size_kb": 233.1240234375
+    },
+    {
+      "original_name": "13191 SE Regency View St 3 bracket photos-18.jpg",
+      "optimized_name": "photo-09.jpg",
+      "original_path": "/home/ubuntu/upload/photos/13191 SE Regency View St 3 bracket photos-18.jpg",
+      "optimized_path": "/home/ubuntu/regency-updated/assets/v6-photos/photo-09.jpg",
+      "success": true,
+      "original_size": 1196989,
+      "optimized_size": 361241,
+      "original_dimensions": [
+        2048,
+        1365
+      ],
+      "optimized_dimensions": [
+        1920,
+        1279
+      ],
+      "compression_ratio": 69.82085883830177,
+      "size_kb": 352.7744140625
+    },
+    {
+      "original_name": "13191 SE Regency View St 3 bracket photos-180.jpg",
+      "optimized_name": "photo-10.jpg",
+      "original_path": "/home/ubuntu/upload/photos/13191 SE Regency View St 3 bracket photos-180.jpg",
+      "optimized_path": "/home/ubuntu/regency-updated/assets/v6-photos/photo-10.jpg",
+      "success": true,
+      "original_size": 836380,
+      "optimized_size": 214131,
+      "original_dimensions": [
+        2048,
+        1365
+      ],
+      "optimized_dimensions": [
+        1920,
+        1279
+      ],
+      "compression_ratio": 74.39788134579976,
+      "size_kb": 209.1123046875
+    },
+    {
+      "original_name": "13191 SE Regency View St 3 bracket photos-21.jpg",
+      "optimized_name": "photo-11.jpg",
+      "original_path": "/home/ubuntu/upload/photos/13191 SE Regency View St 3 bracket photos-21.jpg",
+      "optimized_path": "/home/ubuntu/regency-updated/assets/v6-photos/photo-11.jpg",
+      "success": true,
+      "original_size": 762891,
+      "optimized_size": 209208,
+      "original_dimensions": [
+        2048,
+        1365
+      ],
+      "optimized_dimensions": [
+        1920,
+        1279
+      ],
+      "compression_ratio": 72.57694742761417,
+      "size_kb": 204.3046875
+    },
+    {
+      "original_name": "13191 SE Regency View St 3 bracket photos-225.jpg",
+      "optimized_name": "photo-12.jpg",
+      "original_path": "/home/ubuntu/upload/photos/13191 SE Regency View St 3 bracket photos-225.jpg",
+      "optimized_path": "/home/ubuntu/regency-updated/assets/v6-photos/photo-12.jpg",
+      "success": true,
+      "original_size": 830080,
+      "optimized_size": 224248,
+      "original_dimensions": [
+        2048,
+        1365
+      ],
+      "optimized_dimensions": [
+        1920,
+        1279
+      ],
+      "compression_ratio": 72.98477255204318,
+      "size_kb": 218.9921875
+    },
+    {
+      "original_name": "13191 SE Regency View St 3 bracket photos-24.jpg",
+      "optimized_name": "photo-13.jpg",
+      "original_path": "/home/ubuntu/upload/photos/13191 SE Regency View St 3 bracket photos-24.jpg",
+      "optimized_path": "/home/ubuntu/regency-updated/assets/v6-photos/photo-13.jpg",
+      "success": true,
+      "original_size": 927514,
+      "optimized_size": 264174,
+      "original_dimensions": [
+        2048,
+        1365
+      ],
+      "optimized_dimensions": [
+        1920,
+        1279
+      ],
+      "compression_ratio": 71.51805794845146,
+      "size_kb": 257.982421875
+    },
+    {
+      "original_name": "13191 SE Regency View St 3 bracket photos-255.jpg",
+      "optimized_name": "photo-14.jpg",
+      "original_path": "/home/ubuntu/upload/photos/13191 SE Regency View St 3 bracket photos-255.jpg",
+      "optimized_path": "/home/ubuntu/regency-updated/assets/v6-photos/photo-14.jpg",
+      "success": true,
+      "original_size": 6522401,
+      "optimized_size": 338139,
+      "original_dimensions": [
+        4808,
+        3141
+      ],
+      "optimized_dimensions": [
+        1920,
+        1254
+      ],
+      "compression_ratio": 94.81572813447072,
+      "size_kb": 330.2138671875
+    },
+    {
+      "original_name": "13191 SE Regency View St 3 bracket photos-3.jpg",
+      "optimized_name": "photo-15.jpg",
+      "original_path": "/home/ubuntu/upload/photos/13191 SE Regency View St 3 bracket photos-3.jpg",
+      "optimized_path": "/home/ubuntu/regency-updated/assets/v6-photos/photo-15.jpg",
+      "success": true,
+      "original_size": 927244,
+      "optimized_size": 244875,
+      "original_dimensions": [
+        2048,
+        1365
+      ],
+      "optimized_dimensions": [
+        1920,
+        1279
+      ],
+      "compression_ratio": 73.59109360642937,
+      "size_kb": 239.1357421875
+    },
+    {
+      "original_name": "13191 SE Regency View St 3 bracket photos-366.jpg",
+      "optimized_name": "photo-16.jpg",
+      "original_path": "/home/ubuntu/upload/photos/13191 SE Regency View St 3 bracket photos-366.jpg",
+      "optimized_path": "/home/ubuntu/regency-updated/assets/v6-photos/photo-16.jpg",
+      "success": true,
+      "original_size": 1121180,
+      "optimized_size": 412685,
+      "original_dimensions": [
+        1365,
+        2048
+      ],
+      "optimized_dimensions": [
+        1365,
+        2048
+      ],
+      "compression_ratio": 63.19190495727716,
+      "size_kb": 403.0126953125
+    },
+    {
+      "original_name": "13191 SE Regency View St 3 bracket photos-384.jpg",
+      "optimized_name": "photo-17.jpg",
+      "original_path": "/home/ubuntu/upload/photos/13191 SE Regency View St 3 bracket photos-384.jpg",
+      "optimized_path": "/home/ubuntu/regency-updated/assets/v6-photos/photo-17.jpg",
+      "success": true,
+      "original_size": 901902,
+      "optimized_size": 311892,
+      "original_dimensions": [
+        1365,
+        2048
+      ],
+      "optimized_dimensions": [
+        1365,
+        2048
+      ],
+      "compression_ratio": 65.41841574805245,
+      "size_kb": 304.58203125
+    },
+    {
+      "original_name": "13191 SE Regency View St 3 bracket photos-393.jpg",
+      "optimized_name": "photo-18.jpg",
+      "original_path": "/home/ubuntu/upload/photos/13191 SE Regency View St 3 bracket photos-393.jpg",
+      "optimized_path": "/home/ubuntu/regency-updated/assets/v6-photos/photo-18.jpg",
+      "success": true,
+      "original_size": 475880,
+      "optimized_size": 194699,
+      "original_dimensions": [
+        1365,
+        2048
+      ],
+      "optimized_dimensions": [
+        1365,
+        2048
+      ],
+      "compression_ratio": 59.08653442044213,
+      "size_kb": 190.1357421875
+    },
+    {
+      "original_name": "13191 SE Regency View St 3 bracket photos-426.jpg",
+      "optimized_name": "photo-19.jpg",
+      "original_path": "/home/ubuntu/upload/photos/13191 SE Regency View St 3 bracket photos-426.jpg",
+      "optimized_path": "/home/ubuntu/regency-updated/assets/v6-photos/photo-19.jpg",
+      "success": true,
+      "original_size": 1195328,
+      "optimized_size": 447440,
+      "original_dimensions": [
+        1365,
+        2048
+      ],
+      "optimized_dimensions": [
+        1365,
+        2048
+      ],
+      "compression_ratio": 62.56759650907533,
+      "size_kb": 436.953125
+    },
+    {
+      "original_name": "13191 SE Regency View St 3 bracket photos-48.jpg",
+      "optimized_name": "photo-20.jpg",
+      "original_path": "/home/ubuntu/upload/photos/13191 SE Regency View St 3 bracket photos-48.jpg",
+      "optimized_path": "/home/ubuntu/regency-updated/assets/v6-photos/photo-20.jpg",
+      "success": true,
+      "original_size": 1080831,
+      "optimized_size": 253949,
+      "original_dimensions": [
+        1624,
+        1041
+      ],
+      "optimized_dimensions": [
+        1624,
+        1041
+      ],
+      "compression_ratio": 76.50428235311534,
+      "size_kb": 247.9970703125
+    },
+    {
+      "original_name": "13191 SE Regency View St 3 bracket photos-6.jpg",
+      "optimized_name": "photo-21.jpg",
+      "original_path": "/home/ubuntu/upload/photos/13191 SE Regency View St 3 bracket photos-6.jpg",
+      "optimized_path": "/home/ubuntu/regency-updated/assets/v6-photos/photo-21.jpg",
+      "success": true,
+      "original_size": 1001230,
+      "optimized_size": 299528,
+      "original_dimensions": [
+        2048,
+        1365
+      ],
+      "optimized_dimensions": [
+        1920,
+        1279
+      ],
+      "compression_ratio": 70.08399668407858,
+      "size_kb": 292.5078125
+    },
+    {
+      "original_name": "13191 SE Regency View St 3 bracket photos-60.jpg",
+      "optimized_name": "photo-22.jpg",
+      "original_path": "/home/ubuntu/upload/photos/13191 SE Regency View St 3 bracket photos-60.jpg",
+      "optimized_path": "/home/ubuntu/regency-updated/assets/v6-photos/photo-22.jpg",
+      "success": true,
+      "original_size": 1062420,
+      "optimized_size": 305838,
+      "original_dimensions": [
+        2048,
+        1365
+      ],
+      "optimized_dimensions": [
+        1920,
+        1279
+      ],
+      "compression_ratio": 71.21307957305021,
+      "size_kb": 298.669921875
+    },
+    {
+      "original_name": "13191 SE Regency View St 3 bracket photos-69.jpg",
+      "optimized_name": "photo-23.jpg",
+      "original_path": "/home/ubuntu/upload/photos/13191 SE Regency View St 3 bracket photos-69.jpg",
+      "optimized_path": "/home/ubuntu/regency-updated/assets/v6-photos/photo-23.jpg",
+      "success": true,
+      "original_size": 877036,
+      "optimized_size": 240622,
+      "original_dimensions": [
+        2048,
+        1365
+      ],
+      "optimized_dimensions": [
+        1920,
+        1279
+      ],
+      "compression_ratio": 72.56418208602611,
+      "size_kb": 234.982421875
+    },
+    {
+      "original_name": "13191 SE Regency View St 3 bracket photos-84.jpg",
+      "optimized_name": "photo-24.jpg",
+      "original_path": "/home/ubuntu/upload/photos/13191 SE Regency View St 3 bracket photos-84.jpg",
+      "optimized_path": "/home/ubuntu/regency-updated/assets/v6-photos/photo-24.jpg",
+      "success": true,
+      "original_size": 984096,
+      "optimized_size": 274815,
+      "original_dimensions": [
+        2048,
+        1365
+      ],
+      "optimized_dimensions": [
+        1920,
+        1279
+      ],
+      "compression_ratio": 72.07437079309335,
+      "size_kb": 268.3740234375
+    },
+    {
+      "original_name": "13191 SE Regency View St sunset and twilight 3 bracket photos (102 of 111).jpg",
+      "optimized_name": "photo-25.jpg",
+      "original_path": "/home/ubuntu/upload/photos/13191 SE Regency View St sunset and twilight 3 bracket photos (102 of 111).jpg",
+      "optimized_path": "/home/ubuntu/regency-updated/assets/v6-photos/photo-25.jpg",
+      "success": true,
+      "original_size": 1709104,
+      "optimized_size": 548667,
+      "original_dimensions": [
+        2048,
+        1365
+      ],
+      "optimized_dimensions": [
+        1920,
+        1279
+      ],
+      "compression_ratio": 67.89738950935696,
+      "size_kb": 535.8076171875
+    },
+    {
+      "original_name": "13191 SE Regency View St sunset and twilight 3 bracket photos (105 of 111).jpg",
+      "optimized_name": "photo-26.jpg",
+      "original_path": "/home/ubuntu/upload/photos/13191 SE Regency View St sunset and twilight 3 bracket photos (105 of 111).jpg",
+      "optimized_path": "/home/ubuntu/regency-updated/assets/v6-photos/photo-26.jpg",
+      "success": true,
+      "original_size": 1663234,
+      "optimized_size": 404202,
+      "original_dimensions": [
+        1991,
+        1327
+      ],
+      "optimized_dimensions": [
+        1920,
+        1279
+      ],
+      "compression_ratio": 75.69782724499379,
+      "size_kb": 394.728515625
+    },
+    {
+      "original_name": "13191 SE Regency View St sunset and twilight 3 bracket photos (32 of 111).jpg",
+      "optimized_name": "photo-27.jpg",
+      "original_path": "/home/ubuntu/upload/photos/13191 SE Regency View St sunset and twilight 3 bracket photos (32 of 111).jpg",
+      "optimized_path": "/home/ubuntu/regency-updated/assets/v6-photos/photo-27.jpg",
+      "success": true,
+      "original_size": 1469912,
+      "optimized_size": 508789,
+      "original_dimensions": [
+        2048,
+        1534
+      ],
+      "optimized_dimensions": [
+        1920,
+        1438
+      ],
+      "compression_ratio": 65.38643129656741,
+      "size_kb": 496.8642578125
+    },
+    {
+      "original_name": "13191 SE Regency View St virtual staging 3 bracket photos-3_final.jpg",
+      "optimized_name": "photo-28.jpg",
+      "original_path": "/home/ubuntu/upload/photos/13191 SE Regency View St virtual staging 3 bracket photos-3_final.jpg",
+      "optimized_path": "/home/ubuntu/regency-updated/assets/v6-photos/photo-28.jpg",
+      "success": true,
+      "original_size": 1047176,
+      "optimized_size": 301919,
+      "original_dimensions": [
+        2048,
+        1365
+      ],
+      "optimized_dimensions": [
+        1920,
+        1279
+      ],
+      "compression_ratio": 71.16826588844664,
+      "size_kb": 294.8427734375
+    },
+    {
+      "original_name": "13191 SE Regency View St virtual staging 3 bracket photos-6__final.jpg",
+      "optimized_name": "photo-29.jpg",
+      "original_path": "/home/ubuntu/upload/photos/13191 SE Regency View St virtual staging 3 bracket photos-6__final.jpg",
+      "optimized_path": "/home/ubuntu/regency-updated/assets/v6-photos/photo-29.jpg",
+      "success": true,
+      "original_size": 1075010,
+      "optimized_size": 315286,
+      "original_dimensions": [
+        2048,
+        1365
+      ],
+      "optimized_dimensions": [
+        1920,
+        1279
+      ],
+      "compression_ratio": 70.67134259216193,
+      "size_kb": 307.896484375
+    },
+    {
+      "original_name": "DSC05878.jpg",
+      "optimized_name": "photo-30.jpg",
+      "original_path": "/home/ubuntu/upload/photos/DSC05878.jpg",
+      "optimized_path": "/home/ubuntu/regency-updated/assets/v6-photos/photo-30.jpg",
+      "success": true,
+      "original_size": 866133,
+      "optimized_size": 251487,
+      "original_dimensions": [
+        2048,
+        1365
+      ],
+      "optimized_dimensions": [
+        1920,
+        1279
+      ],
+      "compression_ratio": 70.96438999553186,
+      "size_kb": 245.5927734375
+    },
+    {
+      "original_name": "DSC05962.jpg",
+      "optimized_name": "photo-31.jpg",
+      "original_path": "/home/ubuntu/upload/photos/DSC05962.jpg",
+      "optimized_path": "/home/ubuntu/regency-updated/assets/v6-photos/photo-31.jpg",
+      "success": true,
+      "original_size": 1634305,
+      "optimized_size": 440955,
+      "original_dimensions": [
+        1895,
+        1340
+      ],
+      "optimized_dimensions": [
+        1895,
+        1340
+      ],
+      "compression_ratio": 73.01880615919305,
+      "size_kb": 430.6201171875
+    },
+    {
+      "original_name": "DSC06064.jpg",
+      "optimized_name": "photo-32.jpg",
+      "original_path": "/home/ubuntu/upload/photos/DSC06064.jpg",
+      "optimized_path": "/home/ubuntu/regency-updated/assets/v6-photos/photo-32.jpg",
+      "success": true,
+      "original_size": 814883,
+      "optimized_size": 301247,
+      "original_dimensions": [
+        2048,
+        1365
+      ],
+      "optimized_dimensions": [
+        1920,
+        1279
+      ],
+      "compression_ratio": 63.031870832990755,
+      "size_kb": 294.1865234375
+    },
+    {
+      "original_name": "DSC06078.jpg",
+      "optimized_name": "photo-33.jpg",
+      "original_path": "/home/ubuntu/upload/photos/DSC06078.jpg",
+      "optimized_path": "/home/ubuntu/regency-updated/assets/v6-photos/photo-33.jpg",
+      "success": true,
+      "original_size": 884010,
+      "optimized_size": 325878,
+      "original_dimensions": [
+        2048,
+        1365
+      ],
+      "optimized_dimensions": [
+        1920,
+        1279
+      ],
+      "compression_ratio": 63.13638985984322,
+      "size_kb": 318.240234375
+    },
+    {
+      "original_name": "DSC06095.jpg",
+      "optimized_name": "photo-34.jpg",
+      "original_path": "/home/ubuntu/upload/photos/DSC06095.jpg",
+      "optimized_path": "/home/ubuntu/regency-updated/assets/v6-photos/photo-34.jpg",
+      "success": true,
+      "original_size": 978086,
+      "optimized_size": 317110,
+      "original_dimensions": [
+        2048,
+        1365
+      ],
+      "optimized_dimensions": [
+        1920,
+        1279
+      ],
+      "compression_ratio": 67.57851559065358,
+      "size_kb": 309.677734375
+    },
+    {
+      "original_name": "DSC06136.jpg",
+      "optimized_name": "photo-35.jpg",
+      "original_path": "/home/ubuntu/upload/photos/DSC06136.jpg",
+      "optimized_path": "/home/ubuntu/regency-updated/assets/v6-photos/photo-35.jpg",
+      "success": true,
+      "original_size": 1266056,
+      "optimized_size": 441655,
+      "original_dimensions": [
+        2048,
+        1365
+      ],
+      "optimized_dimensions": [
+        1920,
+        1279
+      ],
+      "compression_ratio": 65.11568208673233,
+      "size_kb": 431.3037109375
+    },
+    {
+      "original_name": "DSC06157.jpg",
+      "optimized_name": "photo-36.jpg",
+      "original_path": "/home/ubuntu/upload/photos/DSC06157.jpg",
+      "optimized_path": "/home/ubuntu/regency-updated/assets/v6-photos/photo-36.jpg",
+      "success": true,
+      "original_size": 1177286,
+      "optimized_size": 406074,
+      "original_dimensions": [
+        2048,
+        1365
+      ],
+      "optimized_dimensions": [
+        1920,
+        1279
+      ],
+      "compression_ratio": 65.5076166708854,
+      "size_kb": 396.556640625
+    },
+    {
+      "original_name": "DSC06184.jpg",
+      "optimized_name": "photo-37.jpg",
+      "original_path": "/home/ubuntu/upload/photos/DSC06184.jpg",
+      "optimized_path": "/home/ubuntu/regency-updated/assets/v6-photos/photo-37.jpg",
+      "success": true,
+      "original_size": 1023025,
+      "optimized_size": 229758,
+      "original_dimensions": [
+        1461,
+        1221
+      ],
+      "optimized_dimensions": [
+        1461,
+        1221
+      ],
+      "compression_ratio": 77.54131130715281,
+      "size_kb": 224.373046875
+    },
+    {
+      "original_name": "DSC06202.jpg",
+      "optimized_name": "photo-38.jpg",
+      "original_path": "/home/ubuntu/upload/photos/DSC06202.jpg",
+      "optimized_path": "/home/ubuntu/regency-updated/assets/v6-photos/photo-38.jpg",
+      "success": true,
+      "original_size": 1568136,
+      "optimized_size": 522529,
+      "original_dimensions": [
+        2048,
+        1365
+      ],
+      "optimized_dimensions": [
+        1920,
+        1279
+      ],
+      "compression_ratio": 66.67833657284828,
+      "size_kb": 510.2822265625
+    },
+    {
+      "original_name": "DSC06239.jpg",
+      "optimized_name": "photo-39.jpg",
+      "original_path": "/home/ubuntu/upload/photos/DSC06239.jpg",
+      "optimized_path": "/home/ubuntu/regency-updated/assets/v6-photos/photo-39.jpg",
+      "success": true,
+      "original_size": 764509,
+      "optimized_size": 240335,
+      "original_dimensions": [
+        1791,
+        1355
+      ],
+      "optimized_dimensions": [
+        1791,
+        1355
+      ],
+      "compression_ratio": 68.56348322910522,
+      "size_kb": 234.7021484375
+    },
+    {
+      "original_name": "DSC06953.jpg",
+      "optimized_name": "photo-40.jpg",
+      "original_path": "/home/ubuntu/upload/photos/DSC06953.jpg",
+      "optimized_path": "/home/ubuntu/regency-updated/assets/v6-photos/photo-40.jpg",
+      "success": true,
+      "original_size": 1101029,
+      "optimized_size": 368598,
+      "original_dimensions": [
+        2048,
+        1365
+      ],
+      "optimized_dimensions": [
+        1920,
+        1279
+      ],
+      "compression_ratio": 66.5224076750022,
+      "size_kb": 359.958984375
+    },
+    {
+      "original_name": "DSC06973.jpg",
+      "optimized_name": "photo-41.jpg",
+      "original_path": "/home/ubuntu/upload/photos/DSC06973.jpg",
+      "optimized_path": "/home/ubuntu/regency-updated/assets/v6-photos/photo-41.jpg",
+      "success": true,
+      "original_size": 1279109,
+      "optimized_size": 318485,
+      "original_dimensions": [
+        2048,
+        1365
+      ],
+      "optimized_dimensions": [
+        1920,
+        1279
+      ],
+      "compression_ratio": 75.10102735576092,
+      "size_kb": 311.0205078125
+    },
+    {
+      "original_name": "DSC07015.jpg",
+      "optimized_name": "photo-42.jpg",
+      "original_path": "/home/ubuntu/upload/photos/DSC07015.jpg",
+      "optimized_path": "/home/ubuntu/regency-updated/assets/v6-photos/photo-42.jpg",
+      "success": true,
+      "original_size": 1481626,
+      "optimized_size": 534469,
+      "original_dimensions": [
+        2048,
+        1365
+      ],
+      "optimized_dimensions": [
+        1920,
+        1279
+      ],
+      "compression_ratio": 63.926861434667046,
+      "size_kb": 521.9423828125
+    },
+    {
+      "original_name": "DSC07273.jpg",
+      "optimized_name": "photo-43.jpg",
+      "original_path": "/home/ubuntu/upload/photos/DSC07273.jpg",
+      "optimized_path": "/home/ubuntu/regency-updated/assets/v6-photos/photo-43.jpg",
+      "success": true,
+      "original_size": 832324,
+      "optimized_size": 215273,
+      "original_dimensions": [
+        2048,
+        1365
+      ],
+      "optimized_dimensions": [
+        1920,
+        1279
+      ],
+      "compression_ratio": 74.13591341833228,
+      "size_kb": 210.2275390625
+    },
+    {
+      "original_name": "DSC07294.jpg",
+      "optimized_name": "photo-44.jpg",
+      "original_path": "/home/ubuntu/upload/photos/DSC07294.jpg",
+      "optimized_path": "/home/ubuntu/regency-updated/assets/v6-photos/photo-44.jpg",
+      "success": true,
+      "original_size": 805905,
+      "optimized_size": 230969,
+      "original_dimensions": [
+        2048,
+        1365
+      ],
+      "optimized_dimensions": [
+        1920,
+        1279
+      ],
+      "compression_ratio": 71.3404185356835,
+      "size_kb": 225.5556640625
+    },
+    {
+      "original_name": "DSC07369.jpg",
+      "optimized_name": "photo-45.jpg",
+      "original_path": "/home/ubuntu/upload/photos/DSC07369.jpg",
+      "optimized_path": "/home/ubuntu/regency-updated/assets/v6-photos/photo-45.jpg",
+      "success": true,
+      "original_size": 1179658,
+      "optimized_size": 390852,
+      "original_dimensions": [
+        2048,
+        1365
+      ],
+      "optimized_dimensions": [
+        1920,
+        1279
+      ],
+      "compression_ratio": 66.867346298673,
+      "size_kb": 381.69140625
+    },
+    {
+      "original_name": "DSC07507.jpg",
+      "optimized_name": "photo-46.jpg",
+      "original_path": "/home/ubuntu/upload/photos/DSC07507.jpg",
+      "optimized_path": "/home/ubuntu/regency-updated/assets/v6-photos/photo-46.jpg",
+      "success": true,
+      "original_size": 909259,
+      "optimized_size": 272325,
+      "original_dimensions": [
+        2048,
+        1365
+      ],
+      "optimized_dimensions": [
+        1920,
+        1279
+      ],
+      "compression_ratio": 70.04978779423685,
+      "size_kb": 265.9423828125
+    },
+    {
+      "original_name": "Exterior Remove Pole (3 of 3).jpg",
+      "optimized_name": "photo-47.jpg",
+      "original_path": "/home/ubuntu/upload/photos/Exterior Remove Pole (3 of 3).jpg",
+      "optimized_path": "/home/ubuntu/regency-updated/assets/v6-photos/photo-47.jpg",
+      "success": true,
+      "original_size": 8040673,
+      "optimized_size": 395279,
+      "original_dimensions": [
+        6000,
+        4000
+      ],
+      "optimized_dimensions": [
+        1920,
+        1280
+      ],
+      "compression_ratio": 95.08400602785365,
+      "size_kb": 386.0146484375
+    }
+  ]
+}
