@@ -9,79 +9,79 @@ const V7 = () => {
 
   // Import all optimized photos
   const [galleryPhotos, setGalleryPhotos] = useState([
-    { id: '1', src: '../../../assets/v6-photos/photo-01.jpg', alt: 'Estate Photo 1' },
-    { id: '2', src: '../../../assets/v6-photos/photo-02.jpg', alt: 'Estate Photo 2' },
-    { id: '3', src: '../../../assets/v6-photos/photo-03.jpg', alt: 'Estate Photo 3' },
-    { id: '4', src: '../../../assets/v6-photos/photo-04.jpg', alt: 'Estate Photo 4' },
-    { id: '5', src: '../../../assets/v6-photos/photo-05.jpg', alt: 'Estate Photo 5' },
-    { id: '6', src: '../../../assets/v6-photos/photo-06.jpg', alt: 'Estate Photo 6' },
-    { id: '7', src: '../../../assets/v6-photos/photo-07.jpg', alt: 'Estate Photo 7' },
-    { id: '8', src: '../../../assets/v6-photos/photo-08.jpg', alt: 'Estate Photo 8' },
-    { id: '9', src: '../../../assets/v6-photos/photo-09.jpg', alt: 'Estate Photo 9' },
-    { id: '10', src: '../../../assets/v6-photos/photo-10.jpg', alt: 'Estate Photo 10' },
-    { id: '11', src: '../../../assets/v6-photos/photo-11.jpg', alt: 'Estate Photo 11' },
-    { id: '12', src: '../../../assets/v6-photos/photo-12.jpg', alt: 'Estate Photo 12' },
-    { id: '13', src: '../../../assets/v6-photos/photo-13.jpg', alt: 'Estate Photo 13' },
-    { id: '14', src: '../../../assets/v6-photos/photo-14.jpg', alt: 'Estate Photo 14' },
-    { id: '15', src: '../../../assets/v6-photos/photo-15.jpg', alt: 'Estate Photo 15' },
-    { id: '16', src: '../../../assets/v6-photos/photo-16.jpg', alt: 'Estate Photo 16' },
-    { id: '17', src: '../../../assets/v6-photos/photo-17.jpg', alt: 'Estate Photo 17' },
-    { id: '18', src: '../../../assets/v6-photos/photo-18.jpg', alt: 'Estate Photo 18' },
-    { id: '19', src: '../../../assets/v6-photos/photo-19.jpg', alt: 'Estate Photo 19' },
-    { id: '20', src: '../../../assets/v6-photos/photo-20.jpg', alt: 'Estate Photo 20' },
-    { id: '21', src: '../../../assets/v6-photos/photo-21.jpg', alt: 'Estate Photo 21' },
-    { id: '22', src: '../../../assets/v6-photos/photo-22.jpg', alt: 'Estate Photo 22' },
-    { id: '23', src: '../../../assets/v6-photos/photo-23.jpg', alt: 'Estate Photo 23' },
-    { id: '24', src: '../../../assets/v6-photos/photo-24.jpg', alt: 'Estate Photo 24' },
-    { id: '25', src: '../../../assets/v6-photos/photo-25.jpg', alt: 'Estate Photo 25' },
-    { id: '26', src: '../../../assets/v6-photos/photo-26.jpg', alt: 'Estate Photo 26' },
-    { id: '27', src: '../../../assets/v6-photos/photo-27.jpg', alt: 'Estate Photo 27' },
-    { id: '28', src: '../../../assets/v6-photos/photo-28.jpg', alt: 'Estate Photo 28' },
-    { id: '29', src: '../../../assets/v6-photos/photo-29.jpg', alt: 'Estate Photo 29' },
-    { id: '30', src: '../../../assets/v6-photos/photo-30.jpg', alt: 'Estate Photo 30' },
-    { id: '31', src: '../../../assets/v6-photos/photo-31.jpg', alt: 'Estate Photo 31' },
-    { id: '32', src: '../../../assets/v6-photos/photo-32.jpg', alt: 'Estate Photo 32' },
-    { id: '33', src: '../../../assets/v6-photos/photo-33.jpg', alt: 'Estate Photo 33' },
-    { id: '34', src: '../../../assets/v6-photos/photo-34.jpg', alt: 'Estate Photo 34' },
-    { id: '35', src: '../../../assets/v6-photos/photo-35.jpg', alt: 'Estate Photo 35' },
-    { id: '36', src: '../../../assets/v6-photos/photo-36.jpg', alt: 'Estate Photo 36' },
-    { id: '37', src: '../../../assets/v6-photos/photo-37.jpg', alt: 'Estate Photo 37' },
-    { id: '38', src: '../../../assets/v6-photos/photo-38.jpg', alt: 'Estate Photo 38' },
-    { id: '39', src: '../../../assets/v6-photos/photo-39.jpg', alt: 'Estate Photo 39' },
-    { id: '40', src: '../../../assets/v6-photos/photo-40.jpg', alt: 'Estate Photo 40' },
-    { id: '41', src: '../../../assets/v6-photos/photo-41.jpg', alt: 'Estate Photo 41' },
-    { id: '42', src: '../../../assets/v6-photos/photo-42.jpg', alt: 'Estate Photo 42' },
-    { id: '43', src: '../../../assets/v6-photos/photo-43.jpg', alt: 'Estate Photo 43' },
-    { id: '44', src: '../../../assets/v6-photos/photo-44.jpg', alt: 'Estate Photo 44' },
-    { id: '45', src: '../../../assets/v6-photos/photo-45.jpg', alt: 'Estate Photo 45' },
-    { id: '46', src: '../../../assets/v6-photos/photo-46.jpg', alt: 'Estate Photo 46' },
-    { id: '47', src: '../../../assets/v6-photos/photo-47.jpg', alt: 'Estate Photo 47' },
+    { id: '1', src: '/assets/v6-photos/photo-01.jpg', alt: 'Estate Photo 1' },
+    { id: '2', src: '/assets/v6-photos/photo-02.jpg', alt: 'Estate Photo 2' },
+    { id: '3', src: '/assets/v6-photos/photo-03.jpg', alt: 'Estate Photo 3' },
+    { id: '4', src: '/assets/v6-photos/photo-04.jpg', alt: 'Estate Photo 4' },
+    { id: '5', src: '/assets/v6-photos/photo-05.jpg', alt: 'Estate Photo 5' },
+    { id: '6', src: '/assets/v6-photos/photo-06.jpg', alt: 'Estate Photo 6' },
+    { id: '7', src: '/assets/v6-photos/photo-07.jpg', alt: 'Estate Photo 7' },
+    { id: '8', src: '/assets/v6-photos/photo-08.jpg', alt: 'Estate Photo 8' },
+    { id: '9', src: '/assets/v6-photos/photo-09.jpg', alt: 'Estate Photo 9' },
+    { id: '10', src: '/assets/v6-photos/photo-10.jpg', alt: 'Estate Photo 10' },
+    { id: '11', src: '/assets/v6-photos/photo-11.jpg', alt: 'Estate Photo 11' },
+    { id: '12', src: '/assets/v6-photos/photo-12.jpg', alt: 'Estate Photo 12' },
+    { id: '13', src: '/assets/v6-photos/photo-13.jpg', alt: 'Estate Photo 13' },
+    { id: '14', src: '/assets/v6-photos/photo-14.jpg', alt: 'Estate Photo 14' },
+    { id: '15', src: '/assets/v6-photos/photo-15.jpg', alt: 'Estate Photo 15' },
+    { id: '16', src: '/assets/v6-photos/photo-16.jpg', alt: 'Estate Photo 16' },
+    { id: '17', src: '/assets/v6-photos/photo-17.jpg', alt: 'Estate Photo 17' },
+    { id: '18', src: '/assets/v6-photos/photo-18.jpg', alt: 'Estate Photo 18' },
+    { id: '19', src: '/assets/v6-photos/photo-19.jpg', alt: 'Estate Photo 19' },
+    { id: '20', src: '/assets/v6-photos/photo-20.jpg', alt: 'Estate Photo 20' },
+    { id: '21', src: '/assets/v6-photos/photo-21.jpg', alt: 'Estate Photo 21' },
+    { id: '22', src: '/assets/v6-photos/photo-22.jpg', alt: 'Estate Photo 22' },
+    { id: '23', src: '/assets/v6-photos/photo-23.jpg', alt: 'Estate Photo 23' },
+    { id: '24', src: '/assets/v6-photos/photo-24.jpg', alt: 'Estate Photo 24' },
+    { id: '25', src: '/assets/v6-photos/photo-25.jpg', alt: 'Estate Photo 25' },
+    { id: '26', src: '/assets/v6-photos/photo-26.jpg', alt: 'Estate Photo 26' },
+    { id: '27', src: '/assets/v6-photos/photo-27.jpg', alt: 'Estate Photo 27' },
+    { id: '28', src: '/assets/v6-photos/photo-28.jpg', alt: 'Estate Photo 28' },
+    { id: '29', src: '/assets/v6-photos/photo-29.jpg', alt: 'Estate Photo 29' },
+    { id: '30', src: '/assets/v6-photos/photo-30.jpg', alt: 'Estate Photo 30' },
+    { id: '31', src: '/assets/v6-photos/photo-31.jpg', alt: 'Estate Photo 31' },
+    { id: '32', src: '/assets/v6-photos/photo-32.jpg', alt: 'Estate Photo 32' },
+    { id: '33', src: '/assets/v6-photos/photo-33.jpg', alt: 'Estate Photo 33' },
+    { id: '34', src: '/assets/v6-photos/photo-34.jpg', alt: 'Estate Photo 34' },
+    { id: '35', src: '/assets/v6-photos/photo-35.jpg', alt: 'Estate Photo 35' },
+    { id: '36', src: '/assets/v6-photos/photo-36.jpg', alt: 'Estate Photo 36' },
+    { id: '37', src: '/assets/v6-photos/photo-37.jpg', alt: 'Estate Photo 37' },
+    { id: '38', src: '/assets/v6-photos/photo-38.jpg', alt: 'Estate Photo 38' },
+    { id: '39', src: '/assets/v6-photos/photo-39.jpg', alt: 'Estate Photo 39' },
+    { id: '40', src: '/assets/v6-photos/photo-40.jpg', alt: 'Estate Photo 40' },
+    { id: '41', src: '/assets/v6-photos/photo-41.jpg', alt: 'Estate Photo 41' },
+    { id: '42', src: '/assets/v6-photos/photo-42.jpg', alt: 'Estate Photo 42' },
+    { id: '43', src: '/assets/v6-photos/photo-43.jpg', alt: 'Estate Photo 43' },
+    { id: '44', src: '/assets/v6-photos/photo-44.jpg', alt: 'Estate Photo 44' },
+    { id: '45', src: '/assets/v6-photos/photo-45.jpg', alt: 'Estate Photo 45' },
+    { id: '46', src: '/assets/v6-photos/photo-46.jpg', alt: 'Estate Photo 46' },
+    { id: '47', src: '/assets/v6-photos/photo-47.jpg', alt: 'Estate Photo 47' },
   ]);
 
   // Hero slides - using select photos for hero carousel
   const heroSlides = [
     {
-      image: '../../../assets/v6-photos/photo-47.jpg', // Exterior main
+      image: '/assets/v6-photos/photo-47.jpg', // Exterior main
       title: 'COMMAND RESPECT',
       subtitle: 'Where architectural excellence meets natural beauty'
     },
     {
-      image: '../../../assets/v6-photos/photo-25.jpg', // Sunset/twilight
+      image: '/assets/v6-photos/photo-25.jpg', // Sunset/twilight
       title: 'BE LEGENDARY',
       subtitle: 'Contemporary masterpiece in Happy Valley, Oregon'
     },
     {
-      image: '../../../assets/v6-photos/photo-26.jpg', // Twilight
+      image: '/assets/v6-photos/photo-26.jpg', // Twilight
       title: 'BE UNFORGETTABLE',
       subtitle: 'The address that defines distinction'
     },
     {
-      image: '../../../assets/v6-photos/photo-27.jpg', // Sunset
+      image: '/assets/v6-photos/photo-27.jpg', // Sunset
       title: 'LEAVE YOUR MARK',
       subtitle: 'Generational wealth deserves generational beauty'
     },
     {
-      image: '../../../assets/v6-photos/photo-21.jpg', // Interior
+      image: '/assets/v6-photos/photo-21.jpg', // Interior
       title: 'OWN THE EXTRAORDINARY',
       subtitle: 'Private luxury estate • Happy Valley, Oregon'
     }

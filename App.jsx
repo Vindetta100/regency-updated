@@ -8,6 +8,7 @@ import V4 from './src/versions/v4/Home'
 import V5 from './src/versions/v5/Home'
 import V6 from './src/versions/v6/Home'
 import V7 from './src/versions/v7/Home'
+import V8 from './src/versions/v8/Home'
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/5" element={<V5 />} />
         <Route path="/6" element={<V6 />} />
         <Route path="/7" element={<V7 />} />
+        <Route path="/8" element={<V8 />} />
       </Routes>
     </Router>
   )
