@@ -12,41 +12,41 @@ import logoImage from '../../../assets/logo_primary.png'
 import propertyTourVideo from '../../../assets/regency_residence_3d_tour_ws.mp4'
 import virtualTourVideo from '../../../assets/regency_3d_tour.mp4'
 
-// Import Redfin Photos
-import exteriorTwilight from '../../../assets/redfin-photos/exterior_twilight_main.jpg'
-import kitchenMain from '../../../assets/redfin-photos/kitchen_main.jpg'
-import livingRoomMain from '../../../assets/redfin-photos/living_room_main.jpg'
-import diningRoom from '../../../assets/redfin-photos/dining_room.jpg'
-import masterBedroom from '../../../assets/redfin-photos/master_bedroom.jpg'
+// Import New Optimized Photos from v6-photos
+import exteriorTwilight from '../../../assets/v6-photos/photo-25.jpg' // Sunset/twilight exterior
+import kitchenMain from '../../../assets/v6-photos/photo-10.jpg' // Interior kitchen/living
+import livingRoomMain from '../../../assets/v6-photos/photo-21.jpg' // Interior living room
+import diningRoom from '../../../assets/v6-photos/photo-15.jpg' // Interior dining
+import masterBedroom from '../../../assets/v6-photos/photo-19.jpg' // Interior bedroom
 
-// Additional Redfin Photos - Interior
-import livingRoomFireplace from '../../../assets/redfin-photos/living_room_fireplace_wetbar.jpg'
-import bathroomMain from '../../../assets/redfin-photos/bathroom_main.jpg'
-import bathroomLuxury from '../../../assets/redfin-photos/bathroom_luxury.jpg'
-import bedroomSecondary from '../../../assets/redfin-photos/bedroom_secondary.jpg'
-import bathroomPowder from '../../../assets/redfin-photos/bathroom_powder.jpg'
-import staircaseOak from '../../../assets/redfin-photos/staircase_oak.jpg'
-import closetMaster from '../../../assets/redfin-photos/closet_master.jpg'
-import garageInterior from '../../../assets/redfin-photos/garage_interior.jpg'
-import laundryRoom from '../../../assets/redfin-photos/laundry_room.jpg'
-import officeDen from '../../../assets/redfin-photos/office_den.jpg'
-import storageRoom from '../../../assets/redfin-photos/storage_room.jpg'
-import mechanicalRoom from '../../../assets/redfin-photos/mechanical_room.jpg'
+// Additional Interior Photos
+import livingRoomFireplace from '../../../assets/v6-photos/photo-08.jpg' // Interior living detail
+import bathroomMain from '../../../assets/v6-photos/photo-18.jpg' // Interior bathroom
+import bathroomLuxury from '../../../assets/v6-photos/photo-14.jpg' // Interior bathroom luxury
+import bedroomSecondary from '../../../assets/v6-photos/photo-16.jpg' // Interior bedroom 2
+import bathroomPowder from '../../../assets/v6-photos/photo-13.jpg' // Interior bathroom powder
+import staircaseOak from '../../../assets/v6-photos/photo-20.jpg' // Interior staircase
+import closetMaster from '../../../assets/v6-photos/photo-12.jpg' // Interior closet
+import garageInterior from '../../../assets/v6-photos/photo-11.jpg' // Interior garage
+import laundryRoom from '../../../assets/v6-photos/photo-09.jpg' // Interior laundry
+import officeDen from '../../../assets/v6-photos/photo-17.jpg' // Interior office
+import storageRoom from '../../../assets/v6-photos/photo-07.jpg' // Interior storage
+import mechanicalRoom from '../../../assets/v6-photos/photo-06.jpg' // Interior mechanical
 
-// Additional Redfin Photos - Exterior
-import exteriorFrontDay from '../../../assets/redfin-photos/exterior_front_day.jpg'
-import exteriorSideAngle from '../../../assets/redfin-photos/exterior_side_angle.jpg'
-import exteriorBackPatio from '../../../assets/redfin-photos/exterior_back_patio.jpg'
-import neighborhoodAerial from '../../../assets/redfin-photos/neighborhood_aerial.jpg'
-import neighborhoodContext from '../../../assets/redfin-photos/neighborhood_context.jpg'
+// Exterior Photos
+import exteriorFrontDay from '../../../assets/v6-photos/photo-47.jpg' // Exterior main
+import exteriorSideAngle from '../../../assets/v6-photos/photo-22.jpg' // Exterior side
+import exteriorBackPatio from '../../../assets/v6-photos/photo-24.jpg' // Exterior patio
+import neighborhoodAerial from '../../../assets/v6-photos/photo-31.jpg' // Aerial view
+import neighborhoodContext from '../../../assets/v6-photos/photo-30.jpg' // Context view
 
-// Floor Plans and Technical
-import sitePlan from '../../../assets/redfin-photos/site_plan.jpg'
-import floorPlanMain from '../../../assets/redfin-photos/floor_plan_main.jpg'
-import floorPlanUpper from '../../../assets/redfin-photos/floor_plan_upper.jpg'
-import floorPlanLower from '../../../assets/redfin-photos/floor_plan_lower.jpg'
-import elevationDrawings from '../../../assets/redfin-photos/elevation_drawings.jpg'
-import propertySurvey from '../../../assets/redfin-photos/property_survey.jpg'
+// Additional Property Photos (using remaining optimized photos)
+import sitePlan from '../../../assets/v6-photos/photo-01.jpg'
+import floorPlanMain from '../../../assets/v6-photos/photo-02.jpg'
+import floorPlanUpper from '../../../assets/v6-photos/photo-03.jpg'
+import floorPlanLower from '../../../assets/v6-photos/photo-04.jpg'
+import elevationDrawings from '../../../assets/v6-photos/photo-05.jpg'
+import propertySurvey from '../../../assets/v6-photos/photo-23.jpg'
 
 // Enhanced Luxury Photo Gallery Data with Developer's Vision
 const luxuryPhotos = [
