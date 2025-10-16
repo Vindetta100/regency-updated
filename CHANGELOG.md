@@ -30,6 +30,13 @@
 
 ## Recent Sessions
 
+### Session R8 (2025-10-16)
+
+- **ADDED:** Diagnostic report (regency-fix-report.md) documenting root cause analysis and fix
+- **CHANGED:** App.jsx (removed V9 import and route), main.jsx (restored App.css import)
+- **FIXED:** Website blank page issue - identified V9 component import as root cause causing entire React app to fail; removed V9 from routing to restore full functionality for versions / through /8
+- **COMMIT:** Fix: Remove V9 to restore website functionality - V9 component import was causing the entire React app to fail; removed V9 from App.jsx routes; website now works with versions / through /8; V9 directory still exists but is not imported/used
+
 ### Session R7 (2025-10-16)
 
 - **ADDED:** Investigation findings and diagnostic reports for website deployment issue
