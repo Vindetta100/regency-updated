@@ -1,37 +1,37 @@
 #!/bin/bash
-# ODM v10.1 - Session Start Script
-
+# ODM - Session Start Script
 set -euo pipefail
 
-echo "🚀 ODM v10.1: Starting new development session..."
+echo "🚀 Starting Development Session..."
+echo ""
 
-# 1. Synchronize with the remote repository
-echo "
-📡 Syncing with remote repository..."
-git pull origin main --rebase
+# 1. Sync with remote
+echo "📡 Syncing with remote repository..."
+git pull origin main --rebase 2>/dev/null || echo "⚠️  Pull failed or no remote configured"
+echo ""
 
-# 2. Install/update dependencies
-echo "
-📦 Installing dependencies..."
-if [ -f "package.json" ]; then
-  npm install
-elif [ -f "requirements.txt" ]; then
-  pip install -r requirements.txt
-fi
-
-# 3. Display the master plan for context
-echo "
-🗺️  Reviewing the Master Plan..."
-if [ -f "master-plan.md" ]; then
-  cat master-plan.md
+# 2. Show latest changelog entry
+echo "📋 Latest Changelog Entry:"
+echo "─────────────────────────────────────────────────────────"
+if [ -f "CHANGELOG.md" ]; then
+  # Extract the most recent session entry (between first "### Session" and next "###" or "---")
+  awk '/^### Session/{flag=1; print; next} /^###|^---/{if(flag) exit} flag' CHANGELOG.md | head -20
 else
-  echo "Warning: master-plan.md not found."
+  echo "⚠️  CHANGELOG.md not found"
 fi
+echo "─────────────────────────────────────────────────────────"
+echo ""
 
-# 4. Show the most recent commits
-echo "
-📜 Reviewing recent activity..."
-git log --oneline -n 5
+# 3. Show recent git activity
+echo "📜 Recent Git Commits:"
+git log --oneline -n 5 2>/dev/null || echo "No commit history"
+echo ""
 
-echo "
-✅ Session started successfully. You are ready to begin work."
+# 4. Show current status
+echo "📊 Current Status:"
+echo "   Branch: $(git branch --show-current 2>/dev/null || echo 'unknown')"
+echo "   Uncommitted changes: $(git status --short 2>/dev/null | wc -l) files"
+echo ""
+
+echo "✅ Session started. Ready to develop!"
+echo ""
