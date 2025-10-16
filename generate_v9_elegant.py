@@ -1,72 +1,39 @@
-import { Button } from '../../../components/ui/button'
-import { Card, CardContent } from '../../../components/ui/card'
-import { Badge } from '../../../components/ui/badge'
-import ContactForm from '../../../components/ContactForm'
-import { MapPin, Home, Bath, Maximize, Calendar, Star, Phone, Mail, ExternalLink, ChevronLeft, ChevronRight, X, Play, Pause, Menu, Droplets, Zap, Wind, Thermometer, Wrench, Car, Lightbulb, TreePine, Mountain, Utensils, Flame } from 'lucide-react'
-import { useState, useEffect } from 'react'
+#!/usr/bin/env python3
+"""
+Generate V9 Home.jsx with V0 Website Theme
+Elegant, refined, sophisticated luxury aesthetic
+"""
 
-// Import assets
-import heroImage from '../../../assets/CeKZPk4dRzae.jpg'
-import exteriorImage from '../../../assets/uzMXObUi7McZ.jpg'
-import logoImage from '../../../assets/logo_primary.png'
-import propertyTourVideo from '../../../assets/regency_residence_3d_tour_ws.mp4'
-import virtualTourVideo from '../../../assets/regency_3d_tour.mp4'
+import os
 
-// Import New Optimized Photos from v6-photos
-import exteriorTwilight from '../../../assets/v6-photos/photo-25.jpg' // Sunset/twilight exterior
-import kitchenMain from '../../../assets/v6-photos/photo-10.jpg' // Interior kitchen/living
-import livingRoomMain from '../../../assets/v6-photos/photo-21.jpg' // Interior living room
-import diningRoom from '../../../assets/v6-photos/photo-15.jpg' // Interior dining
-import masterBedroom from '../../../assets/v6-photos/photo-19.jpg' // Interior bedroom
+# Read the original v8 file to extract asset imports
+with open('/home/ubuntu/regency-updated/src/versions/v8/Home.jsx.backup', 'r') as f:
+    original_content = f.read()
 
-// Additional Interior Photos
-import livingRoomFireplace from '../../../assets/v6-photos/photo-08.jpg' // Interior living detail
-import bathroomMain from '../../../assets/v6-photos/photo-18.jpg' // Interior bathroom
-import bathroomLuxury from '../../../assets/v6-photos/photo-14.jpg' // Interior bathroom luxury
-import bedroomSecondary from '../../../assets/v6-photos/photo-16.jpg' // Interior bedroom 2
-import bathroomPowder from '../../../assets/v6-photos/photo-13.jpg' // Interior bathroom powder
-import staircaseOak from '../../../assets/v6-photos/photo-20.jpg' // Interior staircase
-import closetMaster from '../../../assets/v6-photos/photo-12.jpg' // Interior closet
-import garageInterior from '../../../assets/v6-photos/photo-11.jpg' // Interior garage
-import laundryRoom from '../../../assets/v6-photos/photo-09.jpg' // Interior laundry
-import officeDen from '../../../assets/v6-photos/photo-17.jpg' // Interior office
-import storageRoom from '../../../assets/v6-photos/photo-07.jpg' // Interior storage
-import mechanicalRoom from '../../../assets/v6-photos/photo-06.jpg' // Interior mechanical
+# Extract the import section (lines 1-50)
+import_section = '\n'.join(original_content.split('\n')[:50])
 
-// Exterior Photos
-import exteriorFrontDay from '../../../assets/v6-photos/photo-47.jpg' // Exterior main
-import exteriorSideAngle from '../../../assets/v6-photos/photo-22.jpg' // Exterior side
-import exteriorBackPatio from '../../../assets/v6-photos/photo-24.jpg' // Exterior patio
-import neighborhoodAerial from '../../../assets/v6-photos/photo-31.jpg' // Aerial view
-import neighborhoodContext from '../../../assets/v6-photos/photo-30.jpg' // Context view
-
-// Additional Property Photos (using remaining optimized photos)
-import sitePlan from '../../../assets/v6-photos/photo-01.jpg'
-import floorPlanMain from '../../../assets/v6-photos/photo-02.jpg'
-import floorPlanUpper from '../../../assets/v6-photos/photo-03.jpg'
-import floorPlanLower from '../../../assets/v6-photos/photo-04.jpg'
-import elevationDrawings from '../../../assets/v6-photos/photo-05.jpg'
-import propertySurvey from '../../../assets/v6-photos/photo-23.jpg'
-
+# Generate the new V9 component with V0 elegant theme
+v9_elegant_content = f'''{import_section}
 
 // V0 Theme - Elegant, Refined, Sophisticated Luxury
-function V9ElegantHome() {
+function V9ElegantHome() {{
   const [isGalleryOpen, setIsGalleryOpen] = React.useState(false)
   const [isMobileMenuOpen, setIsMobileMenuOpen] = React.useState(false)
 
   return (
     <div className="min-h-screen bg-white text-gray-900 font-['Inter']">
-      {/* Google Fonts */}
+      {{/* Google Fonts */}}
       <link rel="preconnect" href="https://fonts.googleapis.com" />
       <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
       <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet" />
 
-      {/* Navigation */}
+      {{/* Navigation */}}
       <nav className="fixed top-0 w-full bg-white/95 backdrop-blur-xl z-50 border-b border-gray-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-20">
             <div className="flex items-center">
-              <img src={logoImage} alt="The Regency View Estate" className="h-12" />
+              <img src={{logoImage}} alt="The Regency View Estate" className="h-12" />
             </div>
             <div className="hidden md:flex space-x-8 text-sm font-medium">
               <a href="#estate" className="text-gray-600 hover:text-gray-900 transition">The Estate</a>
@@ -75,16 +42,16 @@ function V9ElegantHome() {
               <a href="#location" className="text-gray-600 hover:text-gray-900 transition">Location</a>
               <a href="#contact" className="bg-amber-500 hover:bg-amber-600 text-white px-6 py-2 rounded transition">Inquire</a>
             </div>
-            <button onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)} className="md:hidden">
+            <button onClick={{() => setIsMobileMenuOpen(!isMobileMenuOpen)}} className="md:hidden">
               <Menu className="w-6 h-6" />
             </button>
           </div>
         </div>
       </nav>
 
-      {/* Hero Section */}
+      {{/* Hero Section */}}
       <section className="relative h-screen">
-        <img src={exteriorTwilight} alt="The Regency View Estate" className="w-full h-full object-cover" />
+        <img src={{exteriorTwilight}} alt="The Regency View Estate" className="w-full h-full object-cover" />
         <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-black/20 to-black/40" />
         <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-4 text-white">
           <p className="text-sm font-medium tracking-widest uppercase mb-4">PRIVATE LUXURY ESTATE</p>
@@ -102,14 +69,14 @@ function V9ElegantHome() {
         </div>
       </section>
 
-      {/* Architectural Excellence - Two Column Layout */}
+      {{/* Architectural Excellence - Two Column Layout */}}
       <section id="estate" className="py-32 bg-white">
         <div className="max-w-7xl mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-16 items-center">
             <div className="relative">
               <div className="absolute inset-0 bg-amber-100/30 rounded-lg transform translate-x-4 translate-y-4" />
               <img 
-                src={livingRoomMain} 
+                src={{livingRoomMain}} 
                 alt="Interior Excellence" 
                 className="relative w-full h-[600px] object-cover rounded-lg shadow-2xl"
               />
@@ -135,7 +102,7 @@ function V9ElegantHome() {
         </div>
       </section>
 
-      {/* Property Features - Grid Layout */}
+      {{/* Property Features - Grid Layout */}}
       <section className="py-32 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 text-center">
           <h2 className="text-4xl md:text-5xl font-['Playfair_Display'] font-semibold mb-4">
@@ -171,7 +138,7 @@ function V9ElegantHome() {
         </div>
       </section>
 
-      {/* Visual Tour - Alternating Layout */}
+      {{/* Visual Tour - Alternating Layout */}}
       <section id="gallery" className="py-32 bg-white">
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-16">
@@ -180,31 +147,31 @@ function V9ElegantHome() {
           </div>
           
           <div className="grid md:grid-cols-3 gap-8">
-            {[
-              { img: kitchenMain, title: "Gourmet Kitchen" },
-              { img: masterBedroom, title: "Master Suite" },
-              { img: bathroomLuxury, title: "Spa Bathroom" },
-              { img: exteriorBackPatio, title: "Outdoor Living" },
-              { img: officeDen, title: "Private Office" },
-              { img: diningRoom, title: "Dining Room" }
+            {{[
+              {{ img: kitchenMain, title: "Gourmet Kitchen" }},
+              {{ img: masterBedroom, title: "Master Suite" }},
+              {{ img: bathroomLuxury, title: "Spa Bathroom" }},
+              {{ img: exteriorBackPatio, title: "Outdoor Living" }},
+              {{ img: officeDen, title: "Private Office" }},
+              {{ img: diningRoom, title: "Dining Room" }}
             ].map((item, index) => (
-              <div key={index} className="relative group overflow-hidden rounded-lg">
+              <div key={{index}} className="relative group overflow-hidden rounded-lg">
                 <div className="absolute inset-0 bg-amber-100/20 rounded-lg transform translate-x-2 translate-y-2 group-hover:translate-x-3 group-hover:translate-y-3 transition-transform" />
                 <img 
-                  src={item.img} 
-                  alt={item.title} 
+                  src={{item.img}} 
+                  alt={{item.title}} 
                   className="relative w-full h-80 object-cover rounded-lg shadow-lg group-hover:shadow-2xl transition-shadow"
                 />
                 <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-6">
-                  <h4 className="text-white font-medium text-lg">{item.title}</h4>
+                  <h4 className="text-white font-medium text-lg">{{item.title}}</h4>
                 </div>
               </div>
-            ))}
+            ))}}
           </div>
         </div>
       </section>
 
-      {/* Investment Opportunity */}
+      {{/* Investment Opportunity */}}
       <section id="investment" className="py-32 bg-gray-900 text-white">
         <div className="max-w-5xl mx-auto px-4 text-center">
           <p className="text-sm font-medium tracking-widest uppercase text-amber-400 mb-4">INVESTMENT OPPORTUNITY</p>
@@ -225,7 +192,7 @@ function V9ElegantHome() {
         </div>
       </section>
 
-      {/* Contact Section */}
+      {{/* Contact Section */}}
       <section id="contact" className="py-32 bg-white">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <h2 className="text-4xl md:text-5xl font-['Playfair_Display'] font-semibold mb-6">
@@ -236,7 +203,7 @@ function V9ElegantHome() {
         </div>
       </section>
 
-      {/* Footer */}
+      {{/* Footer */}}
       <footer className="bg-gray-50 border-t border-gray-200 py-12">
         <div className="max-w-7xl mx-auto px-4 text-center text-sm text-gray-600">
           <p>© 2025 The Regency View Estate. All rights reserved.</p>
@@ -245,6 +212,14 @@ function V9ElegantHome() {
       </footer>
     </div>
   )
-}
+}}
 
 export default V9ElegantHome
+'''
+
+# Write the new V9 file
+with open('/home/ubuntu/regency-updated/src/versions/v9/Home.jsx', 'w') as f:
+    f.write(v9_elegant_content)
+
+print("✅ V9 Elegant theme component generated successfully!")
+print("📁 Saved to: /home/ubuntu/regency-updated/src/versions/v9/Home.jsx")
