@@ -30,6 +30,13 @@
 
 ## Recent Sessions
 
+### Session R6.1 (2025-10-16)
+
+- **ADDED:** ARCHITECTURE.md (complete project architecture documentation following ODM v11 template)
+- **CHANGED:** CHANGELOG.md (reformatted entire file to ODM v11 template with RULES and protected sections), odm.yaml (removed adrDir reference, added ARCHITECTURE.md to critical files list)
+- **FIXED:** Removed docs/adrs/ directory (not part of ODM v11), corrected migration to match actual ODM v11 specifications
+- **COMMIT:** Fix ODM v11 migration: Add ARCHITECTURE.md, remove ADRs, update CHANGELOG format
+
 ### Session R6 (2025-10-16)
 
 - **ADDED:** ARCHITECTURE.md, README.md, CHANGELOG.md, odm_ai_rules.md, .eslintrc.cjs, ODM_V11_MIGRATION_SUMMARY.md
