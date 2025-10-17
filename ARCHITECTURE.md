@@ -48,6 +48,8 @@ regency-updated/
 ├── .odm/                # ODM v11 scripts
 │   ├── start.sh
 │   ├── end.sh
+│   ├── guardian.sh
+│   ├── odm_ai_rules.md
 │   └── reports/
 ├── CHANGELOG.md         # Project changelog
 ├── ARCHITECTURE.md      # This file
@@ -148,7 +150,7 @@ regency-updated/
 
 ---
 
-**Last Updated**: 2025-10-16  
+**Last Updated**: 2025-10-17  
 **Status**: Production  
 **Phase**: Maintenance
 
