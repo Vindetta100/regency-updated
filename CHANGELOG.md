@@ -30,6 +30,13 @@
 
 ## Recent Sessions
 
+### Session 11.1 (2025-10-17)
+
+- **ADDED:** .odm/guardian.sh (security gate with secret scanning, build validation, critical file checks adapted for JavaScript/React)
+- **CHANGED:** .odm/start.sh (added AI rules reminder section lines 36-59), .odm/end.sh (replaced with complete ODM v11 version with guardian integration and compliance checklist), .pre-commit-config.yaml (replaced Python hooks with JavaScript/React hooks: ESLint, Prettier), ARCHITECTURE.md (updated .odm/ structure documentation, updated last modified date)
+- **FIXED:** Completed ODM v11 migration - moved odm_ai_rules.md from root to .odm/ folder per ODM v11 structure guidelines
+- **COMMIT:** R11.1: Complete ODM v11 migration - add guardian.sh security checks, enhance start/end scripts, fix pre-commit hooks for JavaScript, reorganize file structure
+
 ### Session 11.0 (2025-10-17)
 
 - **ADDED:** R11_SESSION_REPORT.md documenting all changes
