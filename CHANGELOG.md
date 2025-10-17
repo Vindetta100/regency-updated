@@ -30,6 +30,13 @@
 
 ## Recent Sessions
 
+### Session R10 (2025-10-16)
+
+- **ADDED:** R10_SESSION_CRASH_FIX_REPORT.md (comprehensive investigation report using parallel AI agents to analyze /8 and /9 routes)
+- **CHANGED:** App.jsx (removed V9 import line 12 and /9 route line 27)
+- **FIXED:** Website crash caused by React import errors in /9 route - removed /9 from routing; identified /8 also has React import errors (missing React import, missing ContactForm component); main website restored to working state
+- **COMMIT:** R10: Remove /9 route to fix website crash - parallel investigation identified React.useState errors in both /8 and /9; removed /9 as requested; homepage fully functional
+
 ### Session R9 (2025-10-16)
 
 - **ADDED:** V8 Rimrock theme redesign (src/versions/v8/Home.jsx - bold, commanding aesthetic with hero carousel, Montserrat bold fonts, ALL CAPS headlines, black/white high contrast), V9 V0 theme redesign (src/versions/v9/Home.jsx - elegant, refined aesthetic with asymmetric grid, Playfair Display/Montserrat fonts, generous whitespace), Google Fonts integration (Montserrat added to index.html line 14), V9 route to App.jsx (lines 12, 27), Documentation files (R9_DEVELOPMENT_PLAN.md, FONT_STRATEGY.md, rimrock_design_analysis.md, v0_design_analysis.md, media_verification.md)
