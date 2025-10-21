@@ -30,6 +30,13 @@
 
 ## Recent Sessions
 
+### Session 14.0 (2025-10-21)
+
+- **ADDED:** comparison_report.md, tercek_listing_analysis.md, our_website_analysis.md (comprehensive competitive analysis reports comparing Regency View Estate with Tercek Real Estate listing), src/versions/v1/Home.jsx.backup (backup of previous V1)
+- **CHANGED:** src/versions/v1/Home.jsx (duplicated from original/Home.jsx to create identical copy at /1 route), dist/ build files (regenerated after route change)
+- **FIXED:** None - analysis and documentation session only
+- **COMMIT:** R14: Competitive analysis - duplicated main site to /1 route, analyzed Tercek Real Estate listing presentation, created detailed comparison reports with actionable sales recommendations focusing on interactive features and agent-driven sales platform
+
 ### Session R13 (2025-10-17)
 
 - **ADDED:** R13_SESSION_REPORT.md (comprehensive multi-agent orchestration documentation), team_orchestrator_v2.py (Python script for parallel theme generation using Gemini 2.5 Flash), team_orchestrator_results.json (execution results), rimrock_estate_design_analysis.md (V2 design specs), v0_redesign_analysis.md (V3 design specs), feature/v2-rimrock-theme branch, feature/v3-v0-theme branch
