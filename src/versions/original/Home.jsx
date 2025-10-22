@@ -1105,9 +1105,9 @@ function App() {
           <div className="grid md:grid-cols-3 gap-8 mb-20">
             <Card className="bg-white/10 backdrop-blur-sm border-white/20 text-center p-8">
               <CardContent className="p-0">
-                <div className="text-4xl font-light text-amber-400 mb-2">$655</div>
+                <div className="text-4xl font-light text-amber-400 mb-2">$480</div>
                 <div className="text-white font-medium mb-4">Per Square Foot</div>
-                <p className="text-slate-300 font-light text-sm">Competitive pricing for new construction luxury homes in Happy Valley market</p>
+                <p className="text-slate-300 font-light text-sm">Exceptional value for new construction luxury homes in Happy Valley market</p>
               </CardContent>
             </Card>
             
@@ -1192,9 +1192,12 @@ function App() {
           <div className="grid md:grid-cols-2 gap-16 items-center mb-20">
             <div className="space-y-8 fade-in-up">
               <div>
-                <h3 className="text-3xl font-light text-slate-800 mb-4 tracking-wide">Educational Excellence</h3>
+                <h3 className="text-3xl font-light text-slate-800 mb-4 tracking-wide">Lifestyle & Convenience</h3>
                 <p className="text-slate-600 font-light leading-relaxed mb-4">
-                  Happy Valley's school system ranks in the top 10% statewide, with Happy Valley Elementary earning the #1 position in the North Clackamas School District.
+                  Moments from New Seasons Market's curated selections and Clackamas Town Center's premier shopping. Immerse yourself in vibrant local culture with weekly farmers markets and discover culinary delights at artisan food cart pods.
+                </p>
+                <p className="text-slate-600 font-light leading-relaxed mb-4">
+                  Happy Valley's award-winning school system ranks in the top 10% statewide, with Happy Valley Elementary earning the #1 position in the North Clackamas School District.
                 </p>
                 <div className="flex items-center text-amber-600">
                   <MapPin className="w-5 h-5 mr-2" />
