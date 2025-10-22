@@ -2,6 +2,7 @@ import { Button } from '../../../components/ui/button'
 import { Card, CardContent } from '../../../components/ui/card'
 import { Badge } from '../../../components/ui/badge'
 import ContactForm from '../../../components/ContactForm'
+import PaymentCalculator from '../../components/PaymentCalculator'
 import { MapPin, Home, Bath, Maximize, Calendar, Star, Phone, Mail, ExternalLink, ChevronLeft, ChevronRight, X, Play, Pause, Menu, Droplets, Zap, Wind, Thermometer, Wrench, Car, Lightbulb, TreePine, Mountain, Utensils, Flame } from 'lucide-react'
 import { useState, useEffect } from 'react'
 
@@ -429,7 +430,7 @@ function App() {
           </p>
           
           <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-light mb-8 sm:mb-12 text-amber-300">
-            A rare $2.685M investment opportunity in Happy Valley's most coveted location
+            A rare $2.225M investment opportunity in Happy Valley's most coveted location
           </p>
           
           <div className="flex justify-center items-center">
@@ -599,7 +600,7 @@ function App() {
               <div className="bg-gradient-to-br from-slate-800 to-slate-900 text-white rounded-full w-24 h-24 flex items-center justify-center mx-auto mb-6 shadow-xl">
                 <Home className="w-12 h-12" />
               </div>
-              <div className="text-4xl font-light text-slate-800 mb-2">4,100</div>
+              <div className="text-4xl font-light text-slate-800 mb-2">4,634</div>
               <div className="text-slate-600 font-medium tracking-wide uppercase text-sm">Square Feet</div>
             </div>
             
@@ -628,6 +629,9 @@ function App() {
               <div className="text-slate-600 font-medium tracking-wide uppercase text-sm">Built</div>
             </div>
           </div>
+
+          {/* Payment Calculator */}
+          <PaymentCalculator />
 
           {/* Enhanced Artisan Craftsmanship Section */}
           <div className="mb-32">
@@ -1101,9 +1105,9 @@ function App() {
           <div className="grid md:grid-cols-3 gap-8 mb-20">
             <Card className="bg-white/10 backdrop-blur-sm border-white/20 text-center p-8">
               <CardContent className="p-0">
-                <div className="text-4xl font-light text-amber-400 mb-2">$655</div>
+                <div className="text-4xl font-light text-amber-400 mb-2">$480</div>
                 <div className="text-white font-medium mb-4">Per Square Foot</div>
-                <p className="text-slate-300 font-light text-sm">Competitive pricing for new construction luxury homes in Happy Valley market</p>
+                <p className="text-slate-300 font-light text-sm">Exceptional value for new construction luxury homes in Happy Valley market</p>
               </CardContent>
             </Card>
             
@@ -1188,9 +1192,12 @@ function App() {
           <div className="grid md:grid-cols-2 gap-16 items-center mb-20">
             <div className="space-y-8 fade-in-up">
               <div>
-                <h3 className="text-3xl font-light text-slate-800 mb-4 tracking-wide">Educational Excellence</h3>
+                <h3 className="text-3xl font-light text-slate-800 mb-4 tracking-wide">Lifestyle & Convenience</h3>
                 <p className="text-slate-600 font-light leading-relaxed mb-4">
-                  Happy Valley's school system ranks in the top 10% statewide, with Happy Valley Elementary earning the #1 position in the North Clackamas School District.
+                  Moments from New Seasons Market's curated selections and Clackamas Town Center's premier shopping. Immerse yourself in vibrant local culture with weekly farmers markets and discover culinary delights at artisan food cart pods.
+                </p>
+                <p className="text-slate-600 font-light leading-relaxed mb-4">
+                  Happy Valley's award-winning school system ranks in the top 10% statewide, with Happy Valley Elementary earning the #1 position in the North Clackamas School District.
                 </p>
                 <div className="flex items-center text-amber-600">
                   <MapPin className="w-5 h-5 mr-2" />
@@ -1259,7 +1266,7 @@ function App() {
                 </div>
                 <div className="flex items-center space-x-4">
                   <MapPin className="w-6 h-6 text-amber-400" />
-                  <span className="text-white font-light">13193 SE Regency Vw, Happy Valley, OR 97086</span>
+                  <span className="text-white font-light">13191 SE REGENCY VIEW ST, Happy Valley, OR 97086</span>
                 </div>
               </div>
             </div>
