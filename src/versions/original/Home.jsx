@@ -2,6 +2,7 @@ import { Button } from '../../../components/ui/button'
 import { Card, CardContent } from '../../../components/ui/card'
 import { Badge } from '../../../components/ui/badge'
 import ContactForm from '../../../components/ContactForm'
+import PaymentCalculator from '../../components/PaymentCalculator'
 import { MapPin, Home, Bath, Maximize, Calendar, Star, Phone, Mail, ExternalLink, ChevronLeft, ChevronRight, X, Play, Pause, Menu, Droplets, Zap, Wind, Thermometer, Wrench, Car, Lightbulb, TreePine, Mountain, Utensils, Flame } from 'lucide-react'
 import { useState, useEffect } from 'react'
 
@@ -628,6 +629,9 @@ function App() {
               <div className="text-slate-600 font-medium tracking-wide uppercase text-sm">Built</div>
             </div>
           </div>
+
+          {/* Payment Calculator */}
+          <PaymentCalculator />
 
           {/* Enhanced Artisan Craftsmanship Section */}
           <div className="mb-32">
