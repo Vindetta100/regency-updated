@@ -429,7 +429,7 @@ function App() {
           </p>
           
           <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-light mb-8 sm:mb-12 text-amber-300">
-            A rare $2.685M investment opportunity in Happy Valley's most coveted location
+            A rare $2.225M investment opportunity in Happy Valley's most coveted location
           </p>
           
           <div className="flex justify-center items-center">
@@ -599,7 +599,7 @@ function App() {
               <div className="bg-gradient-to-br from-slate-800 to-slate-900 text-white rounded-full w-24 h-24 flex items-center justify-center mx-auto mb-6 shadow-xl">
                 <Home className="w-12 h-12" />
               </div>
-              <div className="text-4xl font-light text-slate-800 mb-2">4,100</div>
+              <div className="text-4xl font-light text-slate-800 mb-2">4,634</div>
               <div className="text-slate-600 font-medium tracking-wide uppercase text-sm">Square Feet</div>
             </div>
             
@@ -1259,7 +1259,7 @@ function App() {
                 </div>
                 <div className="flex items-center space-x-4">
                   <MapPin className="w-6 h-6 text-amber-400" />
-                  <span className="text-white font-light">13193 SE Regency Vw, Happy Valley, OR 97086</span>
+                  <span className="text-white font-light">13191 SE REGENCY VIEW ST, Happy Valley, OR 97086</span>
                 </div>
               </div>
             </div>

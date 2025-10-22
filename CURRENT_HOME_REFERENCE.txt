@@ -1,0 +1,32 @@
+CURRENT HOMEPAGE DATA FOUND:
+
+File: src/versions/original/Home.jsx (1496 lines)
+
+OUTDATED DATA TO UPDATE:
+1. Price: Line 432 - "$2.685M" → should be "$2.225M"
+2. Square Feet: Line 602 - "4,100" → should be "4,634"
+3. Address: Line 1262 - "13193 SE Regency Vw" → should be "13191 SE REGENCY VIEW ST"
+4. Bedrooms: Need to find and update to "3 (capability for 5)"
+5. Bathrooms: Need to find and update to "3.1"
+6. Days on Market: Need to find and update to "19"
+7. Price per SqFt: Need to add "$480/sqft"
+
+AGENT NAMES: No Lisa/Veronica found in current homepage (good - already removed or never added)
+
+FILE STRUCTURE:
+- Lines 1-237: Imports and photo gallery data
+- Lines 238-396: React component setup and navigation
+- Lines 397+: Hero section and main content
+
+SECTIONS IDENTIFIED:
+- Hero section starts around line 399
+- Property stats around line 600
+- Footer with address around line 1262
+
+NOTES FOR AGENTS:
+- File is 1496 lines - large React component
+- Uses Tailwind CSS for styling
+- Has luxury photo gallery with 25 images
+- Mobile responsive design
+- Multiple sections: hero, gallery, property, investment, location, contact
+
