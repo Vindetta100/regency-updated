@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
 
 // --- Image Imports ---
-import exteriorTwilight from '../../../assets/v6-photos/photo-25.jpg';
+import exteriorTwilight from '../../../assets/v6-photos/hero-from-pdf.webp';
 import kitchenMain from '../../../assets/v6-photos/photo-10.jpg';
 import livingRoomMain from '../../../assets/v6-photos/photo-21.jpg';
 import diningRoom from '../../../assets/v6-photos/photo-15.jpg';
