@@ -169,7 +169,7 @@ export default function App() {
               A Rare Fusion of Modern Luxury and Timeless Design
             </h2>
             <p className="text-lg leading-relaxed mb-6 font-sans text-gray-700">
-              Nestled in the prestigious Happy Valley, Oregon, The Regency View Estate is a testament to sophisticated living. This contemporary masterpiece, spanning 6,500 square feet, offers an unparalleled blend of innovative design and natural beauty.
+              Nestled in the prestigious Happy Valley, Oregon, The Regency View Estate is a testament to sophisticated living. This contemporary masterpiece, spanning 4,600 square feet, offers an unparalleled blend of innovative design and natural beauty.
             </p>
             <p className="text-lg leading-relaxed mb-6 font-sans text-gray-700">
               Every detail has been meticulously crafted, from the soaring ceilings and expansive windows that frame breathtaking views, to the custom finishes and smart home technology that define ultimate comfort and convenience.
