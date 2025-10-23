@@ -136,7 +136,7 @@ export default function App() {
             Where Architectural Excellence Meets Natural Beauty
           </motion.p>
           <motion.button
-            className="bg-[#BFFF00] text-black uppercase px-8 py-4 rounded-full font-bold text-lg hover:bg-opacity-90 transition-colors shadow-lg"
+            className="bg-black text-white uppercase px-8 py-4 rounded-full font-bold text-lg hover:bg-gray-800 transition-colors shadow-lg"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 1.0 }}
@@ -391,7 +391,7 @@ export default function App() {
               </div>
               <button
                 type="submit"
-                className="bg-[#BFFF00] text-black uppercase px-8 py-4 font-bold text-lg hover:bg-opacity-90 transition-colors shadow-lg w-full"
+                className="bg-black text-white uppercase px-8 py-4 font-bold text-lg hover:bg-gray-800 transition-colors shadow-lg w-full"
               >
                 Send Inquiry
               </button>
