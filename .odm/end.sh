@@ -229,11 +229,37 @@ echo "5. COMMIT (brief technical summary):"
 read -p "   > " COMMIT_MSG
 echo ""
 
+echo "6. AI SELF-ANALYSIS:"
+echo ""
+echo "   Confidence Level (1-10, where 10 is highest confidence):"
+read -p "   > " CONFIDENCE_LEVEL
+echo ""
+echo "   What went well in this session:"
+read -p "   > " WENT_WELL
+echo ""
+echo "   What needs improvement or fixing:"
+read -p "   > " NEEDS_IMPROVEMENT
+echo ""
+echo "   Merge recommendation (merge-now / fix-first / needs-review):"
+read -p "   > " MERGE_REC
+echo ""
+
+echo "7. ALIGNMENT VERIFICATION:"
+echo ""
+echo "   Do commit messages match what you described in changelog? (yes/no):"
+read -p "   > " COMMITS_ALIGN
+echo ""
+echo "   Do actual file changes match your descriptions? (yes/no):"
+read -p "   > " FILES_ALIGN
+echo ""
+echo "   Are there any undocumented changes? (yes/no):"
+read -p "   > " UNDOCUMENTED_CHANGES
+echo ""
+
 # 9. Generate consolidated validation report (enhanced format)
 echo "📋 Generating consolidated validation report..."
-REPORT_DIR=".odm/reports"
-mkdir -p "$REPORT_DIR"
-REPORT_FILE="$REPORT_DIR/VALIDATION_REPORT.md"
+REPORT_FILE="VALIDATION_REPORT.md"
+TEMP_REPORT=".odm/temp_validation_report.md"
 
 # Get Git data for validation
 MERGE_BASE=$(git merge-base HEAD origin/main 2>/dev/null || echo "$(git log --oneline | tail -1 | awk '{print $1}')")
@@ -265,9 +291,9 @@ if [ -f "package.json" ] && command -v jq &> /dev/null; then
   fi
 fi
 
-# Generate report with all sections
-cat > $REPORT_FILE <<- EOM
-# ODM v11.0 - End-of-Task Validation Report
+# Generate new report content to temp file
+cat > $TEMP_REPORT <<- EOM
+# ODM v11.2 - End-of-Task Validation Report
 
 **Date**: $(date)
 **Session**: $SESSION_NUM
@@ -312,7 +338,22 @@ $DIFF_STAT
 
 ---
 
-## 6. Deleted Files & Dependencies Analysis
+## 6. AI Self-Analysis
+- **Confidence Level:** $CONFIDENCE_LEVEL/10
+- **What Went Well:** $WENT_WELL
+- **What Needs Improvement:** $NEEDS_IMPROVEMENT
+- **Merge Recommendation:** $MERGE_REC
+
+---
+
+## 7. Alignment Verification
+- **Commits vs Changelog:** $([ "$COMMITS_ALIGN" = "yes" ] || [ "$COMMITS_ALIGN" = "y" ] && echo "✅ ALIGNED" || echo "⚠️  MISALIGNED")
+- **Files vs Descriptions:** $([ "$FILES_ALIGN" = "yes" ] || [ "$FILES_ALIGN" = "y" ] && echo "✅ ALIGNED" || echo "⚠️  MISALIGNED")
+- **Undocumented Changes:** $([ "$UNDOCUMENTED_CHANGES" = "no" ] || [ "$UNDOCUMENTED_CHANGES" = "n" ] && echo "✅ NONE" || echo "⚠️  FOUND")
+
+---
+
+## 8. Deleted Files & Dependencies Analysis
 
 ### Deleted Files
 $(if [ "$DELETED_COUNT" -gt 0 ]; then
@@ -363,10 +404,43 @@ fi)
 ---
 EOM
 
+# Preserve template section and append new report
+if [ -f "$REPORT_FILE" ]; then
+  # Extract template section (everything up to and including the separator)
+  awk '
+    /^⚠️ \*\*WARNING: DO NOT MODIFY ANYTHING ABOVE THIS LINE\*\* ⚠️$/ { 
+      print; 
+      getline; print;  # blank line
+      getline; print;  # explanation line 1
+      getline; print;  # explanation line 2
+      getline; print;  # explanation line 3
+      getline; print;  # blank line
+      getline; print;  # separator ---
+      getline; print;  # blank line
+      exit 
+    }
+    { print }
+  ' "$REPORT_FILE" > "${REPORT_FILE}.tmp"
+  
+  # Append new report content
+  echo "## Latest Validation Report" >> "${REPORT_FILE}.tmp"
+  echo "" >> "${REPORT_FILE}.tmp"
+  cat "$TEMP_REPORT" >> "${REPORT_FILE}.tmp"
+  
+  # Replace original with combined version
+  mv "${REPORT_FILE}.tmp" "$REPORT_FILE"
+else
+  # First time - just use the temp report
+  mv "$TEMP_REPORT" "$REPORT_FILE"
+fi
+
+# Clean up temp file
+rm -f "$TEMP_REPORT"
+
 echo "✅ Validation report generated: $REPORT_FILE"
 echo ""
 
-echo "6. FILES TO DELETE (comma-separated, or 'none'):"
+echo "8. FILES TO DELETE (comma-separated, or 'none'):"
 read -p "   > " FILES_TO_DELETE
 echo ""
 

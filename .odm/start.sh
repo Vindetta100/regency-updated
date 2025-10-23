@@ -43,7 +43,7 @@ echo ""
 echo "   MUST READ (in order):"
 echo "   1. 📖 ARCHITECTURE.md - Single source of truth for tech stack,"
 echo "      design patterns, and architectural decisions"
-echo "   2. 📋 .odm/odm_ai_rules.md - Development rules and principles"
+echo "   2. 📋 odm_ai_rules.md - Development rules and principles"
 echo "      you MUST follow during this session"
 echo "   3. 📝 CHANGELOG.md (shown above) - Recent changes and context"
 echo ""
@@ -60,4 +60,3 @@ echo ""
 
 echo "✅ Session started. Ready to develop!"
 echo ""
-
