@@ -191,20 +191,8 @@ export default function App() {
             </h2>
           </AnimateOnScroll>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
             <AnimateOnScroll delay={0.1}>
-              <div className="flex flex-col items-center text-center">
-                <div className="border-2 border-[#C9A961] rounded-full p-4 mb-6">
-                  <svg className="w-12 h-12 text-[#C9A961]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path>
-                  </svg>
-                </div>
-                <h3 className="font-serif text-2xl mb-2">6,500 SQ FT</h3>
-                <p className="text-gray-300 font-sans">Multi-level contemporary trophy home</p>
-              </div>
-            </AnimateOnScroll>
-
-            <AnimateOnScroll delay={0.2}>
               <div className="flex flex-col items-center text-center">
                 <div className="border-2 border-[#C9A961] rounded-full p-4 mb-6">
                   <svg className="w-12 h-12 text-[#C9A961]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -217,7 +205,7 @@ export default function App() {
               </div>
             </AnimateOnScroll>
 
-            <AnimateOnScroll delay={0.3}>
+            <AnimateOnScroll delay={0.2}>
               <div className="flex flex-col items-center text-center">
                 <div className="border-2 border-[#C9A961] rounded-full p-4 mb-6">
                   <svg className="w-12 h-12 text-[#C9A961]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -229,7 +217,7 @@ export default function App() {
               </div>
             </AnimateOnScroll>
 
-            <AnimateOnScroll delay={0.4}>
+            <AnimateOnScroll delay={0.3}>
               <div className="flex flex-col items-center text-center">
                 <div className="border-2 border-[#C9A961] rounded-full p-4 mb-6">
                   <svg className="w-12 h-12 text-[#C9A961]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
