@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
 
 // --- Image Imports ---
-import exteriorTwilight from '../../../assets/v6-photos/photo-25.jpg';
+import exteriorTwilight from '../../../assets/v6-photos/hero-from-pdf.webp';
 import kitchenMain from '../../../assets/v6-photos/photo-10.jpg';
 import livingRoomMain from '../../../assets/v6-photos/photo-21.jpg';
 import diningRoom from '../../../assets/v6-photos/photo-15.jpg';
@@ -136,7 +136,7 @@ export default function App() {
             Where Architectural Excellence Meets Natural Beauty
           </motion.p>
           <motion.button
-            className="bg-[#BFFF00] text-black uppercase px-8 py-4 rounded-full font-bold text-lg hover:bg-opacity-90 transition-colors shadow-lg"
+            className="bg-black text-white uppercase px-8 py-4 rounded-full font-bold text-lg hover:bg-gray-800 transition-colors shadow-lg"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 1.0 }}
@@ -169,7 +169,7 @@ export default function App() {
               A Rare Fusion of Modern Luxury and Timeless Design
             </h2>
             <p className="text-lg leading-relaxed mb-6 font-sans text-gray-700">
-              Nestled in the prestigious Happy Valley, Oregon, The Regency View Estate is a testament to sophisticated living. This contemporary masterpiece, spanning 6,500 square feet, offers an unparalleled blend of innovative design and natural beauty.
+              Nestled in the prestigious Happy Valley, Oregon, The Regency View Estate is a testament to sophisticated living. This contemporary masterpiece, spanning 4,600 square feet, offers an unparalleled blend of innovative design and natural beauty.
             </p>
             <p className="text-lg leading-relaxed mb-6 font-sans text-gray-700">
               Every detail has been meticulously crafted, from the soaring ceilings and expansive windows that frame breathtaking views, to the custom finishes and smart home technology that define ultimate comfort and convenience.
@@ -191,20 +191,8 @@ export default function App() {
             </h2>
           </AnimateOnScroll>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
             <AnimateOnScroll delay={0.1}>
-              <div className="flex flex-col items-center text-center">
-                <div className="border-2 border-[#C9A961] rounded-full p-4 mb-6">
-                  <svg className="w-12 h-12 text-[#C9A961]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path>
-                  </svg>
-                </div>
-                <h3 className="font-serif text-2xl mb-2">6,500 SQ FT</h3>
-                <p className="text-gray-300 font-sans">Multi-level contemporary trophy home</p>
-              </div>
-            </AnimateOnScroll>
-
-            <AnimateOnScroll delay={0.2}>
               <div className="flex flex-col items-center text-center">
                 <div className="border-2 border-[#C9A961] rounded-full p-4 mb-6">
                   <svg className="w-12 h-12 text-[#C9A961]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -217,7 +205,7 @@ export default function App() {
               </div>
             </AnimateOnScroll>
 
-            <AnimateOnScroll delay={0.3}>
+            <AnimateOnScroll delay={0.2}>
               <div className="flex flex-col items-center text-center">
                 <div className="border-2 border-[#C9A961] rounded-full p-4 mb-6">
                   <svg className="w-12 h-12 text-[#C9A961]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -229,7 +217,7 @@ export default function App() {
               </div>
             </AnimateOnScroll>
 
-            <AnimateOnScroll delay={0.4}>
+            <AnimateOnScroll delay={0.3}>
               <div className="flex flex-col items-center text-center">
                 <div className="border-2 border-[#C9A961] rounded-full p-4 mb-6">
                   <svg className="w-12 h-12 text-[#C9A961]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -256,10 +244,10 @@ export default function App() {
               Where Poetic Design Meets Uncompromising Excellence
             </h2>
             <p className="text-lg leading-relaxed mb-6 font-sans text-gray-700">
-              The interior spaces are a symphony of light, texture, and form. The gourmet kitchen, a chef's dream, features state-of-the-art appliances, custom cabinetry, and a grand island, perfect for entertaining.
+              The interior spaces are a symphony of light, texture, and form. The gourmet kitchen, a chef's dream, features professional Dacor graphite appliances, custom white oak cabinetry, and a 13-foot quartz waterfall island, perfect for entertaining.
             </p>
             <p className="text-lg leading-relaxed mb-6 font-sans text-gray-700">
-              Every room tells a story of thoughtful design, from the serene master suite with its spa-like bathroom to the dedicated private office, offering inspiring views and ultimate tranquility.
+              Every room tells a story of thoughtful design, from the serene primary suite with its spa-like bathroom featuring designer fixtures by Axor, Graff, Hansgrohe, and Duravit, to the dedicated private office with inspiring views. The home features designer lighting by Tom Dixon and Louis Poulsen, a sculptural 3-story oak staircase, and energy-efficient systems including Carrier HVAC and tankless water heating.
             </p>
             <button className="border-2 border-black text-black uppercase px-8 py-4 font-bold hover:bg-black hover:text-white transition-colors text-lg">
               Download Floor Plan
@@ -281,7 +269,7 @@ export default function App() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
               { src: diningRoom, alt: 'Elegant Dining Room', label: 'Elegant Dining Room' },
-              { src: masterBedroom, alt: 'Luxurious Master Suite', label: 'Luxurious Master Suite' },
+              { src: masterBedroom, alt: 'Luxurious Primary Suite', label: 'Luxurious Primary Suite' },
               { src: bathroomMain, alt: 'Spa-like Bathroom', label: 'Spa-like Bathroom' },
               { src: outdoorLiving, alt: 'Expansive Outdoor Living', label: 'Expansive Outdoor Living' },
               { src: privateOffice, alt: 'Inspiring Private Office', label: 'Inspiring Private Office' },
@@ -322,7 +310,7 @@ export default function App() {
               Priced for the discerning buyer, The Regency View Estate represents more than a home; it's an investment in a lifestyle of unparalleled luxury and enduring value.
             </p>
             <p className="font-serif text-5xl md:text-6xl text-[#C9A961] mb-12">
-              $2,685,000
+              $2,225,000
             </p>
           </AnimateOnScroll>
 
@@ -391,7 +379,7 @@ export default function App() {
               </div>
               <button
                 type="submit"
-                className="bg-[#BFFF00] text-black uppercase px-8 py-4 font-bold text-lg hover:bg-opacity-90 transition-colors shadow-lg w-full"
+                className="bg-black text-white uppercase px-8 py-4 font-bold text-lg hover:bg-gray-800 transition-colors shadow-lg w-full"
               >
                 Send Inquiry
               </button>
