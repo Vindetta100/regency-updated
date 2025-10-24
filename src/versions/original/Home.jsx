@@ -85,7 +85,7 @@ const luxuryPhotos = [
   {
     id: 5,
     src: kitchenMain,
-    title: "Culinary Excellence with Dacor Professional Suite",
+    title: "Culinary Excellence with Dacor Modern Series Suite",
     description: "Premium materials and artisan craftsmanship create spaces of exceptional luxury and refined living.",
     category: "kitchen"
   },
@@ -617,8 +617,8 @@ function App() {
               <div className="bg-gradient-to-br from-slate-800 to-slate-900 text-white rounded-full w-24 h-24 flex items-center justify-center mx-auto mb-6 shadow-xl">
                 <Maximize className="w-12 h-12" />
               </div>
-              <div className="text-4xl font-light text-slate-800 mb-2">7,405</div>
-              <div className="text-slate-600 font-medium tracking-wide uppercase text-sm">Lot Size (SF)</div>
+              <div className="text-4xl font-light text-slate-800 mb-2">7,400+</div>
+              <div className="text-slate-600 font-medium tracking-wide uppercase text-sm">Lot Size (SQ. FT.)</div>
             </div>
             
             <div className="text-center fade-in-up">
@@ -739,11 +739,11 @@ function App() {
                 <div className="bg-gradient-to-br from-slate-800 to-slate-900 text-white rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-6 shadow-xl">
                   <Utensils className="w-10 h-10" />
                 </div>
-                <h4 className="text-2xl font-medium text-slate-800 mb-4 tracking-wide">Dacor Professional Series</h4>
+                <h4 className="text-2xl font-medium text-slate-800 mb-4 tracking-wide">Dacor Modern Series</h4>
                 <ul className="text-slate-600 font-light space-y-2 text-left">
                   <li>• 48" Graphite Range with precision control</li>
                   <li>• Smart Wall Oven & Microwave</li>
-                  <li>• Column Refrigerator & Freezer</li>
+                  <li>• 36" Column Refrigerator & Freezer</li>
                   <li>• Column Wine Cooler with dual zones</li>
                   <li>• Professional-grade cooking power</li>
                 </ul>
@@ -966,7 +966,7 @@ function App() {
               <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-8 border border-white/10">
                 <div className="flex items-center mb-4">
                   <TreePine className="w-8 h-8 text-amber-400 mr-4" />
-                  <h3 className="text-2xl font-light text-white tracking-wide">8-Foot Stacking Sliders</h3>
+                  <h3 className="text-2xl font-light text-white tracking-wide">9-Foot Stacking Sliders</h3>
                 </div>
                 <p className="text-slate-300 font-light leading-relaxed">
                   True indoor-outdoor dining with disappearing boundaries. When fully opened, the dining room extends seamlessly onto the patio, creating a single entertaining space.
@@ -1262,7 +1262,7 @@ function App() {
                 </div>
                 <div className="flex items-center space-x-4">
                   <Mail className="w-6 h-6 text-amber-400" />
-                  <span className="text-white font-light">info@theregencyviewestate.com</span>
+                  <span className="text-white font-light">regencyviewestate@gmail.com</span>
                 </div>
                 <div className="flex items-center space-x-4">
                   <MapPin className="w-6 h-6 text-amber-400" />
