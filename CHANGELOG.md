@@ -1,3 +1,29 @@
+### Session 17 (2025-10-23)
+
+**SUMMARY:** Implemented 7 design and content updates to align website with PDF flyer specifications
+
+**ADDED:**
+- New hero image from PDF flyer (hero-from-pdf.webp) - modern black cedar exterior at twilight
+
+**CHANGED:**
+- tailwind.config.js:51 - Changed title font from Playfair Display to Montserrat for cleaner, modern aesthetic
+- src/versions/v3/Home.jsx:5 - Updated hero image import to use PDF flyer main image
+- src/versions/v3/Home.jsx:172 - Updated home size from 6,500 to 4,600 square feet
+- src/versions/v3/Home.jsx:139 - Removed neon green (#BFFF00) accent, replaced with black buttons
+- src/versions/v3/Home.jsx:394 - Updated contact form button to black/white color scheme
+- src/versions/v3/Home.jsx:325 - Updated price from $2,685,000 to $2,225,000
+- src/versions/v3/Home.jsx:194 - Changed feature cards grid from 4 columns to 3 columns
+- src/versions/v3/Home.jsx:247 - Enhanced kitchen description with specific details: Dacor graphite appliances, white oak cabinetry, 13-foot quartz waterfall island
+- src/versions/v3/Home.jsx:250 - Added designer brands: Axor, Graff, Hansgrohe, Duravit (plumbing), Tom Dixon and Louis Poulsen (lighting)
+- src/versions/v3/Home.jsx:250 - Added system details: 3-story oak staircase, Carrier HVAC, tankless water heating
+- src/versions/v3/Home.jsx:272 - Changed "Master Suite" to "Primary Suite" for modern terminology
+
+**FIXED:**
+- Removed 6,500 SQ FT reference from "Experience Unrivaled Luxury" section per PDF specifications
+- Aligned all property details and descriptions with PDF flyer accuracy
+
+**COMMIT:** "Merge Session 17: PDF flyer updates - 7 design and content changes for /3"
+
 # Changelog
 
 ## RULES
