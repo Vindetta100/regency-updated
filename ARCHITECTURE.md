@@ -107,6 +107,46 @@ regency-updated/
 
 ---
 
+## Development Workflow
+
+### Testing Checklist for Future Merges
+
+When merging feature branches, follow this systematic approach to ensure site stability:
+
+#### Pre-Merge Checks
+- [ ] Review branch commit history
+- [ ] Check for merge conflicts with main
+- [ ] Verify branch is up-to-date with main
+
+#### Merge Process
+```bash
+# 1. Ensure main is current
+git checkout main
+git pull origin main
+
+# 2. Create backup branch
+git checkout -b backup-pre-merge-$(date +%Y%m%d)
+git checkout main
+
+# 3. Merge with no-ff to preserve history
+git merge --no-ff feature/branch-name
+
+# 4. Test locally
+pnpm install
+pnpm dev
+```
+
+#### Post-Merge Testing
+- [ ] Site loads without errors
+- [ ] Navigation works across all pages
+- [ ] Forms submit correctly
+- [ ] Images load properly
+- [ ] Responsive design intact
+- [ ] Console has no critical errors
+- [ ] Build succeeds: `pnpm build`
+
+---
+
 ## Environment Configuration
 
 - **Env Variables**: None required for static site
