@@ -244,10 +244,10 @@ export default function App() {
               Where Poetic Design Meets Uncompromising Excellence
             </h2>
             <p className="text-lg leading-relaxed mb-6 font-sans text-gray-700">
-              The interior spaces are a symphony of light, texture, and form. The gourmet kitchen, a chef's dream, features state-of-the-art appliances, custom cabinetry, and a grand island, perfect for entertaining.
+              The interior spaces are a symphony of light, texture, and form. The gourmet kitchen, a chef's dream, features professional Dacor graphite appliances, custom white oak cabinetry, and a 13-foot quartz waterfall island, perfect for entertaining.
             </p>
             <p className="text-lg leading-relaxed mb-6 font-sans text-gray-700">
-              Every room tells a story of thoughtful design, from the serene master suite with its spa-like bathroom to the dedicated private office, offering inspiring views and ultimate tranquility.
+              Every room tells a story of thoughtful design, from the serene primary suite with its spa-like bathroom featuring designer fixtures by Axor, Graff, Hansgrohe, and Duravit, to the dedicated private office with inspiring views. The home features designer lighting by Tom Dixon and Louis Poulsen, a sculptural 3-story oak staircase, and energy-efficient systems including Carrier HVAC and tankless water heating.
             </p>
             <button className="border-2 border-black text-black uppercase px-8 py-4 font-bold hover:bg-black hover:text-white transition-colors text-lg">
               Download Floor Plan
@@ -269,7 +269,7 @@ export default function App() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
               { src: diningRoom, alt: 'Elegant Dining Room', label: 'Elegant Dining Room' },
-              { src: masterBedroom, alt: 'Luxurious Master Suite', label: 'Luxurious Master Suite' },
+              { src: masterBedroom, alt: 'Luxurious Primary Suite', label: 'Luxurious Primary Suite' },
               { src: bathroomMain, alt: 'Spa-like Bathroom', label: 'Spa-like Bathroom' },
               { src: outdoorLiving, alt: 'Expansive Outdoor Living', label: 'Expansive Outdoor Living' },
               { src: privateOffice, alt: 'Inspiring Private Office', label: 'Inspiring Private Office' },
