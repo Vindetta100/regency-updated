@@ -30,6 +30,34 @@
 
 ## Recent Sessions
 
+### Session 20 (2025-10-25)
+**SUMMARY:** Added premium gallery carousel section and fixed CHANGELOG formatting structure
+
+**ADDED:**
+- Gallery Showcase section between Architectural Mastery and Owner's Tour sections
+- Premium 3x2 photo grid (6 photos: 3 top, 3 bottom) with carousel-style interaction
+- High-end hover effects: scale transform, zoom icon with backdrop blur, smooth title overlays
+- Click-to-enlarge functionality opening full-screen gallery modal with 2x enlarged view
+- "View Complete Gallery" link with photo count badge (25 photos)
+- SESSION_20_SUMMARY.md - Complete session documentation
+- SESSION_20_TESTING_NOTES.md - Testing verification notes
+
+**CHANGED:**
+- src/versions/original/Home.jsx:517-621 - Added Gallery Showcase section with 6-photo grid layout
+- src/versions/v1/Home.jsx - Synchronized with original version for consistency
+- CHANGELOG.md:1-31 - Restructured to proper ODM v11 format (RULES → TEMPLATE → WARNING → Recent Sessions)
+- dist/assets/index-c0f796f3.js - Regenerated build with new gallery section (358.01 kB)
+- dist/assets/index-0deac12c.css - Updated styles for gallery carousel (84.89 kB)
+- dist/index.html - Updated with new asset references
+
+**FIXED:**
+- CHANGELOG.md structure: Moved RULES section back to top of document
+- CHANGELOG.md structure: Session 19 now correctly positioned as first entry in Recent Sessions
+- Gallery button removed: Replaced with dedicated section showing 6 curated photos
+- User experience: Gallery now has its own prominent section instead of hidden behind button
+
+**COMMIT:** "Session 20: Add premium gallery carousel section and fix CHANGELOG formatting"
+
 ### Session 19 (2025-10-24)
 **SUMMARY:** PDF alignment fixes - corrected 5 critical discrepancies between website and PDF brochure for launch readiness
 
