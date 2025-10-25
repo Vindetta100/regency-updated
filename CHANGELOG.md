@@ -1,56 +1,3 @@
-### Session 17 (2025-10-23)
-
-**SUMMARY:** Implemented 7 design and content updates to align website with PDF flyer specifications
-
-**ADDED:**
-- New hero image from PDF flyer (hero-from-pdf.webp) - modern black cedar exterior at twilight
-
-**CHANGED:**
-- tailwind.config.js:51 - Changed title font from Playfair Display to Montserrat for cleaner, modern aesthetic
-- src/versions/v3/Home.jsx:5 - Updated hero image import to use PDF flyer main image
-- src/versions/v3/Home.jsx:172 - Updated home size from 6,500 to 4,600 square feet
-- src/versions/v3/Home.jsx:139 - Removed neon green (#BFFF00) accent, replaced with black buttons
-- src/versions/v3/Home.jsx:394 - Updated contact form button to black/white color scheme
-- src/versions/v3/Home.jsx:325 - Updated price from $2,685,000 to $2,225,000
-- src/versions/v3/Home.jsx:194 - Changed feature cards grid from 4 columns to 3 columns
-- src/versions/v3/Home.jsx:247 - Enhanced kitchen description with specific details: Dacor graphite appliances, white oak cabinetry, 13-foot quartz waterfall island
-- src/versions/v3/Home.jsx:250 - Added designer brands: Axor, Graff, Hansgrohe, Duravit (plumbing), Tom Dixon and Louis Poulsen (lighting)
-- src/versions/v3/Home.jsx:250 - Added system details: 3-story oak staircase, Carrier HVAC, tankless water heating
-- src/versions/v3/Home.jsx:272 - Changed "Master Suite" to "Primary Suite" for modern terminology
-
-**FIXED:**
-- Removed 6,500 SQ FT reference from "Experience Unrivaled Luxury" section per PDF specifications
-- Aligned all property details and descriptions with PDF flyer accuracy
-
-**COMMIT:** "Merge Session 17: PDF flyer updates - 7 design and content changes for /3"
-
-### Session 19 (2025-10-24)
-**SUMMARY:** PDF alignment fixes - corrected 5 critical discrepancies between website and PDF brochure for launch readiness
-
-**ADDED:**
-- COMPARISON_REPORT_SESSION19.md - Comprehensive PDF vs website comparison analysis
-- PRE_LAUNCH_CHECKLIST_SESSION19.md - Complete technical and content verification checklist
-- EXECUTIVE_SUMMARY_SESSION19.md - Stakeholder-ready summary with action plan
-
-**CHANGED:**
-- src/versions/original/Home.jsx:88 - Updated gallery title from "Dacor Professional Suite" to "Dacor Modern Series Suite"
-- src/versions/original/Home.jsx:620 - Changed lot size from "7,405" to "7,400+" to match PDF format
-- src/versions/original/Home.jsx:621 - Updated lot size label from "Lot Size (SF)" to "Lot Size (SQ. FT.)"
-- src/versions/original/Home.jsx:742 - Changed appliance series from "Dacor Professional Series" to "Dacor Modern Series"
-- src/versions/original/Home.jsx:746 - Added size specification "36\"" to Column Refrigerator & Freezer
-- src/versions/original/Home.jsx:969 - Updated stacking sliders from "8-Foot" to "9-Foot" to match PDF specification
-- src/versions/original/Home.jsx:1265 - Changed email from "info@theregencyviewestate.com" to "regencyviewestate@gmail.com"
-- src/versions/v1/Home.jsx - Applied identical 7 changes as original version for consistency
-
-**FIXED:**
-- Stacking sliders specification now correctly shows 9-foot (was incorrectly 8-foot)
-- Appliance series name now correctly identifies Dacor Modern Series (was incorrectly Professional Series)
-- Contact email updated to correct Gmail address per stakeholder requirements
-- Lot size format now matches PDF presentation style (7,400+ vs specific 7,405)
-- Refrigerator specification now includes size detail (36\") matching PDF completeness
-
-**COMMIT:** "Merge Session 19: PDF alignment fixes for launch readiness"
-
 # Changelog
 
 ## RULES
@@ -82,6 +29,59 @@
 ---
 
 ## Recent Sessions
+
+### Session 19 (2025-10-24)
+**SUMMARY:** PDF alignment fixes - corrected 5 critical discrepancies between website and PDF brochure for launch readiness
+
+**ADDED:**
+- COMPARISON_REPORT_SESSION19.md - Comprehensive PDF vs website comparison analysis
+- PRE_LAUNCH_CHECKLIST_SESSION19.md - Complete technical and content verification checklist
+- EXECUTIVE_SUMMARY_SESSION19.md - Stakeholder-ready summary with action plan
+
+**CHANGED:**
+- src/versions/original/Home.jsx:88 - Updated gallery title from "Dacor Professional Suite" to "Dacor Modern Series Suite"
+- src/versions/original/Home.jsx:620 - Changed lot size from "7,405" to "7,400+" to match PDF format
+- src/versions/original/Home.jsx:621 - Updated lot size label from "Lot Size (SF)" to "Lot Size (SQ. FT.)"
+- src/versions/original/Home.jsx:742 - Changed appliance series from "Dacor Professional Series" to "Dacor Modern Series"
+- src/versions/original/Home.jsx:746 - Added size specification "36\"" to Column Refrigerator & Freezer
+- src/versions/original/Home.jsx:969 - Updated stacking sliders from "8-Foot" to "9-Foot" to match PDF specification
+- src/versions/original/Home.jsx:1265 - Changed email from "info@theregencyviewestate.com" to "regencyviewestate@gmail.com"
+- src/versions/v1/Home.jsx - Applied identical 7 changes as original version for consistency
+
+**FIXED:**
+- Stacking sliders specification now correctly shows 9-foot (was incorrectly 8-foot)
+- Appliance series name now correctly identifies Dacor Modern Series (was incorrectly Professional Series)
+- Contact email updated to correct Gmail address per stakeholder requirements
+- Lot size format now matches PDF presentation style (7,400+ vs specific 7,405)
+- Refrigerator specification now includes size detail (36\") matching PDF completeness
+
+**COMMIT:** "Merge Session 19: PDF alignment fixes for launch readiness"
+
+### Session 17 (2025-10-23)
+
+**SUMMARY:** Implemented 7 design and content updates to align website with PDF flyer specifications
+
+**ADDED:**
+- New hero image from PDF flyer (hero-from-pdf.webp) - modern black cedar exterior at twilight
+
+**CHANGED:**
+- tailwind.config.js:51 - Changed title font from Playfair Display to Montserrat for cleaner, modern aesthetic
+- src/versions/v3/Home.jsx:5 - Updated hero image import to use PDF flyer main image
+- src/versions/v3/Home.jsx:172 - Updated home size from 6,500 to 4,600 square feet
+- src/versions/v3/Home.jsx:139 - Removed neon green (#BFFF00) accent, replaced with black buttons
+- src/versions/v3/Home.jsx:394 - Updated contact form button to black/white color scheme
+- src/versions/v3/Home.jsx:325 - Updated price from $2,685,000 to $2,225,000
+- src/versions/v3/Home.jsx:194 - Changed feature cards grid from 4 columns to 3 columns
+- src/versions/v3/Home.jsx:247 - Enhanced kitchen description with specific details: Dacor graphite appliances, white oak cabinetry, 13-foot quartz waterfall island
+- src/versions/v3/Home.jsx:250 - Added designer brands: Axor, Graff, Hansgrohe, Duravit (plumbing), Tom Dixon and Louis Poulsen (lighting)
+- src/versions/v3/Home.jsx:250 - Added system details: 3-story oak staircase, Carrier HVAC, tankless water heating
+- src/versions/v3/Home.jsx:272 - Changed "Master Suite" to "Primary Suite" for modern terminology
+
+**FIXED:**
+- Removed 6,500 SQ FT reference from "Experience Unrivaled Luxury" section per PDF specifications
+- Aligned all property details and descriptions with PDF flyer accuracy
+
+**COMMIT:** "Merge Session 17: PDF flyer updates - 7 design and content changes for /3"
 
 ### Session 14.0 (2025-10-21)
 

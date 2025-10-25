@@ -514,6 +514,110 @@ function App() {
         </div>
       </section>
 
+      {/* Premium Gallery Carousel Section */}
+      <section className="py-16 sm:py-24 md:py-32 bg-gradient-to-br from-slate-50 via-white to-slate-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12 sm:mb-16 fade-in-up">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-light text-slate-800 mb-4 sm:mb-6 tracking-wide">
+              GALLERY <span className="italic text-amber-600">SHOWCASE</span>
+            </h2>
+            <p className="text-lg sm:text-xl text-slate-600 font-light leading-relaxed max-w-4xl mx-auto">
+              Explore the Finest Details of Luxury Living
+            </p>
+          </div>
+
+          {/* 6-Photo Grid with Carousel Effect */}
+          <div className="grid grid-cols-3 gap-4 sm:gap-6 md:gap-8 max-w-6xl mx-auto">
+            {/* Top Row - 3 Photos */}
+            {luxuryPhotos.slice(0, 3).map((photo, index) => (
+              <div 
+                key={photo.id}
+                className="relative group cursor-pointer overflow-hidden rounded-xl sm:rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:scale-105"
+                onClick={() => {
+                  setCurrentPhoto(index);
+                  setIsGalleryOpen(true);
+                }}
+              >
+                <div className="relative" style={{ paddingBottom: '75%' }}>
+                  <img 
+                    src={photo.src} 
+                    alt={photo.title}
+                    className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                  />
+                  {/* Elegant Overlay */}
+                  <div className="absolute inset-0 bg-gradient-to-t from-slate-900/80 via-slate-900/40 to-transparent opacity-60 group-hover:opacity-40 transition-opacity duration-500"></div>
+                  
+                  {/* Zoom Icon */}
+                  <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-500">
+                    <div className="bg-white/95 backdrop-blur-sm rounded-full p-4 sm:p-6 shadow-2xl transform scale-75 group-hover:scale-100 transition-transform duration-500">
+                      <Maximize className="w-6 h-6 sm:w-8 sm:h-8 text-slate-800" />
+                    </div>
+                  </div>
+                  
+                  {/* Title Overlay */}
+                  <div className="absolute bottom-0 left-0 right-0 p-3 sm:p-4 md:p-6 transform translate-y-2 group-hover:translate-y-0 transition-transform duration-500">
+                    <h3 className="text-white text-xs sm:text-sm md:text-base lg:text-lg font-light tracking-wide leading-tight">
+                      {photo.title}
+                    </h3>
+                  </div>
+                </div>
+              </div>
+            ))}
+            
+            {/* Bottom Row - 3 Photos */}
+            {luxuryPhotos.slice(3, 6).map((photo, index) => (
+              <div 
+                key={photo.id}
+                className="relative group cursor-pointer overflow-hidden rounded-xl sm:rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:scale-105"
+                onClick={() => {
+                  setCurrentPhoto(index + 3);
+                  setIsGalleryOpen(true);
+                }}
+              >
+                <div className="relative" style={{ paddingBottom: '75%' }}>
+                  <img 
+                    src={photo.src} 
+                    alt={photo.title}
+                    className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                  />
+                  {/* Elegant Overlay */}
+                  <div className="absolute inset-0 bg-gradient-to-t from-slate-900/80 via-slate-900/40 to-transparent opacity-60 group-hover:opacity-40 transition-opacity duration-500"></div>
+                  
+                  {/* Zoom Icon */}
+                  <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-500">
+                    <div className="bg-white/95 backdrop-blur-sm rounded-full p-4 sm:p-6 shadow-2xl transform scale-75 group-hover:scale-100 transition-transform duration-500">
+                      <Maximize className="w-6 h-6 sm:w-8 sm:h-8 text-slate-800" />
+                    </div>
+                  </div>
+                  
+                  {/* Title Overlay */}
+                  <div className="absolute bottom-0 left-0 right-0 p-3 sm:p-4 md:p-6 transform translate-y-2 group-hover:translate-y-0 transition-transform duration-500">
+                    <h3 className="text-white text-xs sm:text-sm md:text-base lg:text-lg font-light tracking-wide leading-tight">
+                      {photo.title}
+                    </h3>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          {/* View All Link */}
+          <div className="text-center mt-12 sm:mt-16">
+            <button
+              onClick={() => {
+                setCurrentPhoto(0);
+                setIsGalleryOpen(true);
+              }}
+              className="group inline-flex items-center text-slate-600 hover:text-amber-600 text-base sm:text-lg font-light tracking-wide transition-all duration-300"
+            >
+              <span>View Complete Gallery</span>
+              <span className="ml-2 text-sm bg-slate-200 group-hover:bg-amber-100 px-3 py-1 rounded-full transition-colors duration-300">{luxuryPhotos.length}</span>
+              <ExternalLink className="ml-2 w-4 h-4 sm:w-5 sm:h-5 transform group-hover:translate-x-1 transition-transform duration-300" />
+            </button>
+          </div>
+        </div>
+      </section>
+
       {/* Owner's Tour Section */}
       <section className="py-16 sm:py-24 md:py-32 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
