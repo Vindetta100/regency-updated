@@ -30,6 +30,38 @@
 
 ## Recent Sessions
 
+### Session 20.1 (2025-10-25)
+**SUMMARY:** Enhanced gallery carousel with luxury navigation and removed visual clutter for million-dollar listing quality
+
+**ADDED:**
+- Premium carousel dot navigation (5 dots for 25 photos / 6 per page)
+- Luxury dot indicators: active dot with amber gradient glow (w-12 h-3), inactive dots with hover scale (w-3 h-3)
+- Carousel state management with carouselPage state variable
+- Dynamic photo slicing based on carousel page (page * 6 to page * 6 + 6)
+- SESSION_20.1_REFINEMENTS.md - Complete refinement documentation
+
+**CHANGED:**
+- src/versions/original/Home.jsx:246 - Added carouselPage state variable for carousel navigation
+- src/versions/original/Home.jsx:522-577 - Updated photo grid to use dynamic slicing based on carouselPage
+- src/versions/original/Home.jsx:580-594 - Added luxury carousel dots navigation component
+- src/versions/original/Home.jsx:538,567 - Enhanced hover overlay fade from 60%→40% to 60%→30% (more dramatic)
+- src/versions/v1/Home.jsx - Synchronized with original version for consistency
+- dist/assets/index-e4e9bdad.js - Regenerated build with carousel navigation (356.20 kB)
+- dist/assets/index-2f6fd31f.css - Updated styles for dot navigation (85.07 kB)
+
+**REMOVED:**
+- src/versions/original/Home.jsx:502-513 - VIEW COMPLETE GALLERY button from Architectural Mastery section
+- src/versions/original/Home.jsx:615 - Arrow icon (ExternalLink) from "View Complete Gallery 25" link
+- src/versions/original/Home.jsx:550-555,586-591 - White circle zoom icon on photo hover (kept zoom effect)
+
+**FIXED:**
+- Visual clutter: Removed ugly white circle icon and arrow icon for cleaner aesthetic
+- Navigation UX: Added intuitive dot indicators for exploring all 25 photos across 5 pages
+- Hover experience: More dramatic photo reveals with enhanced overlay fade (30% vs 40%)
+- Redundancy: Removed duplicate gallery button from Architectural Mastery section
+
+**COMMIT:** "Session 20.1: Enhanced gallery carousel with luxury navigation"
+
 ### Session 20 (2025-10-25)
 **SUMMARY:** Added premium gallery carousel section and fixed CHANGELOG formatting structure
 
