@@ -243,6 +243,7 @@ function App() {
   const [isVideoPlaying, setIsVideoPlaying] = useState(true)
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
   const [isAutoRotating, setIsAutoRotating] = useState(true)
+  const [carouselPage, setCarouselPage] = useState(0) // For gallery showcase carousel
 
   // Auto-rotation effect for hero gallery
   useEffect(() => {
@@ -499,18 +500,7 @@ function App() {
             </div>
           </div>
 
-          <div className="text-center">
-            <Button 
-              onClick={() => {
-                setCurrentPhoto(0); // Start at photo 1
-                setIsGalleryOpen(true);
-              }}
-              className="w-full sm:w-auto bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-white px-8 sm:px-12 py-3 sm:py-4 text-base sm:text-lg font-medium tracking-wide shadow-2xl hover:shadow-3xl transition-all duration-300 transform hover:scale-105"
-            >
-              VIEW COMPLETE GALLERY
-              <span className="ml-2 bg-white/20 px-2 py-1 rounded text-sm">{luxuryPhotos.length}</span>
-            </Button>
-          </div>
+
         </div>
       </section>
 
@@ -527,14 +517,14 @@ function App() {
           </div>
 
           {/* 6-Photo Grid with Carousel Effect */}
-          <div className="grid grid-cols-3 gap-4 sm:gap-6 md:gap-8 max-w-6xl mx-auto">
+          <div className="grid grid-cols-3 gap-4 sm:gap-6 md:gap-8 max-w-6xl mx-auto mb-8 sm:mb-12">
             {/* Top Row - 3 Photos */}
-            {luxuryPhotos.slice(0, 3).map((photo, index) => (
+            {luxuryPhotos.slice(carouselPage * 6, carouselPage * 6 + 3).map((photo, index) => (
               <div 
                 key={photo.id}
                 className="relative group cursor-pointer overflow-hidden rounded-xl sm:rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:scale-105"
                 onClick={() => {
-                  setCurrentPhoto(index);
+                  setCurrentPhoto(carouselPage * 6 + index);
                   setIsGalleryOpen(true);
                 }}
               >
@@ -545,14 +535,7 @@ function App() {
                     className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                   />
                   {/* Elegant Overlay */}
-                  <div className="absolute inset-0 bg-gradient-to-t from-slate-900/80 via-slate-900/40 to-transparent opacity-60 group-hover:opacity-40 transition-opacity duration-500"></div>
-                  
-                  {/* Zoom Icon */}
-                  <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-500">
-                    <div className="bg-white/95 backdrop-blur-sm rounded-full p-4 sm:p-6 shadow-2xl transform scale-75 group-hover:scale-100 transition-transform duration-500">
-                      <Maximize className="w-6 h-6 sm:w-8 sm:h-8 text-slate-800" />
-                    </div>
-                  </div>
+                  <div className="absolute inset-0 bg-gradient-to-t from-slate-900/80 via-slate-900/40 to-transparent opacity-60 group-hover:opacity-30 transition-opacity duration-500"></div>
                   
                   {/* Title Overlay */}
                   <div className="absolute bottom-0 left-0 right-0 p-3 sm:p-4 md:p-6 transform translate-y-2 group-hover:translate-y-0 transition-transform duration-500">
@@ -565,12 +548,12 @@ function App() {
             ))}
             
             {/* Bottom Row - 3 Photos */}
-            {luxuryPhotos.slice(3, 6).map((photo, index) => (
+            {luxuryPhotos.slice(carouselPage * 6 + 3, carouselPage * 6 + 6).map((photo, index) => (
               <div 
                 key={photo.id}
                 className="relative group cursor-pointer overflow-hidden rounded-xl sm:rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:scale-105"
                 onClick={() => {
-                  setCurrentPhoto(index + 3);
+                  setCurrentPhoto(carouselPage * 6 + index + 3);
                   setIsGalleryOpen(true);
                 }}
               >
@@ -581,14 +564,7 @@ function App() {
                     className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                   />
                   {/* Elegant Overlay */}
-                  <div className="absolute inset-0 bg-gradient-to-t from-slate-900/80 via-slate-900/40 to-transparent opacity-60 group-hover:opacity-40 transition-opacity duration-500"></div>
-                  
-                  {/* Zoom Icon */}
-                  <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-500">
-                    <div className="bg-white/95 backdrop-blur-sm rounded-full p-4 sm:p-6 shadow-2xl transform scale-75 group-hover:scale-100 transition-transform duration-500">
-                      <Maximize className="w-6 h-6 sm:w-8 sm:h-8 text-slate-800" />
-                    </div>
-                  </div>
+                  <div className="absolute inset-0 bg-gradient-to-t from-slate-900/80 via-slate-900/40 to-transparent opacity-60 group-hover:opacity-30 transition-opacity duration-500"></div>
                   
                   {/* Title Overlay */}
                   <div className="absolute bottom-0 left-0 right-0 p-3 sm:p-4 md:p-6 transform translate-y-2 group-hover:translate-y-0 transition-transform duration-500">
@@ -601,8 +577,24 @@ function App() {
             ))}
           </div>
 
-          {/* View All Link */}
-          <div className="text-center mt-12 sm:mt-16">
+          {/* Luxury Carousel Dots Navigation */}
+          <div className="flex items-center justify-center gap-3 mb-8 sm:mb-12">
+            {Array.from({ length: Math.ceil(luxuryPhotos.length / 6) }).map((_, pageIndex) => (
+              <button
+                key={pageIndex}
+                onClick={() => setCarouselPage(pageIndex)}
+                className={`transition-all duration-500 ease-out ${
+                  pageIndex === carouselPage
+                    ? 'w-12 h-3 bg-gradient-to-r from-amber-500 to-amber-600 shadow-lg shadow-amber-500/50'
+                    : 'w-3 h-3 bg-slate-300 hover:bg-slate-400 hover:scale-125'
+                } rounded-full`}
+                aria-label={`View gallery page ${pageIndex + 1}`}
+              />
+            ))}
+          </div>
+
+          {/* View Complete Gallery Link */}
+          <div className="text-center">
             <button
               onClick={() => {
                 setCurrentPhoto(0);
@@ -612,7 +604,6 @@ function App() {
             >
               <span>View Complete Gallery</span>
               <span className="ml-2 text-sm bg-slate-200 group-hover:bg-amber-100 px-3 py-1 rounded-full transition-colors duration-300">{luxuryPhotos.length}</span>
-              <ExternalLink className="ml-2 w-4 h-4 sm:w-5 sm:h-5 transform group-hover:translate-x-1 transition-transform duration-300" />
             </button>
           </div>
         </div>
