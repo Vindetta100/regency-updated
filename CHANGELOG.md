@@ -30,6 +30,32 @@
 
 ## Recent Sessions
 
+### Session 22 (2025-10-27)
+**SUMMARY:** Updated photo gallery with new optimized photos while protecting homepage section photos
+
+**ADDED:**
+- assets/protected-homepage-photos/ - Protected backup directory for homepage section photos (28 photos)
+- .odm/reports/session-22-photo-update-verification.md - Complete verification documentation
+- 19 new/updated gallery photos (photo-26 through photo-46) from regency-photos-optimized.zip
+
+**CHANGED:**
+- assets/v6-photos/photo-26.jpg through photo-46.jpg - Updated with new optimized versions
+- All photos used in homepage sections (hero, architectural mastery, property details) preserved
+- Gallery carousel now displays updated photos across all 5 pages
+
+**PROTECTED:**
+- photo-25.jpg (exteriorTwilight) - Used in hero and architectural sections
+- photo-10.jpg (kitchenMain) - Used in property details
+- photo-21.jpg (livingRoomMain) - Used in gallery and sections
+- photo-15.jpg (diningRoom) - Used in gallery
+- photo-19.jpg (masterBedroom) - Used in gallery
+- photo-08.jpg through photo-24.jpg - Various homepage sections
+- photo-47.jpg (exteriorFrontDay) - Main exterior shot
+- photo-30.jpg, photo-31.jpg - Neighborhood context photos
+- photo-01.jpg through photo-05.jpg - Floor plans and technical drawings
+
+**COMMIT:** Update photo gallery with 19 new optimized photos while preserving all homepage section photos
+
 ### Session 20.1 (2025-10-25)
 **SUMMARY:** Enhanced gallery carousel with luxury navigation and removed visual clutter for million-dollar listing quality
 
