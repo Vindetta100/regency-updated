@@ -54,27 +54,20 @@ const luxuryPhotos = [
   // Exterior Views - Showcasing Developer's Architectural Mastery
   {
     id: 1,
-    src: exteriorTwilight,
-    title: "Architectural Masterpiece at Twilight",
-    description: "Architectural mastery harmonizes with the natural forest setting, creating an exceptional luxury living experience.",
-    category: "exterior"
-  },
-  {
-    id: 2,
     src: exteriorFrontDay,
     title: "Precision-Engineered Facade",
     description: "Architectural mastery harmonizes with the natural forest setting, creating an exceptional luxury living experience.",
     category: "exterior"
   },
   {
-    id: 3,
+    id: 2,
     src: exteriorSideAngle,
     title: "Three Seamless Levels of Design",
     description: "Architectural mastery harmonizes with the natural forest setting, creating an exceptional luxury living experience.",
     category: "exterior"
   },
   {
-    id: 4,
+    id: 3,
     src: exteriorBackPatio,
     title: "Outdoor Living Zones in Cardinal Directions",
     description: "Architectural mastery harmonizes with the natural forest setting, creating an exceptional luxury living experience.",
@@ -83,77 +76,77 @@ const luxuryPhotos = [
 
   // Interior Spaces - Showcasing Artisan Craftsmanship
   {
-    id: 5,
+    id: 4,
     src: kitchenMain,
     title: "Culinary Excellence with Dacor Modern Series Suite",
     description: "Premium materials and artisan craftsmanship create spaces of exceptional luxury and refined living.",
     category: "kitchen"
   },
   {
-    id: 6,
+    id: 5,
     src: diningRoom,
     title: "Custom White Oak Cabinetry Throughout",
     description: "Premium materials and artisan craftsmanship create spaces of exceptional luxury and refined living.",
     category: "kitchen"
   },
   {
-    id: 7,
+    id: 6,
     src: livingRoomMain,
     title: "Floor-to-Ceiling Windows with Forest Views",
     description: "Premium materials and artisan craftsmanship create spaces of exceptional luxury and refined living.",
     category: "living"
   },
   {
-    id: 8,
+    id: 7,
     src: livingRoomFireplace,
     title: "See-Through Fireplace with TV Mounting",
     description: "Premium materials and artisan craftsmanship create spaces of exceptional luxury and refined living.",
     category: "living"
   },
   {
-    id: 9,
+    id: 8,
     src: masterBedroom,
     title: "Master Suite with Mountain Views",
     description: "Premium materials and artisan craftsmanship create spaces of exceptional luxury and refined living.",
     category: "bedroom"
   },
   {
-    id: 10,
+    id: 9,
     src: bathroomMain,
     title: "Designer Plumbing Fixtures by Axor & Graff",
     description: "Premium materials and artisan craftsmanship create spaces of exceptional luxury and refined living.",
     category: "bathroom"
   },
   {
-    id: 11,
+    id: 10,
     src: bathroomLuxury,
     title: "Hansgrohe & Duravit European Excellence",
     description: "Premium materials and artisan craftsmanship create spaces of exceptional luxury and refined living.",
     category: "bathroom"
   },
   {
-    id: 12,
+    id: 11,
     src: staircaseOak,
     title: "Custom Oak Stair Slat Wall with Up-Lighting",
     description: "Premium materials and artisan craftsmanship create spaces of exceptional luxury and refined living.",
     category: "living"
   },
   {
-    id: 13,
+    id: 12,
     src: closetMaster,
     title: "Custom Storage Solutions",
     description: "Premium materials and artisan craftsmanship create spaces of exceptional luxury and refined living.",
     category: "utility"
   },
   {
-    id: 14,
+    id: 13,
     src: garageInterior,
     title: "Oversized 3-Car Garage with Shop Area",
     description: "Premium materials and artisan craftsmanship create spaces of exceptional luxury and refined living.",
     category: "garage"
   },
   {
-    id: 15,
+    id: 14,
     src: mechanicalRoom,
     title: "Professional-Grade Mechanical Systems",
     description: "Premium materials and artisan craftsmanship create spaces of exceptional luxury and refined living.",
@@ -162,35 +155,35 @@ const luxuryPhotos = [
 
   // Additional Luxury Details
   {
-    id: 16,
+    id: 15,
     src: bedroomSecondary,
     title: "Secondary Bedroom with Expansion Capability",
     description: "Premium materials and artisan craftsmanship create spaces of exceptional luxury and refined living.",
     category: "bedroom"
   },
   {
-    id: 17,
+    id: 16,
     src: bathroomPowder,
     title: "Powder Room with Premium Fixtures",
     description: "Premium materials and artisan craftsmanship create spaces of exceptional luxury and refined living.",
     category: "bathroom"
   },
   {
-    id: 18,
+    id: 17,
     src: laundryRoom,
     title: "Utility Spaces with Luxury Standards",
     description: "Premium materials and artisan craftsmanship create spaces of exceptional luxury and refined living.",
     category: "utility"
   },
   {
-    id: 19,
+    id: 18,
     src: officeDen,
     title: "Large Den/Office Space",
     description: "Premium materials and artisan craftsmanship create spaces of exceptional luxury and refined living.",
     category: "living"
   },
   {
-    id: 20,
+    id: 19,
     src: storageRoom,
     title: "Organized Storage Solutions",
     description: "Premium materials and artisan craftsmanship create spaces of exceptional luxury and refined living.",
@@ -199,14 +192,14 @@ const luxuryPhotos = [
 
   // Neighborhood & Context
   {
-    id: 21,
+    id: 20,
     src: neighborhoodAerial,
     title: "Happy Valley Forest Setting",
     description: "Premium materials and artisan craftsmanship create spaces of exceptional luxury and refined living.",
     category: "location"
   },
   {
-    id: 22,
+    id: 21,
     src: neighborhoodContext,
     title: "Urban Living Meets Forestry Sanctuary",
     description: "Premium materials and artisan craftsmanship create spaces of exceptional luxury and refined living.",
@@ -215,25 +208,32 @@ const luxuryPhotos = [
 
   // Technical & Plans
   {
-    id: 23,
+    id: 22,
     src: floorPlanMain,
     title: "Main Floor Architectural Plan",
     description: "Thoughtful design maximizes both functionality and aesthetic appeal in every architectural detail.",
     category: "plans"
   },
   {
-    id: 24,
+    id: 23,
     src: floorPlanUpper,
     title: "Upper Floor Private Living",
     description: "Thoughtful design maximizes both functionality and aesthetic appeal in every architectural detail.",
     category: "plans"
   },
   {
-    id: 25,
+    id: 24,
     src: floorPlanLower,
     title: "Lower Floor with Garage & Shop",
     description: "Thoughtful design maximizes both functionality and aesthetic appeal in every architectural detail.",
     category: "plans"
+  },
+  {
+    id: 25,
+    src: exteriorTwilight,
+    title: "Architectural Masterpiece at Twilight",
+    description: "Architectural mastery harmonizes with the natural forest setting, creating an exceptional luxury living experience.",
+    category: "exterior"
   }
 ]
 
@@ -534,15 +534,7 @@ function App() {
                     alt={photo.title}
                     className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                   />
-                  {/* Elegant Overlay */}
-                  <div className="absolute inset-0 bg-gradient-to-t from-slate-900/80 via-slate-900/40 to-transparent opacity-60 group-hover:opacity-30 transition-opacity duration-500"></div>
-                  
-                  {/* Title Overlay */}
-                  <div className="absolute bottom-0 left-0 right-0 p-3 sm:p-4 md:p-6 transform translate-y-2 group-hover:translate-y-0 transition-transform duration-500">
-                    <h3 className="text-white text-xs sm:text-sm md:text-base lg:text-lg font-light tracking-wide leading-tight">
-                      {photo.title}
-                    </h3>
-                  </div>
+
                 </div>
               </div>
             ))}
@@ -563,15 +555,7 @@ function App() {
                     alt={photo.title}
                     className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                   />
-                  {/* Elegant Overlay */}
-                  <div className="absolute inset-0 bg-gradient-to-t from-slate-900/80 via-slate-900/40 to-transparent opacity-60 group-hover:opacity-30 transition-opacity duration-500"></div>
-                  
-                  {/* Title Overlay */}
-                  <div className="absolute bottom-0 left-0 right-0 p-3 sm:p-4 md:p-6 transform translate-y-2 group-hover:translate-y-0 transition-transform duration-500">
-                    <h3 className="text-white text-xs sm:text-sm md:text-base lg:text-lg font-light tracking-wide leading-tight">
-                      {photo.title}
-                    </h3>
-                  </div>
+
                 </div>
               </div>
             ))}
@@ -593,19 +577,7 @@ function App() {
             ))}
           </div>
 
-          {/* View Complete Gallery Link */}
-          <div className="text-center">
-            <button
-              onClick={() => {
-                setCurrentPhoto(0);
-                setIsGalleryOpen(true);
-              }}
-              className="group inline-flex items-center text-slate-600 hover:text-amber-600 text-base sm:text-lg font-light tracking-wide transition-all duration-300"
-            >
-              <span>View Complete Gallery</span>
-              <span className="ml-2 text-sm bg-slate-200 group-hover:bg-amber-100 px-3 py-1 rounded-full transition-colors duration-300">{luxuryPhotos.length}</span>
-            </button>
-          </div>
+
         </div>
       </section>
 
@@ -1072,7 +1044,7 @@ function App() {
             <div className="relative fade-in-up">
               <div className="image-container">
                 <img 
-                  src={exteriorBackPatio} 
+                  src={exteriorTwilight} 
                   alt="Outdoor Sanctuary" 
                   className="w-full h-auto object-cover rounded-2xl shadow-2xl cropped-image"
                 />
