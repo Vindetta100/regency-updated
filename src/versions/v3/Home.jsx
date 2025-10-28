@@ -181,9 +181,9 @@ export default function App() {
                 <li><strong>Garage:</strong> Oversized 3-car with integrated shop & powder room</li>
               </ul>
             </div>
-            <button className="border-2 border-black text-black uppercase px-8 py-4 font-bold hover:bg-black hover:text-white transition-colors text-lg">
+            <a href="https://benson.tercekrealestate.com/listing-detail/1171672804/13191-SE-REGENCY-VIEW-ST-Happy-Valley-OR?featureListingName=Customized%20IAxNSkOnI&listingSort=RELEVANCE&layoutType=map&mapType=grid&page=1&pageSize=24&isSearching=true&siteId=141655&listingSource=1%2BCustomized%20IAxNSkOnI&condition=%7B%7D&uiConfig=%7B%7D&zoom=11&mapSearch=false&timeline=true&listingSortOptions=[%7B%22label%22:%22Default%22,%22value%22:%22RELEVANCE%22%7D,%7B%22label%22:%22Price-High%20To%20Low%22,%22value%22:%22PRICE_DESC%22%7D,%7B%22label%22:%22Price-Low%20To%20High%22,%22value%22:%22PRICE_ASC%22%7D,%7B%22label%22:%22Newest%20Listings%22,%22value%22:%22MLS_LIST_DATE_L_DESC%22%7D,%7B%22label%22:%22Beds%20(Most)%22,%22value%22:%22BEDROOMS_DESC%22%7D,%7B%22label%22:%22Baths%20(Most)%22,%22value%22:%22BATHS_DESC%22%7D,%7B%22label%22:%22Year%20Built%20(Newest)%22,%22value%22:%22BUILT_YEAR_DESC%22%7D,%7B%22label%22:%22Square%20Feet%20(Biggest)%22,%22value%22:%22SQFT_DESC%22%7D]&timezone=GMT-0700&source=feature_listing" target="_blank" rel="noopener noreferrer" className="border-2 border-black text-black uppercase px-8 py-4 font-bold hover:bg-black hover:text-white transition-colors text-lg inline-block">
               View Full Listing
-            </button>
+            </a>
           </AnimateOnScroll>
         </div>
       </section>
