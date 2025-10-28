@@ -337,8 +337,9 @@ export default function App() {
       <section className="py-20 md:py-32 bg-white border-t border-gray-200">
         <div className="max-w-7xl mx-auto px-4 md:px-8">
           <AnimateOnScroll>
+            <p className="text-sm uppercase tracking-widest text-gray-500 mb-4 font-sans text-center">INQUIRE NOW</p>
             <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl leading-tight mb-12 text-center">
-              Meet the Team
+              Connect with Our Team
             </h2>
           </AnimateOnScroll>
 
