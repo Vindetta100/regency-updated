@@ -166,14 +166,21 @@ export default function App() {
           <AnimateOnScroll delay={0.2} className="w-full md:w-1/2">
             <p className="text-sm uppercase tracking-widest text-gray-500 mb-4 font-sans">ARCHITECTURAL EXCELLENCE</p>
             <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl leading-tight mb-8">
-              A Rare Fusion of Modern Luxury and Timeless Design
+              A one of a kind estate showcasing fine craftsmanship where architectural mastery meets modern design, form, and function
             </h2>
             <p className="text-lg leading-relaxed mb-6 font-sans text-gray-700">
-              Nestled in the prestigious Happy Valley, Oregon, The Regency View Estate is a testament to sophisticated living. This contemporary masterpiece, spanning 4,600 square feet, offers an unparalleled blend of innovative design and natural beauty.
+              Thoughtfully carved into a hillside in the heart of Happy Valley and showcased in the 2025 Street of Dreams, this custom three-level home blends privacy with panoramic views. A striking facade of hand-selected stained cedar and smooth Hardie panels opens to interiors filled with natural light through floor-to-ceiling windows and 9-foot stacking sliders that blur the line between indoor and outdoor living.
             </p>
-            <p className="text-lg leading-relaxed mb-6 font-sans text-gray-700">
-              Every detail has been meticulously crafted, from the soaring ceilings and expansive windows that frame breathtaking views, to the custom finishes and smart home technology that define ultimate comfort and convenience.
-            </p>
+            <div className="mb-6">
+              <h3 className="font-serif text-xl mb-4">Property Specifications</h3>
+              <ul className="text-lg leading-relaxed font-sans text-gray-700 space-y-2">
+                <li><strong>Living Area:</strong> 4,634 sq. ft.</li>
+                <li><strong>Lot Size:</strong> 7,400+ sq. ft.</li>
+                <li><strong>Bedrooms:</strong> 3 (with capability for up to 5)</li>
+                <li><strong>Bathrooms:</strong> 3.5</li>
+                <li><strong>Garage:</strong> Oversized 3-car with integrated shop & powder room</li>
+              </ul>
+            </div>
             <button className="border-2 border-black text-black uppercase px-8 py-4 font-bold hover:bg-black hover:text-white transition-colors text-lg">
               View Full Listing
             </button>
@@ -196,12 +203,11 @@ export default function App() {
               <div className="flex flex-col items-center text-center">
                 <div className="border-2 border-[#C9A961] rounded-full p-4 mb-6">
                   <svg className="w-12 h-12 text-[#C9A961]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path>
                   </svg>
                 </div>
-                <h3 className="font-serif text-2xl mb-2">Expansive Grounds</h3>
-                <p className="text-gray-300 font-sans">Meticulously landscaped private estate</p>
+                <h3 className="font-serif text-2xl mb-2">Corner Lot Estate</h3>
+                <p className="text-gray-300 font-sans">7,400+ SF lot with 4,634 SF of refined interior living space</p>
               </div>
             </AnimateOnScroll>
 
@@ -212,8 +218,8 @@ export default function App() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1" d="M3 21v-4m0 0V5a2 2 0 012-2h6.5l1 1H21l-3 6 3 6h-8.5l-1-1H5a2 2 0 00-2 2zm9-13.5V9"></path>
                   </svg>
                 </div>
-                <h3 className="font-serif text-2xl mb-2">Natural Setting</h3>
-                <p className="text-gray-300 font-sans">Surrounded by mature trees and nature</p>
+                <h3 className="font-serif text-2xl mb-2">Rooftop Deck</h3>
+                <p className="text-gray-300 font-sans">Covered rooftop deck with southern mountain views and year-round entertaining patio</p>
               </div>
             </AnimateOnScroll>
 
@@ -221,11 +227,11 @@ export default function App() {
               <div className="flex flex-col items-center text-center">
                 <div className="border-2 border-[#C9A961] rounded-full p-4 mb-6">
                   <svg className="w-12 h-12 text-[#C9A961]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1" d="M9 12l2 2 4-4m5.618-4.24A1.998 1.998 0 0016 4H8a1.998 1.998 0 00-1.618 3.76A2 2 0 016 6h2c.453 0 .89.15 1.242.41L12 10l2.758-3.59A2 2 0 0118 6h2c.453 0 .89.15 1.242.41L23 9l-3 4-2 2V21a1 1 0 01-1 1H4a1 1 0 01-1-1v-4l-2-2-3-4z"></path>
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path>
                   </svg>
                 </div>
-                <h3 className="font-serif text-2xl mb-2">Privacy & Security</h3>
-                <p className="text-gray-300 font-sans">Gated entrance with advanced systems</p>
+                <h3 className="font-serif text-2xl mb-2">Architectural Design</h3>
+                <p className="text-gray-300 font-sans">Hand-selected stained cedar siding paired with clean Hardie architectural panels</p>
               </div>
             </AnimateOnScroll>
           </div>
@@ -244,10 +250,10 @@ export default function App() {
               Where Poetic Design Meets Uncompromising Excellence
             </h2>
             <p className="text-lg leading-relaxed mb-6 font-sans text-gray-700">
-              The interior spaces are a symphony of light, texture, and form. The gourmet kitchen, a chef's dream, features professional Dacor graphite appliances, custom white oak cabinetry, and a 13-foot quartz waterfall island, perfect for entertaining.
+              The gourmet kitchen centers the home with a 13-foot quartz waterfall island, custom white oak cabinetry, and professional Dacor graphite appliances including a 48" range, dual column refrigerator and freezer, and wine storage. The great room features a see-through fireplace and designer lighting by Tom Dixon and Louis Poulsen, extending to covered patios, an outdoor kitchen-ready space, fire pit, and rooftop deck with southern mountain views.
             </p>
             <p className="text-lg leading-relaxed mb-6 font-sans text-gray-700">
-              Every room tells a story of thoughtful design, from the serene primary suite with its spa-like bathroom featuring designer fixtures by Axor, Graff, Hansgrohe, and Duravit, to the dedicated private office with inspiring views. The home features designer lighting by Tom Dixon and Louis Poulsen, a sculptural 3-story oak staircase, and energy-efficient systems including Carrier HVAC and tankless water heating.
+              With 3 bedrooms and the capability for up to 5, the flexible layout includes a private primary retreat with soaking tub, double walk-in shower, and boutique-style closet, along with spa-inspired bathrooms by Duravit, Axor, Graff, and Hansgrohe. Additional highlights include a formal living room, oversized den or office, wet bar, 3-story oak staircase with integrated lighting, oversized 3-car garage with shop and powder room, tankless water heating, Carrier HVAC, and energy-efficient systems.
             </p>
             <button className="border-2 border-black text-black uppercase px-8 py-4 font-bold hover:bg-black hover:text-white transition-colors text-lg">
               Download Floor Plan
@@ -384,6 +390,56 @@ export default function App() {
                 Send Inquiry
               </button>
             </form>
+          </AnimateOnScroll>
+        </div>
+      </section>
+
+      {/* Builder and Listing Agents Section */}
+      <section className="py-20 md:py-32 bg-white border-t border-gray-200">
+        <div className="max-w-7xl mx-auto px-4 md:px-8">
+          <AnimateOnScroll>
+            <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl leading-tight mb-12 text-center">
+              Meet the Team
+            </h2>
+          </AnimateOnScroll>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-16">
+            {/* Builder Section */}
+            <AnimateOnScroll delay={0.1}>
+              <div className="bg-[#F8F8F8] p-8 text-center">
+                <h3 className="font-serif text-2xl mb-4">Builder</h3>
+                <h4 className="font-sans text-xl font-bold mb-2">Wynn Design | Build</h4>
+                <p className="text-gray-700 mb-4">Justin Nguyen, Design Principal</p>
+                <p className="text-gray-700">Phone: 503.764.8569</p>
+                <p className="text-gray-700">Email: wynndesign@outlook.com</p>
+              </div>
+            </AnimateOnScroll>
+
+            {/* Listing Agents Section */}
+            <AnimateOnScroll delay={0.2}>
+              <div className="bg-[#F8F8F8] p-8 text-center">
+                <h3 className="font-serif text-2xl mb-4">Listing Agents</h3>
+                <div className="mb-4">
+                  <h4 className="font-sans text-xl font-bold mb-2">Benson Bui</h4>
+                  <p className="text-gray-700">Real Estate Agent OR/WA</p>
+                  <p className="text-gray-700">Phone: 503.593.0211</p>
+                  <p className="text-gray-700">Email: bensonbui28@gmail.com</p>
+                </div>
+                <div className="pt-4 border-t border-gray-300">
+                  <h4 className="font-sans text-xl font-bold mb-2">Tommy Nguyen</h4>
+                  <p className="text-gray-700">Real Estate Agent</p>
+                  <p className="text-gray-700">Phone: 503.278.2603</p>
+                  <p className="text-gray-700">Email: tommytnguyen11@gmail.com</p>
+                </div>
+              </div>
+            </AnimateOnScroll>
+          </div>
+
+          <AnimateOnScroll delay={0.3}>
+            <div className="text-center">
+              <p className="text-lg font-sans text-gray-700 mb-4">Represented by</p>
+              <p className="font-serif text-2xl">TERCEK REAL ESTATE GROUP | reaj | reaj LUXURY</p>
+            </div>
           </AnimateOnScroll>
         </div>
       </section>
