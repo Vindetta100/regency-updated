@@ -320,21 +320,16 @@ export default function App() {
 
           <div className="flex flex-col md:flex-row justify-center space-y-4 md:space-y-0 md:space-x-6">
             <AnimateOnScroll delay={0.3}>
-              <button className="border-2 border-black text-black uppercase px-8 py-4 font-bold hover:bg-black hover:text-white transition-colors text-lg w-full md:w-auto">
+              <a href="#inquire-now" className="border-2 border-black text-black uppercase px-8 py-4 font-bold hover:bg-black hover:text-white transition-colors text-lg w-full md:w-auto inline-block text-center">
                 Schedule Private Tour
-              </button>
-            </AnimateOnScroll>
-            <AnimateOnScroll delay={0.4}>
-              <button className="border-2 border-black text-black uppercase px-8 py-4 font-bold hover:bg-black hover:text-white transition-colors text-lg w-full md:w-auto">
-                Contact Agent
-              </button>
+              </a>
             </AnimateOnScroll>
           </div>
         </div>
       </section>
 
       {/* Builder and Listing Agents Section */}
-      <section className="py-20 md:py-32 bg-white border-t border-gray-200">
+      <section id="inquire-now" className="py-20 md:py-32 bg-white border-t border-gray-200">
         <div className="max-w-7xl mx-auto px-4 md:px-8">
           <AnimateOnScroll>
             <p className="text-sm uppercase tracking-widest text-gray-500 mb-4 font-sans text-center">INQUIRE NOW</p>
