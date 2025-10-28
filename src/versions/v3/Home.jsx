@@ -161,7 +161,7 @@ export default function App() {
       <section className="py-20 md:py-32 bg-white">
         <div className="max-w-7xl mx-auto px-4 md:px-8 flex flex-col md:flex-row items-center md:space-x-16">
           <AnimateOnScroll className="w-full md:w-1/2 mb-12 md:mb-0">
-            <img src={livingRoomMain} alt="Luxurious Living Room" className="w-full h-auto object-cover shadow-xl" />
+            <img src={exteriorFrontDay} alt="Estate Exterior Day" className="w-full h-auto object-cover shadow-xl" />
           </AnimateOnScroll>
           <AnimateOnScroll delay={0.2} className="w-full md:w-1/2">
             <p className="text-sm uppercase tracking-widest text-gray-500 mb-4 font-sans">ARCHITECTURAL EXCELLENCE</p>
@@ -282,7 +282,7 @@ export default function App() {
               { src: wineCellar, alt: 'Private Wine Cellar', label: 'Private Wine Cellar' },
               { src: homeTheater, alt: 'State-of-the-art Home Theater', label: 'Home Theater' },
               { src: additionalBedroom, alt: 'Guest Bedroom', label: 'Guest Bedroom' },
-              { src: exteriorFrontDay, alt: 'Estate Exterior Day', label: 'Estate Exterior Day' },
+              { src: livingRoomMain, alt: 'Luxurious Living Room', label: 'Luxurious Living Room' },
             ].map((image, index) => (
               <AnimateOnScroll delay={index * 0.08} key={image.label}>
                 <motion.div
