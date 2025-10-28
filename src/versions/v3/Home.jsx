@@ -333,65 +333,6 @@ export default function App() {
         </div>
       </section>
 
-      {/* Contact Form Section */}
-      <section className="py-20 md:py-32 bg-white">
-        <div className="max-w-3xl mx-auto px-4 md:px-8">
-          <AnimateOnScroll>
-            <p className="text-sm uppercase tracking-widest text-gray-500 mb-4 font-sans text-center">INQUIRE NOW</p>
-            <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl leading-tight mb-12 text-center">
-              Connect with Our Team
-            </h2>
-          </AnimateOnScroll>
-
-          <AnimateOnScroll delay={0.2}>
-            <form className="space-y-6">
-              <div>
-                <label htmlFor="name" className="block text-sm font-sans font-medium text-gray-700 mb-2">Name</label>
-                <input
-                  type="text"
-                  id="name"
-                  className="w-full p-4 border border-gray-300 focus:border-[#C9A961] focus:ring focus:ring-[#C9A961] focus:ring-opacity-50 outline-none transition-all"
-                  placeholder="Your Name"
-                />
-              </div>
-              <div>
-                <label htmlFor="email" className="block text-sm font-sans font-medium text-gray-700 mb-2">Email</label>
-                <input
-                  type="email"
-                  id="email"
-                  className="w-full p-4 border border-gray-300 focus:border-[#C9A961] focus:ring focus:ring-[#C9A961] focus:ring-opacity-50 outline-none transition-all"
-                  placeholder="Your Email"
-                />
-              </div>
-              <div>
-                <label htmlFor="phone" className="block text-sm font-sans font-medium text-gray-700 mb-2">Phone (Optional)</label>
-                <input
-                  type="tel"
-                  id="phone"
-                  className="w-full p-4 border border-gray-300 focus:border-[#C9A961] focus:ring focus:ring-[#C9A961] focus:ring-opacity-50 outline-none transition-all"
-                  placeholder="Your Phone Number"
-                />
-              </div>
-              <div>
-                <label htmlFor="message" className="block text-sm font-sans font-medium text-gray-700 mb-2">Message</label>
-                <textarea
-                  id="message"
-                  rows="5"
-                  className="w-full p-4 border border-gray-300 focus:border-[#C9A961] focus:ring focus:ring-[#C9A961] focus:ring-opacity-50 outline-none transition-all"
-                  placeholder="Tell us about your interest..."
-                ></textarea>
-              </div>
-              <button
-                type="submit"
-                className="bg-black text-white uppercase px-8 py-4 font-bold text-lg hover:bg-gray-800 transition-colors shadow-lg w-full"
-              >
-                Send Inquiry
-              </button>
-            </form>
-          </AnimateOnScroll>
-        </div>
-      </section>
-
       {/* Builder and Listing Agents Section */}
       <section className="py-20 md:py-32 bg-white border-t border-gray-200">
         <div className="max-w-7xl mx-auto px-4 md:px-8">
