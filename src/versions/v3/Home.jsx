@@ -136,14 +136,15 @@ export default function App() {
           >
             Where Architectural Excellence Meets Natural Beauty
           </motion.p>
-          <motion.button
-            className="bg-black text-white uppercase px-8 py-4 rounded-full font-bold text-lg hover:bg-gray-800 transition-colors shadow-lg"
+          <motion.a
+            href="#architectural-excellence"
+            className="bg-black text-white uppercase px-8 py-4 rounded-full font-bold text-lg hover:bg-gray-800 transition-colors shadow-lg inline-block"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 1.0 }}
           >
             Explore Property
-          </motion.button>
+          </motion.a>
         </div>
 
         {/* Scroll Indicator */}
@@ -159,7 +160,7 @@ export default function App() {
       </section>
 
       {/* Architectural Excellence Section - Image Left */}
-      <section className="py-20 md:py-32 bg-white">
+      <section id="architectural-excellence" className="py-20 md:py-32 bg-white">
         <div className="max-w-7xl mx-auto px-4 md:px-8 flex flex-col md:flex-row items-center md:space-x-16">
           <AnimateOnScroll className="w-full md:w-1/2 mb-12 md:mb-0">
             <img src={exteriorFrontDay} alt="Estate Exterior Day" className="w-full h-auto object-cover shadow-xl" />
