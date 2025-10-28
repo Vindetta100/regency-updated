@@ -30,6 +30,31 @@
 
 ## Recent Sessions
 
+### Session 22.1 (2025-10-27)
+**SUMMARY:** Expanded gallery from 25 to 47 photos and fixed mobile viewport horizontal scrolling
+
+**ADDED:**
+- 22 new photos to gallery (photo-26 through photo-46, plus sitePlan, elevationDrawings, propertySurvey)
+- Comprehensive mobile viewport overflow prevention CSS
+- Global overflow-x: hidden on body and sections
+- Mobile-specific transform and scaling fixes
+- .odm/reports/session-22-part2-gallery-expansion.md - Complete expansion documentation
+
+**CHANGED:**
+- src/versions/original/Home.jsx:52-71 - Added imports for photos 26-46 (19 new imports)
+- src/versions/original/Home.jsx:260-408 - Extended luxuryPhotos array from 25 to 47 entries
+- src/versions/original/Home.jsx:1682-1755 - Added mobile viewport overflow prevention CSS
+- Gallery pagination: 5 pages → 8 pages (6 photos per page)
+- Last page now shows 5 photos (total 47)
+
+**FIXED:**
+- Mobile horizontal scrolling issue with overflow-x: hidden globally
+- Transform scaling causing viewport overflow on mobile
+- Grid layouts breaking viewport width on mobile devices
+- Container max-width exceeding viewport on small screens
+
+**COMMIT:** Expand gallery to 47 photos and fix mobile viewport horizontal scrolling
+
 ### Session 22 (2025-10-27)
 **SUMMARY:** Updated photo gallery with new optimized photos while protecting homepage section photos
 

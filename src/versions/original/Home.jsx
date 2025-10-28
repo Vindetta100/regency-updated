@@ -49,6 +49,27 @@ import floorPlanLower from '../../../assets/v6-photos/photo-04.jpg'
 import elevationDrawings from '../../../assets/v6-photos/photo-05.jpg'
 import propertySurvey from '../../../assets/v6-photos/photo-23.jpg'
 
+// Additional Gallery Photos (26-46)
+import photo26 from '../../../assets/v6-photos/photo-26.jpg'
+import photo27 from '../../../assets/v6-photos/photo-27.jpg'
+import photo28 from '../../../assets/v6-photos/photo-28.jpg'
+import photo29 from '../../../assets/v6-photos/photo-29.jpg'
+import photo32 from '../../../assets/v6-photos/photo-32.jpg'
+import photo33 from '../../../assets/v6-photos/photo-33.jpg'
+import photo34 from '../../../assets/v6-photos/photo-34.jpg'
+import photo35 from '../../../assets/v6-photos/photo-35.jpg'
+import photo36 from '../../../assets/v6-photos/photo-36.jpg'
+import photo37 from '../../../assets/v6-photos/photo-37.jpg'
+import photo38 from '../../../assets/v6-photos/photo-38.jpg'
+import photo39 from '../../../assets/v6-photos/photo-39.jpg'
+import photo40 from '../../../assets/v6-photos/photo-40.jpg'
+import photo41 from '../../../assets/v6-photos/photo-41.jpg'
+import photo42 from '../../../assets/v6-photos/photo-42.jpg'
+import photo43 from '../../../assets/v6-photos/photo-43.jpg'
+import photo44 from '../../../assets/v6-photos/photo-44.jpg'
+import photo45 from '../../../assets/v6-photos/photo-45.jpg'
+import photo46 from '../../../assets/v6-photos/photo-46.jpg'
+
 // Enhanced Luxury Photo Gallery Data with Developer's Vision
 const luxuryPhotos = [
   // Exterior Views - Showcasing Developer's Architectural Mastery
@@ -234,6 +255,162 @@ const luxuryPhotos = [
     title: "Architectural Masterpiece at Twilight",
     description: "Architectural mastery harmonizes with the natural forest setting, creating an exceptional luxury living experience.",
     category: "exterior"
+  },
+
+  // Additional Gallery Photos
+  {
+    id: 26,
+    src: photo26,
+    title: "Luxury Property Detail",
+    description: "Premium materials and artisan craftsmanship create spaces of exceptional luxury and refined living.",
+    category: "interior"
+  },
+  {
+    id: 27,
+    src: photo27,
+    title: "Architectural Excellence",
+    description: "Premium materials and artisan craftsmanship create spaces of exceptional luxury and refined living.",
+    category: "interior"
+  },
+  {
+    id: 28,
+    src: photo28,
+    title: "Designer Living Space",
+    description: "Premium materials and artisan craftsmanship create spaces of exceptional luxury and refined living.",
+    category: "interior"
+  },
+  {
+    id: 29,
+    src: photo29,
+    title: "Premium Finishes",
+    description: "Premium materials and artisan craftsmanship create spaces of exceptional luxury and refined living.",
+    category: "interior"
+  },
+  {
+    id: 30,
+    src: photo32,
+    title: "Luxury Interior Detail",
+    description: "Premium materials and artisan craftsmanship create spaces of exceptional luxury and refined living.",
+    category: "interior"
+  },
+  {
+    id: 31,
+    src: photo33,
+    title: "Refined Living Space",
+    description: "Premium materials and artisan craftsmanship create spaces of exceptional luxury and refined living.",
+    category: "interior"
+  },
+  {
+    id: 32,
+    src: photo34,
+    title: "Architectural Detail",
+    description: "Premium materials and artisan craftsmanship create spaces of exceptional luxury and refined living.",
+    category: "interior"
+  },
+  {
+    id: 33,
+    src: photo35,
+    title: "Premium Craftsmanship",
+    description: "Premium materials and artisan craftsmanship create spaces of exceptional luxury and refined living.",
+    category: "interior"
+  },
+  {
+    id: 34,
+    src: photo36,
+    title: "Luxury Living Detail",
+    description: "Premium materials and artisan craftsmanship create spaces of exceptional luxury and refined living.",
+    category: "interior"
+  },
+  {
+    id: 35,
+    src: photo37,
+    title: "Designer Space",
+    description: "Premium materials and artisan craftsmanship create spaces of exceptional luxury and refined living.",
+    category: "interior"
+  },
+  {
+    id: 36,
+    src: photo38,
+    title: "Architectural Feature",
+    description: "Premium materials and artisan craftsmanship create spaces of exceptional luxury and refined living.",
+    category: "interior"
+  },
+  {
+    id: 37,
+    src: photo39,
+    title: "Premium Interior",
+    description: "Premium materials and artisan craftsmanship create spaces of exceptional luxury and refined living.",
+    category: "interior"
+  },
+  {
+    id: 38,
+    src: photo40,
+    title: "Luxury Detail",
+    description: "Premium materials and artisan craftsmanship create spaces of exceptional luxury and refined living.",
+    category: "interior"
+  },
+  {
+    id: 39,
+    src: photo41,
+    title: "Refined Craftsmanship",
+    description: "Premium materials and artisan craftsmanship create spaces of exceptional luxury and refined living.",
+    category: "interior"
+  },
+  {
+    id: 40,
+    src: photo42,
+    title: "Designer Excellence",
+    description: "Premium materials and artisan craftsmanship create spaces of exceptional luxury and refined living.",
+    category: "interior"
+  },
+  {
+    id: 41,
+    src: photo43,
+    title: "Architectural Precision",
+    description: "Premium materials and artisan craftsmanship create spaces of exceptional luxury and refined living.",
+    category: "interior"
+  },
+  {
+    id: 42,
+    src: photo44,
+    title: "Premium Living Space",
+    description: "Premium materials and artisan craftsmanship create spaces of exceptional luxury and refined living.",
+    category: "interior"
+  },
+  {
+    id: 43,
+    src: photo45,
+    title: "Luxury Craftsmanship",
+    description: "Premium materials and artisan craftsmanship create spaces of exceptional luxury and refined living.",
+    category: "interior"
+  },
+  {
+    id: 44,
+    src: photo46,
+    title: "Designer Detail",
+    description: "Premium materials and artisan craftsmanship create spaces of exceptional luxury and refined living.",
+    category: "interior"
+  },
+  {
+    id: 45,
+    src: sitePlan,
+    title: "Property Site Plan",
+    description: "Thoughtful design maximizes both functionality and aesthetic appeal in every architectural detail.",
+    category: "plans"
+  },
+  {
+    id: 46,
+    src: elevationDrawings,
+    title: "Elevation Drawings",
+    description: "Thoughtful design maximizes both functionality and aesthetic appeal in every architectural detail.",
+    category: "plans"
+  },
+  {
+    id: 47,
+    src: propertySurvey,
+    title: "Property Survey",
+    description: "Thoughtful design maximizes both functionality and aesthetic appeal in every architectural detail.",
+    category: "plans"
   }
 ]
 
@@ -1502,6 +1679,29 @@ function App() {
           border-radius: 0.5rem;
         }
         
+        /* Global mobile overflow prevention */
+        body {
+          overflow-x: hidden;
+          width: 100%;
+          position: relative;
+        }
+        
+        * {
+          max-width: 100%;
+        }
+        
+        /* Prevent horizontal scroll on all sections */
+        section {
+          overflow-x: hidden;
+          max-width: 100vw;
+        }
+        
+        /* Container constraints */
+        .container {
+          max-width: 100%;
+          overflow-x: hidden;
+        }
+        
         /* Mobile optimizations */
         @media (max-width: 768px) {
           .text-4xl { font-size: 2.5rem; }
@@ -1527,6 +1727,32 @@ function App() {
           
           /* Ensure images don't overflow */
           img, video { max-width: 100%; height: auto; }
+          
+          /* Prevent any element from causing horizontal scroll */
+          * {
+            max-width: 100%;
+            box-sizing: border-box;
+          }
+          
+          /* Fix container widths */
+          .container, section, div {
+            max-width: 100vw;
+            overflow-x: hidden;
+          }
+          
+          /* Ensure grid doesn't overflow */
+          .grid-cols-3 {
+            grid-template-columns: 1fr;
+          }
+          
+          /* Fix any transform scaling issues */
+          .transform {
+            transform: none !important;
+          }
+          
+          .hover\:scale-105:hover {
+            transform: none !important;
+          }
           
           /* Fix button sizing */
           .w-full { width: 100%; }
