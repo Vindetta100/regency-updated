@@ -291,9 +291,6 @@ export default function App() {
                   transition={{ duration: 0.3 }}
                 >
                   <img src={image.src} alt={image.alt} className="w-full h-72 object-cover object-center" />
-                  <div className="absolute inset-0 bg-black bg-opacity-40 flex items-end p-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <p className="text-white font-serif text-xl">{image.label}</p>
-                  </div>
                 </motion.div>
               </AnimateOnScroll>
             ))}
