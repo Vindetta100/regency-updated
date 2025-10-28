@@ -14,6 +14,7 @@ import wineCellar from '../../../assets/v6-photos/photo-12.jpg';
 import outdoorLiving from '../../../assets/v6-photos/photo-24.jpg';
 import additionalBedroom from '../../../assets/v6-photos/photo-16.jpg';
 import homeTheater from '../../../assets/v6-photos/photo-08.jpg';
+import floorPlanPDF from '../../../assets/SERegencyViewbooklet.pdf';
 
 // --- Utility Component for Scroll-triggered Animations ---
 const AnimateOnScroll = ({ children, delay = 0, className = '', ...props }) => {
@@ -255,9 +256,9 @@ export default function App() {
             <p className="text-lg leading-relaxed mb-6 font-sans text-gray-700">
               With 3 bedrooms and the capability for up to 5, the flexible layout includes a private primary retreat with soaking tub, double walk-in shower, and boutique-style closet, along with spa-inspired bathrooms by Duravit, Axor, Graff, and Hansgrohe. Additional highlights include a formal living room, oversized den or office, wet bar, 3-story oak staircase with integrated lighting, oversized 3-car garage with shop and powder room, tankless water heating, Carrier HVAC, and energy-efficient systems.
             </p>
-            <button className="border-2 border-black text-black uppercase px-8 py-4 font-bold hover:bg-black hover:text-white transition-colors text-lg">
+            <a href={floorPlanPDF} download="Regency_View_Estate_Floorplan.pdf" className="border-2 border-black text-black uppercase px-8 py-4 font-bold hover:bg-black hover:text-white transition-colors text-lg inline-block">
               Download Floor Plan
-            </button>
+            </a>
           </AnimateOnScroll>
         </div>
       </section>
