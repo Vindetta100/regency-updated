@@ -668,7 +668,7 @@ function App() {
             <div className="relative">
               <div className="image-container">
                 <img 
-                  src={exteriorTwilight} 
+                  src={photo35} 
                   alt="Architectural Mastery" 
                   className="w-full h-auto object-cover rounded-2xl shadow-2xl cropped-image"
                 />
