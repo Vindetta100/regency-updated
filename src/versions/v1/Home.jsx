@@ -431,7 +431,7 @@ function App() {
           </p>
           
           <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-light mb-8 sm:mb-12 text-amber-300">
-            A rare $2.225M investment opportunity in Happy Valley's most coveted location
+            A rare $1.995M investment opportunity in Happy Valley's most coveted location
           </p>
           
           <div className="flex justify-center items-center">
