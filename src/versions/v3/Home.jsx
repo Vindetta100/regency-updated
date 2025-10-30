@@ -191,8 +191,8 @@ export default function App() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path>
                   </svg>
                 </div>
-                <h3 className="font-serif text-2xl mb-2">Spacious Living</h3>
-                <p className="text-gray-300 font-sans">7,400+ SF lot with 4,634 SF of refined interior living space</p>
+                <h3 className="font-serif text-2xl mb-4">Expansive Estate</h3>
+                <p className="text-gray-300 font-sans leading-relaxed">Over 7,400 square feet of meticulously landscaped grounds surrounding 4,634 square feet of refined interior living space, offering the perfect balance of privacy and luxury</p>
               </div>
             </AnimateOnScroll>
 
@@ -203,8 +203,8 @@ export default function App() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1" d="M3 21v-4m0 0V5a2 2 0 012-2h6.5l1 1H21l-3 6 3 6h-8.5l-1-1H5a2 2 0 00-2 2zm9-13.5V9"></path>
                   </svg>
                 </div>
-                <h3 className="font-serif text-2xl mb-2">Rooftop Deck</h3>
-                <p className="text-gray-300 font-sans">Covered rooftop deck with southern mountain views and year-round entertaining patio</p>
+                <h3 className="font-serif text-2xl mb-4">Panoramic Rooftop Retreat</h3>
+                <p className="text-gray-300 font-sans leading-relaxed">An exclusive covered rooftop deck showcasing breathtaking southern mountain vistas, designed for year-round entertaining and unforgettable moments</p>
               </div>
             </AnimateOnScroll>
 
@@ -215,8 +215,8 @@ export default function App() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path>
                   </svg>
                 </div>
-                <h3 className="font-serif text-2xl mb-2">Architectural Design</h3>
-                <p className="text-gray-300 font-sans">Hand-selected stained cedar siding paired with clean Hardie architectural panels</p>
+                <h3 className="font-serif text-2xl mb-4">Masterful Architecture</h3>
+                <p className="text-gray-300 font-sans leading-relaxed">A striking fusion of hand-selected stained cedar and precision-engineered Hardie panels, creating a timeless aesthetic that commands attention</p>
               </div>
             </AnimateOnScroll>
           </div>
