@@ -608,7 +608,7 @@ function App() {
           </p>
           
           <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-light mb-8 sm:mb-12 text-amber-300">
-            A rare $2.225M investment opportunity in Happy Valley's most coveted location
+            A rare $1.995M investment opportunity in Happy Valley's most coveted location
           </p>
           
           <div className="flex justify-center items-center">
@@ -668,7 +668,7 @@ function App() {
             <div className="relative">
               <div className="image-container">
                 <img 
-                  src={exteriorTwilight} 
+                  src={photo35} 
                   alt="Architectural Mastery" 
                   className="w-full h-auto object-cover rounded-2xl shadow-2xl cropped-image"
                 />
@@ -1506,7 +1506,7 @@ function App() {
                 </div>
                 <div className="flex items-center space-x-4">
                   <Mail className="w-6 h-6 text-amber-400" />
-                  <span className="text-white font-light">regencyviewestate@gmail.com</span>
+                  <span className="text-white font-light">viewregency@gmail.com</span>
                 </div>
                 <div className="flex items-center space-x-4">
                   <MapPin className="w-6 h-6 text-amber-400" />
