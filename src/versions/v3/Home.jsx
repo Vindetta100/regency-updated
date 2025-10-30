@@ -104,41 +104,17 @@ export default function App() {
         <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-70"></div>
 
         <div className="relative z-10 text-white text-center p-4 max-w-4xl mx-auto">
-          <motion.p
-            className="text-sm md:text-base uppercase tracking-widest mb-4 font-sans"
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.2 }}
-          >
-            PRIVATE LUXURY ESTATE
-          </motion.p>
           <motion.h1
-            className="font-serif text-5xl md:text-7xl lg:text-8xl leading-tight mb-4"
+            className="font-sans text-4xl md:text-6xl lg:text-7xl leading-tight mb-10 uppercase tracking-wide font-medium"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
           >
-            The Regency View Estate
+            ARCHITECTURAL MASTERPIECE AT REGENCY RESIDENCE
           </motion.h1>
-          <motion.h2
-            className="font-serif text-2xl md:text-3xl mb-6"
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.6 }}
-          >
-            Contemporary Masterpiece
-          </motion.h2>
-          <motion.p
-            className="text-lg md:text-xl mb-10 font-sans"
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.8 }}
-          >
-            Where Architectural Excellence Meets Natural Beauty
-          </motion.p>
           <motion.a
             href="#architectural-excellence"
-            className="bg-black text-white uppercase px-8 py-4 rounded-full font-bold text-lg hover:bg-gray-800 transition-colors shadow-lg inline-block"
+            className="border-2 border-white text-white bg-white bg-opacity-10 backdrop-blur-sm uppercase px-8 py-4 rounded-full font-bold text-lg hover:bg-white hover:bg-opacity-20 transition-all shadow-lg inline-block"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 1.0 }}
