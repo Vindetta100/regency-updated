@@ -1506,7 +1506,7 @@ function App() {
                 </div>
                 <div className="flex items-center space-x-4">
                   <Mail className="w-6 h-6 text-amber-400" />
-                  <span className="text-white font-light">regencyviewestate@gmail.com</span>
+                  <span className="text-white font-light">viewregency@gmail.com</span>
                 </div>
                 <div className="flex items-center space-x-4">
                   <MapPin className="w-6 h-6 text-amber-400" />
