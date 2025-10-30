@@ -356,9 +356,65 @@ export default function App() {
           </div>
 
           <AnimateOnScroll delay={0.3}>
-            <div className="text-center">
+            <div className="text-center mb-16">
               <p className="text-lg font-sans text-gray-700 mb-4">Represented by</p>
               <p className="font-serif text-2xl">TERCEK REAL ESTATE GROUP | reaj | reaj LUXURY</p>
+            </div>
+          </AnimateOnScroll>
+
+          {/* Visitor Contact Form */}
+          <AnimateOnScroll delay={0.4}>
+            <div className="max-w-2xl mx-auto bg-[#F8F8F8] p-8 md:p-12">
+              <h3 className="font-serif text-3xl mb-2 text-center">Request Information</h3>
+              <p className="text-gray-600 text-center mb-8 font-sans">Fill out the form below and we'll get back to you shortly</p>
+              <form className="space-y-6">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                  <div>
+                    <label htmlFor="visitor-name" className="block text-sm font-sans font-medium text-gray-700 mb-2">Name *</label>
+                    <input
+                      type="text"
+                      id="visitor-name"
+                      required
+                      className="w-full p-4 border border-gray-300 focus:border-black focus:ring focus:ring-black focus:ring-opacity-20 outline-none transition-all"
+                      placeholder="Your Name"
+                    />
+                  </div>
+                  <div>
+                    <label htmlFor="visitor-email" className="block text-sm font-sans font-medium text-gray-700 mb-2">Email *</label>
+                    <input
+                      type="email"
+                      id="visitor-email"
+                      required
+                      className="w-full p-4 border border-gray-300 focus:border-black focus:ring focus:ring-black focus:ring-opacity-20 outline-none transition-all"
+                      placeholder="Your Email"
+                    />
+                  </div>
+                </div>
+                <div>
+                  <label htmlFor="visitor-phone" className="block text-sm font-sans font-medium text-gray-700 mb-2">Phone</label>
+                  <input
+                    type="tel"
+                    id="visitor-phone"
+                    className="w-full p-4 border border-gray-300 focus:border-black focus:ring focus:ring-black focus:ring-opacity-20 outline-none transition-all"
+                    placeholder="Your Phone Number"
+                  />
+                </div>
+                <div>
+                  <label htmlFor="visitor-message" className="block text-sm font-sans font-medium text-gray-700 mb-2">Message</label>
+                  <textarea
+                    id="visitor-message"
+                    rows="5"
+                    className="w-full p-4 border border-gray-300 focus:border-black focus:ring focus:ring-black focus:ring-opacity-20 outline-none transition-all"
+                    placeholder="Tell us about your interest in this property..."
+                  ></textarea>
+                </div>
+                <button
+                  type="submit"
+                  className="bg-black text-white uppercase px-8 py-4 font-bold text-lg hover:bg-gray-800 transition-colors w-full"
+                >
+                  Send Inquiry
+                </button>
+              </form>
             </div>
           </AnimateOnScroll>
         </div>
