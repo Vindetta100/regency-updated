@@ -15,6 +15,13 @@ import outdoorLiving from '../../../assets/v6-photos/photo-24.jpg';
 import additionalBedroom from '../../../assets/v6-photos/photo-16.jpg';
 import homeTheater from '../../../assets/v6-photos/photo-08.jpg';
 import floorPlanPDF from '../../../assets/SERegencyViewbooklet.pdf';
+import newDiningRoom from '../../../assets/v6-photos/October13191SERegencyViewStMLSPhotos(16of34).jpg';
+import newBathroom1 from '../../../assets/v6-photos/October13191SERegencyViewStMLSPhotos(29of34).jpg';
+import newBathroom2 from '../../../assets/v6-photos/October13191SERegencyViewStMLSPhotos(33of34).jpg';
+import realLuxuryLogoWhite from '../../../assets/RealLuxuryLogoWhite(1).png';
+import realLuxuryLogoBlack from '../../../assets/RealLuxuryLogoBlack(1).png';
+import teamLogoBlack from '../../../assets/TeamLogo_Black(1).png';
+import teamLogoWhite from '../../../assets/TeamLogo_White.png';
 
 // --- Utility Component for Scroll-triggered Animations ---
 const AnimateOnScroll = ({ children, delay = 0, className = '', ...props }) => {
@@ -252,9 +259,10 @@ export default function App() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
-              { src: diningRoom, alt: 'Elegant Dining Room', label: 'Elegant Dining Room' },
+              { src: newDiningRoom, alt: 'Modern Dining Room', label: 'Modern Dining Room' },
               { src: masterBedroom, alt: 'Luxurious Primary Suite', label: 'Luxurious Primary Suite' },
-              { src: bathroomMain, alt: 'Spa-like Bathroom', label: 'Spa-like Bathroom' },
+              { src: newBathroom2, alt: 'Primary Bathroom Vanity', label: 'Primary Bathroom Vanity' },
+              { src: newBathroom1, alt: 'Spa-Inspired Shower', label: 'Spa-Inspired Shower' },
               { src: outdoorLiving, alt: 'Expansive Outdoor Living', label: 'Expansive Outdoor Living' },
               { src: privateOffice, alt: 'Inspiring Private Office', label: 'Inspiring Private Office' },
               { src: wineCellar, alt: 'Private Wine Cellar', label: 'Private Wine Cellar' },
