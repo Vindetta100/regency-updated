@@ -15,6 +15,13 @@ import outdoorLiving from '../../../assets/v6-photos/photo-24.jpg';
 import additionalBedroom from '../../../assets/v6-photos/photo-16.jpg';
 import homeTheater from '../../../assets/v6-photos/photo-08.jpg';
 import floorPlanPDF from '../../../assets/SERegencyViewbooklet.pdf';
+import newDiningRoom from '../../../assets/v6-photos/October13191SERegencyViewStMLSPhotos(16of34).jpg';
+import newBathroom1 from '../../../assets/v6-photos/October13191SERegencyViewStMLSPhotos(29of34).jpg';
+import newBathroom2 from '../../../assets/v6-photos/October13191SERegencyViewStMLSPhotos(33of34).jpg';
+import realLuxuryLogoWhite from '../../../assets/RealLuxuryLogoWhite(1).png';
+import realLuxuryLogoBlack from '../../../assets/RealLuxuryLogoBlack(1).png';
+import teamLogoBlack from '../../../assets/TeamLogo_Black(1).png';
+import teamLogoWhite from '../../../assets/TeamLogo_White.png';
 
 // --- Utility Component for Scroll-triggered Animations ---
 const AnimateOnScroll = ({ children, delay = 0, className = '', ...props }) => {
@@ -103,42 +110,18 @@ export default function App() {
         {/* Dark gradient overlay */}
         <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-70"></div>
 
-        <div className="relative z-10 text-white text-center p-4 max-w-4xl mx-auto">
-          <motion.p
-            className="text-sm md:text-base uppercase tracking-widest mb-4 font-sans"
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.2 }}
-          >
-            PRIVATE LUXURY ESTATE
-          </motion.p>
+        <div className="relative z-10 text-white text-center px-6 py-8 md:p-4 max-w-4xl mx-auto">
           <motion.h1
-            className="font-serif text-5xl md:text-7xl lg:text-8xl leading-tight mb-4"
+            className="font-sans text-3xl sm:text-4xl md:text-6xl lg:text-7xl leading-tight mb-8 md:mb-10 uppercase tracking-wide font-medium px-2"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
           >
-            The Regency View Estate
+            ARCHITECTURAL MASTERPIECE AT REGENCY RESIDENCE
           </motion.h1>
-          <motion.h2
-            className="font-serif text-2xl md:text-3xl mb-6"
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.6 }}
-          >
-            Contemporary Masterpiece
-          </motion.h2>
-          <motion.p
-            className="text-lg md:text-xl mb-10 font-sans"
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.8 }}
-          >
-            Where Architectural Excellence Meets Natural Beauty
-          </motion.p>
           <motion.a
             href="#architectural-excellence"
-            className="bg-black text-white uppercase px-8 py-4 rounded-full font-bold text-lg hover:bg-gray-800 transition-colors shadow-lg inline-block"
+            className="border-2 border-white text-white bg-white bg-opacity-10 backdrop-blur-sm uppercase px-6 py-3 md:px-8 md:py-4 rounded-full font-bold text-base md:text-lg hover:bg-white hover:bg-opacity-20 transition-all shadow-lg inline-block"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 1.0 }}
@@ -160,18 +143,18 @@ export default function App() {
       </section>
 
       {/* Architectural Excellence Section - Image Left */}
-      <section id="architectural-excellence" className="py-20 md:py-32 bg-white">
+      <section id="architectural-excellence" className="py-12 md:py-20 lg:py-32 bg-white">
         <div className="max-w-7xl mx-auto px-4 md:px-8 flex flex-col md:flex-row items-center md:space-x-16">
           <AnimateOnScroll className="w-full md:w-1/2 mb-12 md:mb-0">
             <img src={exteriorFrontDay} alt="Estate Exterior Day" className="w-full h-auto object-cover shadow-xl" />
           </AnimateOnScroll>
           <AnimateOnScroll delay={0.2} className="w-full md:w-1/2">
             <p className="text-sm uppercase tracking-widest text-gray-500 mb-4 font-sans">ARCHITECTURAL EXCELLENCE</p>
-            <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl leading-tight mb-8">
-              A one of a kind estate showcasing fine craftsmanship where architectural mastery meets modern design, form, and function
+            <h2 className="font-serif text-2xl md:text-4xl lg:text-5xl leading-tight mb-6 md:mb-8">
+              Fine Craftsmanship Meets Modern Design
             </h2>
             <p className="text-lg leading-relaxed mb-6 font-sans text-gray-700">
-              Thoughtfully carved into a hillside in the heart of Happy Valley and showcased in the 2025 Street of Dreams, this custom three-level home blends privacy with panoramic views. A striking facade of hand-selected stained cedar and smooth Hardie panels opens to interiors filled with natural light through floor-to-ceiling windows and 9-foot stacking sliders that blur the line between indoor and outdoor living.
+              Thoughtfully carved into a hillside in the heart of Happy Valley, this custom three-level home blends privacy with panoramic views. A striking facade of hand-selected stained cedar and smooth Hardie panels opens to interiors filled with natural light through floor-to-ceiling windows and 9-foot stacking sliders that blur the line between indoor and outdoor living.
             </p>
             <div className="mb-6">
               <h3 className="font-serif text-xl mb-4">Property Specifications</h3>
@@ -191,11 +174,11 @@ export default function App() {
       </section>
 
       {/* Feature Cards Section - Black Background */}
-      <section className="py-20 md:py-32 bg-black text-white">
+      <section className="py-12 md:py-20 lg:py-32 bg-black text-white">
         <div className="max-w-7xl mx-auto px-4 md:px-8 text-center">
           <AnimateOnScroll>
             <p className="text-sm uppercase tracking-widest text-gray-400 mb-4 font-sans">DISTINGUISHED FEATURES</p>
-            <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl leading-tight mb-16">
+            <h2 className="font-serif text-2xl md:text-4xl lg:text-5xl leading-tight mb-8 md:mb-16">
               Experience Unrivaled Luxury
             </h2>
           </AnimateOnScroll>
@@ -203,37 +186,37 @@ export default function App() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
             <AnimateOnScroll delay={0.1}>
               <div className="flex flex-col items-center text-center">
-                <div className="border-2 border-[#C9A961] rounded-full p-4 mb-6">
-                  <svg className="w-12 h-12 text-[#C9A961]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <div className="border-2 border-white rounded-full p-4 mb-6">
+                  <svg className="w-12 h-12 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path>
                   </svg>
                 </div>
-                <h3 className="font-serif text-2xl mb-2">Corner Lot Estate</h3>
-                <p className="text-gray-300 font-sans">7,400+ SF lot with 4,634 SF of refined interior living space</p>
+                <h3 className="font-serif text-2xl mb-4">Expansive Estate</h3>
+                <p className="text-gray-300 font-sans leading-relaxed">Over 7,400 square feet of meticulously landscaped grounds surrounding 4,634 square feet of refined interior living space, offering the perfect balance of privacy and luxury</p>
               </div>
             </AnimateOnScroll>
 
             <AnimateOnScroll delay={0.2}>
               <div className="flex flex-col items-center text-center">
-                <div className="border-2 border-[#C9A961] rounded-full p-4 mb-6">
-                  <svg className="w-12 h-12 text-[#C9A961]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <div className="border-2 border-white rounded-full p-4 mb-6">
+                  <svg className="w-12 h-12 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1" d="M3 21v-4m0 0V5a2 2 0 012-2h6.5l1 1H21l-3 6 3 6h-8.5l-1-1H5a2 2 0 00-2 2zm9-13.5V9"></path>
                   </svg>
                 </div>
-                <h3 className="font-serif text-2xl mb-2">Rooftop Deck</h3>
-                <p className="text-gray-300 font-sans">Covered rooftop deck with southern mountain views and year-round entertaining patio</p>
+                <h3 className="font-serif text-2xl mb-4">Panoramic Rooftop Retreat</h3>
+                <p className="text-gray-300 font-sans leading-relaxed">An exclusive covered rooftop deck showcasing breathtaking southern mountain vistas, designed for year-round entertaining and unforgettable moments</p>
               </div>
             </AnimateOnScroll>
 
             <AnimateOnScroll delay={0.3}>
               <div className="flex flex-col items-center text-center">
-                <div className="border-2 border-[#C9A961] rounded-full p-4 mb-6">
-                  <svg className="w-12 h-12 text-[#C9A961]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <div className="border-2 border-white rounded-full p-4 mb-6">
+                  <svg className="w-12 h-12 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path>
                   </svg>
                 </div>
-                <h3 className="font-serif text-2xl mb-2">Architectural Design</h3>
-                <p className="text-gray-300 font-sans">Hand-selected stained cedar siding paired with clean Hardie architectural panels</p>
+                <h3 className="font-serif text-2xl mb-4">Masterful Architecture</h3>
+                <p className="text-gray-300 font-sans leading-relaxed">A striking fusion of hand-selected stained cedar and precision-engineered Hardie panels, creating a timeless aesthetic that commands attention</p>
               </div>
             </AnimateOnScroll>
           </div>
@@ -241,14 +224,14 @@ export default function App() {
       </section>
 
       {/* Poetic Design Section - Image Right */}
-      <section className="py-20 md:py-32 bg-[#F8F8F8]">
+      <section className="py-12 md:py-20 lg:py-32 bg-[#F8F8F8]">
         <div className="max-w-7xl mx-auto px-4 md:px-8 flex flex-col md:flex-row-reverse items-center md:space-x-reverse md:space-x-16">
           <AnimateOnScroll className="w-full md:w-1/2 mb-12 md:mb-0">
             <img src={kitchenMain} alt="Gourmet Kitchen" className="w-full h-auto object-cover shadow-xl" />
           </AnimateOnScroll>
           <AnimateOnScroll delay={0.2} className="w-full md:w-1/2">
             <p className="text-sm uppercase tracking-widest text-gray-500 mb-4 font-sans">DESIGN PHILOSOPHY</p>
-            <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl leading-tight mb-8">
+            <h2 className="font-serif text-2xl md:text-4xl lg:text-5xl leading-tight mb-6 md:mb-8">
               Where Poetic Design Meets Uncompromising Excellence
             </h2>
             <p className="text-lg leading-relaxed mb-6 font-sans text-gray-700">
@@ -265,20 +248,21 @@ export default function App() {
       </section>
 
       {/* Visual Tour Gallery Section */}
-      <section className="py-20 md:py-32 bg-white">
+      <section className="py-12 md:py-20 lg:py-32 bg-white">
         <div className="max-w-7xl mx-auto px-4 md:px-8 text-center">
           <AnimateOnScroll>
             <p className="text-sm uppercase tracking-widest text-gray-500 mb-4 font-sans">VISUAL TOUR</p>
-            <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl leading-tight mb-16">
+            <h2 className="font-serif text-2xl md:text-4xl lg:text-5xl leading-tight mb-8 md:mb-16">
               A Glimpse Into Your Future
             </h2>
           </AnimateOnScroll>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
-              { src: diningRoom, alt: 'Elegant Dining Room', label: 'Elegant Dining Room' },
+              { src: newDiningRoom, alt: 'Modern Dining Room', label: 'Modern Dining Room' },
               { src: masterBedroom, alt: 'Luxurious Primary Suite', label: 'Luxurious Primary Suite' },
-              { src: bathroomMain, alt: 'Spa-like Bathroom', label: 'Spa-like Bathroom' },
+              { src: newBathroom2, alt: 'Primary Bathroom Vanity', label: 'Primary Bathroom Vanity' },
+              { src: newBathroom1, alt: 'Spa-Inspired Shower', label: 'Spa-Inspired Shower' },
               { src: outdoorLiving, alt: 'Expansive Outdoor Living', label: 'Expansive Outdoor Living' },
               { src: privateOffice, alt: 'Inspiring Private Office', label: 'Inspiring Private Office' },
               { src: wineCellar, alt: 'Private Wine Cellar', label: 'Private Wine Cellar' },
@@ -301,11 +285,11 @@ export default function App() {
       </section>
 
       {/* Pricing and CTA Section */}
-      <section className="py-20 md:py-32 bg-[#F8F8F8]">
+      <section className="py-12 md:py-20 lg:py-32 bg-[#F8F8F8]">
         <div className="max-w-4xl mx-auto px-4 md:px-8 text-center">
           <AnimateOnScroll>
             <p className="text-sm uppercase tracking-widest text-gray-500 mb-4 font-sans">INVESTMENT OPPORTUNITY</p>
-            <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl leading-tight mb-8">
+            <h2 className="font-serif text-2xl md:text-4xl lg:text-5xl leading-tight mb-6 md:mb-8">
               Your Legacy Awaits
             </h2>
           </AnimateOnScroll>
@@ -314,8 +298,8 @@ export default function App() {
             <p className="text-lg leading-relaxed mb-6 font-sans text-gray-700">
               Priced for the discerning buyer, The Regency View Estate represents more than a home; it's an investment in a lifestyle of unparalleled luxury and enduring value.
             </p>
-            <p className="font-serif text-5xl md:text-6xl text-[#C9A961] mb-12">
-              $1,995,000
+            <p className="font-serif text-5xl md:text-6xl text-black mb-12">
+              $2,225,000
             </p>
           </AnimateOnScroll>
 
@@ -330,11 +314,11 @@ export default function App() {
       </section>
 
       {/* Builder and Listing Agents Section */}
-      <section id="inquire-now" className="py-20 md:py-32 bg-white border-t border-gray-200">
+      <section id="inquire-now" className="py-12 md:py-20 lg:py-32 bg-white border-t border-gray-200">
         <div className="max-w-7xl mx-auto px-4 md:px-8">
           <AnimateOnScroll>
             <p className="text-sm uppercase tracking-widest text-gray-500 mb-4 font-sans text-center">INQUIRE NOW</p>
-            <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl leading-tight mb-12 text-center">
+            <h2 className="font-serif text-2xl md:text-4xl lg:text-5xl leading-tight mb-8 md:mb-12 text-center">
               Connect with Our Team
             </h2>
           </AnimateOnScroll>
@@ -372,9 +356,65 @@ export default function App() {
           </div>
 
           <AnimateOnScroll delay={0.3}>
-            <div className="text-center">
+            <div className="text-center mb-16">
               <p className="text-lg font-sans text-gray-700 mb-4">Represented by</p>
               <p className="font-serif text-2xl">TERCEK REAL ESTATE GROUP | reaj | reaj LUXURY</p>
+            </div>
+          </AnimateOnScroll>
+
+          {/* Visitor Contact Form */}
+          <AnimateOnScroll delay={0.4}>
+            <div className="max-w-2xl mx-auto bg-[#F8F8F8] p-8 md:p-12">
+              <h3 className="font-serif text-3xl mb-2 text-center">Request Information</h3>
+              <p className="text-gray-600 text-center mb-8 font-sans">Fill out the form below and we'll get back to you shortly</p>
+              <form className="space-y-6">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                  <div>
+                    <label htmlFor="visitor-name" className="block text-sm font-sans font-medium text-gray-700 mb-2">Name *</label>
+                    <input
+                      type="text"
+                      id="visitor-name"
+                      required
+                      className="w-full p-4 border border-gray-300 focus:border-black focus:ring focus:ring-black focus:ring-opacity-20 outline-none transition-all"
+                      placeholder="Your Name"
+                    />
+                  </div>
+                  <div>
+                    <label htmlFor="visitor-email" className="block text-sm font-sans font-medium text-gray-700 mb-2">Email *</label>
+                    <input
+                      type="email"
+                      id="visitor-email"
+                      required
+                      className="w-full p-4 border border-gray-300 focus:border-black focus:ring focus:ring-black focus:ring-opacity-20 outline-none transition-all"
+                      placeholder="Your Email"
+                    />
+                  </div>
+                </div>
+                <div>
+                  <label htmlFor="visitor-phone" className="block text-sm font-sans font-medium text-gray-700 mb-2">Phone</label>
+                  <input
+                    type="tel"
+                    id="visitor-phone"
+                    className="w-full p-4 border border-gray-300 focus:border-black focus:ring focus:ring-black focus:ring-opacity-20 outline-none transition-all"
+                    placeholder="Your Phone Number"
+                  />
+                </div>
+                <div>
+                  <label htmlFor="visitor-message" className="block text-sm font-sans font-medium text-gray-700 mb-2">Message</label>
+                  <textarea
+                    id="visitor-message"
+                    rows="5"
+                    className="w-full p-4 border border-gray-300 focus:border-black focus:ring focus:ring-black focus:ring-opacity-20 outline-none transition-all"
+                    placeholder="Tell us about your interest in this property..."
+                  ></textarea>
+                </div>
+                <button
+                  type="submit"
+                  className="bg-black text-white uppercase px-8 py-4 font-bold text-lg hover:bg-gray-800 transition-colors w-full"
+                >
+                  Send Inquiry
+                </button>
+              </form>
             </div>
           </AnimateOnScroll>
         </div>
