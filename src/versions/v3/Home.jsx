@@ -110,9 +110,9 @@ export default function App() {
         {/* Dark gradient overlay */}
         <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-70"></div>
 
-        <div className="relative z-10 text-white text-center p-4 max-w-4xl mx-auto">
+        <div className="relative z-10 text-white text-center px-6 py-8 md:p-4 max-w-4xl mx-auto">
           <motion.h1
-            className="font-sans text-4xl md:text-6xl lg:text-7xl leading-tight mb-10 uppercase tracking-wide font-medium"
+            className="font-sans text-3xl sm:text-4xl md:text-6xl lg:text-7xl leading-tight mb-8 md:mb-10 uppercase tracking-wide font-medium px-2"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
@@ -121,7 +121,7 @@ export default function App() {
           </motion.h1>
           <motion.a
             href="#architectural-excellence"
-            className="border-2 border-white text-white bg-white bg-opacity-10 backdrop-blur-sm uppercase px-8 py-4 rounded-full font-bold text-lg hover:bg-white hover:bg-opacity-20 transition-all shadow-lg inline-block"
+            className="border-2 border-white text-white bg-white bg-opacity-10 backdrop-blur-sm uppercase px-6 py-3 md:px-8 md:py-4 rounded-full font-bold text-base md:text-lg hover:bg-white hover:bg-opacity-20 transition-all shadow-lg inline-block"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 1.0 }}
@@ -143,14 +143,14 @@ export default function App() {
       </section>
 
       {/* Architectural Excellence Section - Image Left */}
-      <section id="architectural-excellence" className="py-20 md:py-32 bg-white">
+      <section id="architectural-excellence" className="py-12 md:py-20 lg:py-32 bg-white">
         <div className="max-w-7xl mx-auto px-4 md:px-8 flex flex-col md:flex-row items-center md:space-x-16">
           <AnimateOnScroll className="w-full md:w-1/2 mb-12 md:mb-0">
             <img src={exteriorFrontDay} alt="Estate Exterior Day" className="w-full h-auto object-cover shadow-xl" />
           </AnimateOnScroll>
           <AnimateOnScroll delay={0.2} className="w-full md:w-1/2">
             <p className="text-sm uppercase tracking-widest text-gray-500 mb-4 font-sans">ARCHITECTURAL EXCELLENCE</p>
-            <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl leading-tight mb-8">
+            <h2 className="font-serif text-2xl md:text-4xl lg:text-5xl leading-tight mb-6 md:mb-8">
               Fine Craftsmanship Meets Modern Design
             </h2>
             <p className="text-lg leading-relaxed mb-6 font-sans text-gray-700">
@@ -174,11 +174,11 @@ export default function App() {
       </section>
 
       {/* Feature Cards Section - Black Background */}
-      <section className="py-20 md:py-32 bg-black text-white">
+      <section className="py-12 md:py-20 lg:py-32 bg-black text-white">
         <div className="max-w-7xl mx-auto px-4 md:px-8 text-center">
           <AnimateOnScroll>
             <p className="text-sm uppercase tracking-widest text-gray-400 mb-4 font-sans">DISTINGUISHED FEATURES</p>
-            <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl leading-tight mb-16">
+            <h2 className="font-serif text-2xl md:text-4xl lg:text-5xl leading-tight mb-8 md:mb-16">
               Experience Unrivaled Luxury
             </h2>
           </AnimateOnScroll>
@@ -224,14 +224,14 @@ export default function App() {
       </section>
 
       {/* Poetic Design Section - Image Right */}
-      <section className="py-20 md:py-32 bg-[#F8F8F8]">
+      <section className="py-12 md:py-20 lg:py-32 bg-[#F8F8F8]">
         <div className="max-w-7xl mx-auto px-4 md:px-8 flex flex-col md:flex-row-reverse items-center md:space-x-reverse md:space-x-16">
           <AnimateOnScroll className="w-full md:w-1/2 mb-12 md:mb-0">
             <img src={kitchenMain} alt="Gourmet Kitchen" className="w-full h-auto object-cover shadow-xl" />
           </AnimateOnScroll>
           <AnimateOnScroll delay={0.2} className="w-full md:w-1/2">
             <p className="text-sm uppercase tracking-widest text-gray-500 mb-4 font-sans">DESIGN PHILOSOPHY</p>
-            <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl leading-tight mb-8">
+            <h2 className="font-serif text-2xl md:text-4xl lg:text-5xl leading-tight mb-6 md:mb-8">
               Where Poetic Design Meets Uncompromising Excellence
             </h2>
             <p className="text-lg leading-relaxed mb-6 font-sans text-gray-700">
@@ -248,11 +248,11 @@ export default function App() {
       </section>
 
       {/* Visual Tour Gallery Section */}
-      <section className="py-20 md:py-32 bg-white">
+      <section className="py-12 md:py-20 lg:py-32 bg-white">
         <div className="max-w-7xl mx-auto px-4 md:px-8 text-center">
           <AnimateOnScroll>
             <p className="text-sm uppercase tracking-widest text-gray-500 mb-4 font-sans">VISUAL TOUR</p>
-            <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl leading-tight mb-16">
+            <h2 className="font-serif text-2xl md:text-4xl lg:text-5xl leading-tight mb-8 md:mb-16">
               A Glimpse Into Your Future
             </h2>
           </AnimateOnScroll>
@@ -285,11 +285,11 @@ export default function App() {
       </section>
 
       {/* Pricing and CTA Section */}
-      <section className="py-20 md:py-32 bg-[#F8F8F8]">
+      <section className="py-12 md:py-20 lg:py-32 bg-[#F8F8F8]">
         <div className="max-w-4xl mx-auto px-4 md:px-8 text-center">
           <AnimateOnScroll>
             <p className="text-sm uppercase tracking-widest text-gray-500 mb-4 font-sans">INVESTMENT OPPORTUNITY</p>
-            <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl leading-tight mb-8">
+            <h2 className="font-serif text-2xl md:text-4xl lg:text-5xl leading-tight mb-6 md:mb-8">
               Your Legacy Awaits
             </h2>
           </AnimateOnScroll>
@@ -314,11 +314,11 @@ export default function App() {
       </section>
 
       {/* Builder and Listing Agents Section */}
-      <section id="inquire-now" className="py-20 md:py-32 bg-white border-t border-gray-200">
+      <section id="inquire-now" className="py-12 md:py-20 lg:py-32 bg-white border-t border-gray-200">
         <div className="max-w-7xl mx-auto px-4 md:px-8">
           <AnimateOnScroll>
             <p className="text-sm uppercase tracking-widest text-gray-500 mb-4 font-sans text-center">INQUIRE NOW</p>
-            <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl leading-tight mb-12 text-center">
+            <h2 className="font-serif text-2xl md:text-4xl lg:text-5xl leading-tight mb-8 md:mb-12 text-center">
               Connect with Our Team
             </h2>
           </AnimateOnScroll>
