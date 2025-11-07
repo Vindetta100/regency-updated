@@ -358,7 +358,7 @@ export default function App() {
           <AnimateOnScroll delay={0.3}>
             <div className="text-center mb-16">
               <p className="text-lg font-sans text-gray-700 mb-4">Represented by</p>
-              <p className="font-serif text-2xl">TERCEK REAL ESTATE GROUP | reaj | reaj LUXURY</p>
+              <p className="font-serif text-2xl">TERCEK REAL ESTATE GROUP | REAL</p>
             </div>
           </AnimateOnScroll>
 
