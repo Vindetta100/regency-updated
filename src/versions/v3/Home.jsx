@@ -191,8 +191,8 @@ export default function App() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path>
                   </svg>
                 </div>
-                <h3 className="font-serif text-2xl mb-4">Expansive Estate</h3>
-                <p className="text-gray-300 font-sans leading-relaxed">Over 7,400 square feet of meticulously landscaped grounds surrounding 4,634 square feet of refined interior living space, offering the perfect balance of privacy and luxury</p>
+                <h3 className="font-serif text-2xl mb-4">Prime Location</h3>
+                <p className="text-gray-300 font-sans leading-relaxed">Ideally situated near top-rated schools, scenic walking trails, and just 10 minutes south of Portland, offering suburban tranquility with city convenience</p>
               </div>
             </AnimateOnScroll>
 
