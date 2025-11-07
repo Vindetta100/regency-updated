@@ -299,7 +299,7 @@ export default function App() {
               Priced for the discerning buyer, The Regency View Estate represents more than a home; it's an investment in a lifestyle of unparalleled luxury and enduring value.
             </p>
             <p className="font-serif text-5xl md:text-6xl text-black mb-12">
-              $1,995,000
+              $1,999,000
             </p>
           </AnimateOnScroll>
 
