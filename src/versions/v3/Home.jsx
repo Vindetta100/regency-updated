@@ -341,7 +341,7 @@ export default function App() {
                 <h3 className="font-serif text-2xl mb-4">Listing Agents</h3>
                 <div className="mb-4">
                   <h4 className="font-sans text-xl font-bold mb-2">Benson Bui</h4>
-                  <p className="text-gray-700">Real Estate Agent OR/WA</p>
+                  <p className="text-gray-700">Real Estate Agent</p>
                   <p className="text-gray-700">Phone: 503.593.0211</p>
                   <p className="text-gray-700">Email: bensonbui28@gmail.com</p>
                 </div>
