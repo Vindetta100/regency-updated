@@ -2,7 +2,7 @@ import React, { useState, useEffect, useCallback } from 'react';
 import { motion } from 'framer-motion';
 
 const PaymentCalculator = () => {
-  const defaultHomePrice = 1995000;
+  const defaultHomePrice = 1999000;
   const defaultDownPaymentPercentage = 20;
   const defaultInterestRate = 7.0;
   const defaultLoanTerm = 30;
