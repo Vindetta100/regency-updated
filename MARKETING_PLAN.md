@@ -1,30 +1,57 @@
 # MARKETING PLAN: The Regency View Estate
 
-**Last Updated:** November 14, 2025 (Session 30)  
+**Last Updated:** November 22, 2025 (Session 32)  
 **Property:** 13191 SE Regency View St, Happy Valley, OR 97086  
-**Price:** $2,999,000  
+**Price:** $1,999,000  
 **Website:** https://www.theregencyviewestate.com/  
 **Contact:** viewregency@gmail.com | 669-340-0136
 
 ---
 
-## 🚨 CURRENT STATUS (Session 30 - November 14, 2025)
+## 🚨 CURRENT STATUS (Session 32 - November 22, 2025)
 
-### Facebook Campaign: NO HITS - PIVOTING STRATEGY
+### ALL TRADITIONAL CHANNELS FAILED - PIVOTING TO AI-POWERED REDDIT SEARCH
 
-**Facebook Results (Sessions 27-29):**
-- ✅ 24 groups joined (luxury, Portland, relocation)
-- ✅ Account rehabilitated (clean, no spam flags)
-- ✅ Day 1-2: 33 likes, 4 comments across 8 groups
-- ✅ Day 3: Posted to 2 groups (Moving from CA to OR, Portland Housing)
-- ❌ **ZERO qualified leads, ZERO serious inquiries**
-- **Decision:** Facebook not working for luxury property marketing
+### Session 32 Results (November 22, 2025):
 
-### NEW STRATEGY: Under $300/Month Multi-Channel Approach
+**Craigslist Attempt:**
+- ✅ Posted SF Bay Area successfully (free, not $5 as planned)
+- ❌ **FLAGGED** when trying to post Oregon property in California cities
+- ❌ Craigslist is location-locked - can't cross-post to target Bay Area buyers
+- **Discovery:** Real estate by owner = FREE (not $60 as planned)
+- **Lesson:** Can only post in Portland, OR - limited reach to Bay Area relocators
 
-**Budget Constraint:** Maximum $300/month  
-**Focus:** Craigslist + LinkedIn (highest ROI for budget)  
-**Timeline:** Launch Week 1 (Nov 15-22, 2025)
+**Facebook Marketplace:**
+- ❌ Organic reach too limited for luxury property
+- ❌ Paid ads ($300-600/mo) required for Bay Area targeting
+- **Decision:** Budget constraints prevent Facebook Ads
+
+**Reddit Guerrilla Campaign:**
+- ✅ Joined 15 high-net-worth subreddits (r/fatFIRE, r/Rich, r/bayarea, etc.)
+- ✅ Posted in r/fatFIRE and r/bayarea
+- ❌ **ZERO traction after 2-3 weeks**
+- ❌ Manual Reddit strategy too time-intensive, low ROI
+- **Lesson:** Need smarter Reddit targeting, not manual posting
+
+**Key Findings:**
+- Traditional platforms (Craigslist, Facebook, manual Reddit) = FAILED
+- Location-based restrictions prevent reaching Bay Area buyers
+- Need AI-powered tools to find relevant conversations
+- Time efficiency critical - manual strategies unsustainable
+
+### NEW STRATEGY: AI-Powered Reddit Search (okara.ai)
+
+**Budget Constraint:** Maximum $50/month (prefer free)  
+**Focus:** okara.ai for deep Reddit conversation discovery  
+**Timeline:** Launch Session 33 (Next chat)  
+**Rationale:** Find existing Reddit conversations where wealthy buyers are already discussing Oregon relocation, luxury real estate, Bay Area exodus
+
+**okara.ai Platform:**
+- AI-powered Reddit search engine
+- Finds relevant conversations in real-time
+- Targets high-net-worth subreddits automatically
+- More efficient than manual posting/commenting
+- Next session: Test and evaluate effectiveness
 
 ---
 
